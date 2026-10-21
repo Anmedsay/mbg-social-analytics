@@ -1,0 +1,40 @@
+{
+  "platform": "X (Twitter)",
+  "method": "web scraping (Playwright, Chromium) pada halaman pencarian X (tab Latest)",
+  "run_started_at": "2026-10-21T18:25:57Z",
+  "dataset_built_at": "2026-10-21T18:30:25Z",
+  "smoke_test": false,
+  "period_utc": {
+    "start": "2025-09-28",
+    "end_exclusive": "2025-11-27",
+    "window_days": 30
+  },
+  "lang_filter": "in",
+  "max_posts_per_search": 100,
+  "adaptive_split": true,
+  "min_window_hours": 6,
+  "queries": {
+    "keyword": {
+      "kw_keracunan": "(\"makan bergizi gratis\" OR MBG) keracunan",
+      "kw_basi": "(\"makan bergizi gratis\" OR MBG) (basi OR bau OR \"tidak layak\" OR berlendir)",
+      "kw_bakteri": "(\"makan bergizi gratis\" OR MBG) (bakteri OR kontaminasi OR salmonella OR \"e. coli\")",
+      "kw_benda_asing": "(\"makan bergizi gratis\" OR MBG) (belatung OR ulat OR kecoa OR \"benda asing\" OR rambut OR plastik)",
+      "kw_higiene": "(\"makan bergizi gratis\" OR MBG) (higienis OR kebersihan OR sanitasi OR SPPG)",
+      "kw_kualitas": "(\"makan bergizi gratis\" OR MBG) (kualitas OR mentah OR hambar OR \"tidak matang\")"
+    },
+    "hashtag": {
+      "ht_mbg": "#MBG",
+      "ht_makanbergizigratis": "#MakanBergiziGratis",
+      "ht_keracunanmbg": "#KeracunanMBG",
+      "ht_mbgkeracunan": "#MBGKeracunan",
+      "ht_mbgbasi": "#MBGBasi"
+    }
+  },
+  "n_observations": 27652,
+  "n_unique_posts": 24535,
+  "versions": {
+    "python": "3.15.0",
+    "playwright": "1.64.0",
+    "pandas": "3.0.6"
+  }
+}
