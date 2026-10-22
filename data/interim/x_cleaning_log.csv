@@ -1,0 +1,11 @@
+langkah,keterangan,baris_sebelum,baris_sesudah,baris_dibuang,baris_ditandai
+3.3 Muat raw dataset,x_raw_dataset.csv,24535,24535,0,0
+3.4 Validasi tipe dan skema,"tipe data, format waktu, dan rentang periode; created_at_wib ditambahkan",24535,24535,0,0
+3.5 Duplikat post_id,hapus ID ganda (simpan pengumpulan terbaru); data diurutkan menurut created_at,24535,24535,0,0
+3.6 Missing values,tidak ada imputasi atau penghapusan; hanya flag parent_missing dan quoted_id_missing,24535,24535,0,191
+3.7 Pembersihan teks umum,"text_raw disimpan; text_clean = unescape HTML, NFC, tanpa karakter tak terlihat, spasi dirapikan",24535,24535,0,16660
+3.8a Teks kosong,buang baris dengan text_clean kosong,24535,24535,0,0
+3.8b Retweet murni,buang teks berawalan 'RT @akun' tanpa komentar (bukan quote),24535,24535,0,0
+3.9 Teks berulang,"flag is_repeated_text (teks identik, akun sama maupun beda); tidak ada yang dibuang",24535,24535,0,1003
+3.10 Flag relevansi dan fitur deskriptif,"flag mentions_mbg, mentions_food_safety, is_relevant_candidate (ditandai = kandidat relevan), is_low_content; tidak ada yang dibuang",24535,24535,0,14723
+3.11 Anonimisasi akun,author_handle -> author_hash; url -> post_url tanpa handle; quoted_post_url -> quoted_post_id,24535,24535,0,0
