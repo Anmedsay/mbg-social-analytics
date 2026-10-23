@@ -1,0 +1,59 @@
+kolom,kelompok,deskripsi,tipe,terisi
+doc_id,asli,"ID dokumen gabungan: yt_v_<video>, yt_c_<komentar>, x_<tweet>.",str,1.0
+platform,asli,Sumber data: youtube atau x.,str,1.0
+doc_type,asli,"Jenis dokumen: video, comment, reply (YouTube/X), post, quote (X).",str,1.0
+parent_doc_id,asli,"Dokumen induk: komentar/video untuk reply, tweet yang dibalas atau dikutip.",str,0.9623
+context_id,asli,Konteks percakapan: video (YouTube) atau akar percakapan yang terbaca (X).,str,1.0
+source_name,asli,Nama saluran (YouTube); kosong untuk X.,str,0.9633
+source_category,asli,Kategori saluran (YouTube); kosong untuk X.,str,0.9633
+author_hash,asli,Pseudonim penulis; kosong untuk video.,str,0.9835
+text_raw,asli,Teks asli.,str,1.0
+text_clean,asli,Teks setelah pembersihan umum (pre-processing tahap 1).,str,1.0
+published_at_utc,asli,"Waktu terbit (UTC, ISO 8601).",str,1.0
+like_count,asli,Jumlah like.,int64,1.0
+reply_count,asli,Jumlah balasan; kosong untuk reply dan sebagian video YouTube.,Int64,0.8394
+url,asli,Tautan dokumen.,str,1.0
+location_names,asli,Nama lokasi yang disebut (dipisah ';').,str,0.0343
+province,asli,Provinsi dari lokasi yang disebut (dipisah ';').,str,0.0343
+collected_at_utc,asli,Waktu pengumpulan data.,str,1.0
+quoted_doc_id,asli,Tweet yang dikutip (khusus X).,str,0.0041
+is_suspected_spam,asli,Dugaan spam (dari merge).,bool,1.0
+is_repeated_text,asli,Teks persis sama dengan dokumen lain (dari merge).,bool,1.0
+mentions_mbg,asli,Teks menyebut MBG/SPPG/BGN dan sejenisnya (dari merge).,bool,1.0
+mentions_food_safety,asli,Teks memuat kata terkait keamanan/kebersihan pangan (dari merge).,bool,1.0
+context_mentions_mbg,asli,Konteks (video) menyebut MBG (dari merge); hampir selalu True pada YouTube.,bool,1.0
+is_relevant_candidate,asli,mentions_food_safety DAN (mentions_mbg ATAU context_mentions_mbg) (dari merge).,bool,1.0
+common_published_date_wib,umum,Tanggal terbit (WIB) YYYY-MM-DD.,str,1.0
+common_year_month,umum,Bulan terbit (WIB) YYYY-MM.,str,1.0
+common_in_overlap_period,umum,Terbit dalam periode tumpang tindih X dan YouTube.,bool,1.0
+common_text_len,umum,Panjang text_clean (karakter).,int64,1.0
+common_n_words,umum,Jumlah kata alfabet setelah NFKC (tanpa URL dan mention).,int32,1.0
+common_is_too_short,umum,Kurang dari 3 kata.,bool,1.0
+common_is_spam,umum,is_suspected_spam ATAU memuat merek situs judi yang berulang pada dokumen spam.,bool,1.0
+common_dup_group_size,umum,"Jumlah dokumen dengan teks sama (setelah NFKC, tanpa URL/mention/tanda baca); bisa dipakai sebagai bobot.",int32,1.0
+common_is_dup_first,umum,Kemunculan pertama (menurut waktu) dalam grup teks yang sama.,bool,1.0
+common_is_dup_same_author,umum,Penulis yang sama mengulang teks yang sama setelah kemunculan pertamanya.,bool,1.0
+common_is_non_indonesian,umum,Dominan bahasa Inggris (>= 30% kata fungsi Inggris) atau beraksara non-Latin.,bool,1.0
+common_context_mentions_food_safety,umum,Konteks (video/unggahan akar) menyebut kata kunci keamanan pangan.,bool,1.0
+common_is_usable,umum,"Bukan spam, cukup panjang, bahasa Indonesia, dan bukan pengulangan penulis yang sama.",bool,1.0
+common_audit_sample,umum,Sampel audit manual flag relevansi (100 per platform per nilai is_relevant_candidate).,bool,1.0
+rq1_text_light,RQ1,"Teks ringan untuk model embedding: huruf kecil, tanpa URL/mention/emoji, ejaan baku. Terisi hanya bila kandidat RQ1.",object,0.0987
+rq1_tokens,RQ1,Token untuk LDA/NMF: stopword dibuang dan di-stem (Sastrawi). Terisi hanya bila kandidat RQ1.,object,0.0987
+rq1_n_tokens,RQ1,Jumlah token pada rq1_tokens.,Int32,0.0987
+rq1_issue_categories,RQ1,"Kategori isu yang kata kuncinya muncul (label lemah, dipisah ';').",object,0.0981
+rq1_eligible,RQ1,"Layak topic modelling: relevan, layak pakai, kemunculan pertama teks, dan >= token minimum.",boolean,1.0
+rq2_province_list,RQ2,"Provinsi yang disebut pada teks sendiri (baku, dipisah ';').",str,0.0343
+rq2_n_provinces,RQ2,Jumlah provinsi yang disebut pada teks sendiri.,int8,1.0
+rq2_province_context,RQ2,Provinsi tunggal yang diwarisi dari konteks bila teks sendiri tidak menyebut provinsi.,str,0.421
+rq2_location_source,RQ2,"Sumber lokasi: text, context, atau none.",str,1.0
+rq2_province,RQ2,"Provinsi tunggal final (teks sendiri, atau konteks); kosong bila tidak ada atau lebih dari satu.",str,0.4525
+rq2_island_group,RQ2,Kelompok pulau dari rq2_province.,str,0.4525
+rq2_eligible,RQ2,rq1_eligible dan punya rq2_province.,boolean,1.0
+rq2_eligible_text_only,RQ2,rq2_eligible dengan lokasi dari teks sendiri (tanpa pewarisan).,boolean,1.0
+rq3_tier,RQ3,A = menyebut keamanan pangan sendiri (utama); B = konteksnya membahas keamanan pangan (sensitivitas).,str,0.2681
+rq3_eligible,RQ3,"Tingkat A, bukan video, layak pakai.",bool,1.0
+rq3_eligible_ext,RQ3,Tingkat A atau B.,bool,1.0
+rq3_text,RQ3,"Teks minimal untuk sentimen: huruf kecil, <URL>, @user, negasi dan emoji dipertahankan, tanpa stopword/stemming.",object,0.2681
+rq3_text_emoji_id,RQ3,"rq3_text dengan emoji diganti namanya (bahasa Indonesia), untuk metode berbasis kamus kata.",object,0.2681
+rq3_n_emoji,RQ3,Jumlah emoji pada text_clean.,Int32,0.2681
+rq3_label_sample,RQ3,Sampel pelabelan manual (400 dokumen tingkat A per platform).,bool,1.0

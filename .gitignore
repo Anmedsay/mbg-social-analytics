@@ -2,3 +2,6 @@
 data/raw/x/
 data/raw/x_smoke/
 .ipynb_checkpoints/
+.DS_Store
+data/processed/raw_merged/mbg_merged.csv
+data/processed/mbg_processed/mbg_processed.csv
