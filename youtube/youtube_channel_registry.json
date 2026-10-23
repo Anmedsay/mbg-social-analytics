@@ -1,0 +1,2785 @@
+{
+  "schema_version": "1.2",
+  "title": "Registry kanal YouTube aktif untuk penelitian MBG",
+  "checked_on": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "registry_status": "active_channels_only",
+  "research_topic": "Keamanan dan kebersihan makanan Program Makan Bergizi Gratis serta respons publik",
+  "youtube_api_called_for_registry": false,
+  "mbg_video_availability_checked": false,
+  "defaults": {
+    "enabled_for_collection": false,
+    "live_api_identity_check_completed": false,
+    "selection_rule": "Notebook FINAL v1.2: publisher_confirmed atau user_confirmed dan ID UC valid; kandidat lain serta duplikat tidak dipilih otomatis."
+  },
+  "category_definitions": {
+    "media_nasional": "Kandidat media berita dengan orientasi nasional. Media publik termasuk di sini, bukan disamakan dengan sumber pemerintah BGN.",
+    "media_regional": "Kandidat media regional dalam kerangka pemeriksaan per provinsi. Provinsi ini bukan lokasi insiden atau domisili komentator.",
+    "pemerintah": "Kandidat kanal pemerintah yang disebut dalam rancangan TK1, yaitu BGN."
+  },
+  "field_definitions": {
+    "record_id": "ID internal inventaris; bukan YouTube channel ID.",
+    "province_frame": "Provinsi yang menjadi kerangka pencarian regional. null berarti tidak diterapkan untuk kategori tersebut. Tidak membuktikan cakupan video atau lokasi insiden.",
+    "publisher": "Merek atau lembaga penerbit yang teridentifikasi, bukan audit kepemilikan ultimate media group.",
+    "youtube_url": "URL kanal persis yang ditemukan atau diturunkan dari handle yang disebut penerbit. null jika belum diselesaikan. URL video bukti hanya disimpan di evidence_urls.",
+    "youtube_channel_id": "Canonical ID UC dari metadata publik YouTube/DOM atau sumber primer yang dicatat. Bukan hasil menebak nama. ID kandidat berstatus pending belum boleh dianggap siap.",
+    "verification_status": "Status bukti identitas, bukan jaminan relevansi MBG atau kelayakan sampel.",
+    "evidence_urls": "Tautan sumber primer atau publikasi penerbit yang digunakan dalam penelusuran; beberapa diperiksa melalui hasil indeks karena halaman penuh tidak dapat dimuat.",
+    "enabled_for_collection": "Informasi kesiapan: true jika publisher_confirmed atau user_confirmed dan ID UC valid. Notebook FINAL v1.2 memakai status dan ID valid untuk pilihan otomatis, bukan membaca flag ini sebagai sakelar pemanggilan API.",
+    "user_confirmation": "Tanggal, URL persis, dan status sebelumnya saat peneliti mengonfirmasi pilihan kanal dalam percakapan; bukan bukti tautan silang penerbit baru.",
+    "verification_checked_on": "Tanggal putaran pemeriksaan sumber; bukan tanggal pengumpulan dataset. Bukti penerbit lama yang tidak bisa dimuat ulang dinyatakan dalam catatan.",
+    "public_metadata_check": "Hasil pemetaan URL–ID dari halaman YouTube publik tanpa API key; bukan validasi YouTube Data API. Artefak, waktu UTC, dan hash HTML dicatat jika tersedia.",
+    "identity_evidence_summary": "Alasan status identitas dan kekuatan/keterbatasan bukti; tidak membuktikan relevansi MBG.",
+    "observed_handles": "Handle yang terlihat pada sumber primer; beberapa record memiliki kandidat alternatif, bukan alias dengan ID yang pasti sama.",
+    "duplicate_of": "Record kanonis yang menunjuk ID kanal sama; record duplikat tidak dipilih otomatis.",
+    "archival_predecessor": "Kanal arsip sebelum migrasi. Dipertahankan untuk audit, tidak otomatis ditambahkan ke pengumpulan.",
+    "identity_conflict": "Identitas publik terkini yang bertentangan dengan klaim URL lama; bukan kanal penelitian yang disetujui.",
+    "previous_registry_identity": "Identitas sebelum penggantian kanal berdasarkan pilihan peneliti; bukan bukti migrasi, kesinambungan, atau kesamaan ID.",
+    "exclusion": "Keputusan eksplisit peneliti untuk tidak memakai record, beserta tanggal dan alasan; berbeda dari kegagalan verifikasi identitas."
+  },
+  "verification_status_definitions": {
+    "publisher_confirmed": "Penerbit atau direktori sosial penerbit menyebut atau menautkan kanal/handle persis.",
+    "user_confirmed": "Peneliti secara eksplisit memberikan dan menyetujui URL kanal persis untuk pengumpulan. ID tetap harus valid; status ini tidak mengklaim tautan silang penerbit telah diverifikasi.",
+    "channel_self_identified": "Deskripsi atau unggahan kanal menyatakan identitas penerbit; tautan silang pihak penerbit tetap berguna untuk konfirmasi akhir.",
+    "crosscheck_pending": "URL dan nama kanal ditemukan, tetapi kecocokan atau afiliasi masih perlu diperiksa silang.",
+    "channel_url_pending": "Identitas penerbit/stasiun atau keberadaan kanal disebut, tetapi URL kanal persis belum diselesaikan.",
+    "archive_current_channel_pending": "Identitas kanal arsip diketahui; kanal aktif terkini belum dipastikan.",
+    "ambiguous_identity": "Tautan yang ditemukan menunjukkan identitas berbeda atau ambigu. Jangan gunakan sebelum klarifikasi.",
+    "duplicate_record": "Merujuk canonical channel ID yang sama dengan duplicate_of; dipertahankan untuk jejak audit dan tidak dikumpulkan dua kali.",
+    "publisher_link_unresolved": "Penerbit menautkan URL persis, tetapi canonical metadata terkini belum terselesaikan/terkonfirmasi. Tidak dipilih otomatis; bukan kesimpulan bahwa kanal hilang.",
+    "excluded_by_user": "Tidak dipakai atas keputusan sampling peneliti. Tidak dipilih otomatis dan bukan kesimpulan bahwa kanal tidak resmi atau tidak memiliki data historis."
+  },
+  "limitations": [
+    "Registry aktif berisi 72 kanal unik yang dipilih untuk penelitian, bukan sensus semua kanal berita. Semua record memiliki status publisher_confirmed atau user_confirmed dan ID UC valid.",
+    "Belum membuktikan setiap kanal memiliki video MBG yang relevan pada periode penelitian.",
+    "Kehadiran kandidat di setiap provinsi bukan bukti keterwakilan data setiap provinsi.",
+    "Lokasi kanal, lokasi insiden, dan lokasi pemberi komentar merupakan atribut berbeda.",
+    "Beberapa kanal berasal dari penerbit atau jaringan yang sama; jumlah kanal bukan jumlah sumber independen.",
+    "Video berbeda dapat membicarakan satu insiden yang sama. Banyak video bukan ukuran prevalensi insiden.",
+    "Penelusuran nihil bukan bukti tidak ada insiden. Pengumpulan baru tidak dijalankan dan data lama tidak diubah.",
+    "Pemeriksaan identitas publik bukan verifikasi badge YouTube, bukan audit seluruh kepemilikan grup, dan bukan pengambilan video/komentar.",
+    "Bukti afiliasi lama dapat dipertahankan dengan keterbatasan yang dinyatakan; kanal self-identified atau tautan yang belum terkonfirmasi tidak dipaksakan lolos.",
+    "Perubahan daftar kanal mengubah konfigurasi run. Mulai RUN_ID=None untuk pengumpulan baru; jangan mengubah daftar kanal ketika melanjutkan checkpoint run lama.",
+    "TVRI Maluku berpindah kanal; tanggal migrasi tidak diketahui dan kanal lama tidak otomatis dikumpulkan. Ini dapat membatasi cakupan periode penelitian.",
+    "Lima record yang tidak dipakai telah dihapus dari daftar aktif atas permintaan peneliti. Data sebelum penghapusan tersedia pada backup; catatan audit historis dapat tetap menyebut record tersebut. Tidak memakai kanal tertentu tidak membuktikan ketiadaan konten MBG historis."
+  ],
+  "categories": {
+    "media_nasional": [
+      {
+        "record_id": "N001",
+        "province_frame": null,
+        "publisher": "KompasTV",
+        "channel_name": "KOMPASTV",
+        "youtube_url": "https://www.youtube.com/channel/UC5BMIWZe9isJXLZZWPWvBlg",
+        "youtube_channel_id": "UC5BMIWZe9isJXLZZWPWvBlg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://learninghub.kompas.tv/",
+          "https://www.youtube.com/channel/UC5BMIWZe9isJXLZZWPWvBlg"
+        ],
+        "notes": "Footer penerbit menautkan ID kanal. Berbeda dari kanal Kompas.com.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:14.666482+00:00",
+          "requested_url": "https://www.youtube.com/channel/UC5BMIWZe9isJXLZZWPWvBlg",
+          "youtube_channel_id": "UC5BMIWZe9isJXLZZWPWvBlg",
+          "title": "KOMPASTV",
+          "handle_url": "http://www.youtube.com/@kompastv",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "d07a8799c26147242e4b01b4422d5b52d839424c766b5d5f89f0caad9ab716bd"
+        },
+        "observed_handles": [
+          "@kompastv"
+        ]
+      },
+      {
+        "record_id": "N002",
+        "province_frame": null,
+        "publisher": "CNN Indonesia",
+        "channel_name": "CNN Indonesia",
+        "youtube_url": "https://www.youtube.com/channel/UCKII0Ml9S5wneKbHswmUrIQ",
+        "youtube_channel_id": "UCKII0Ml9S5wneKbHswmUrIQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://maganghub-tbif.cnn.co.id/",
+          "https://www.youtube.com/user/CNNindonesia/videos",
+          "https://www.youtube.com/channel/UCKII0Ml9S5wneKbHswmUrIQ"
+        ],
+        "notes": "Direktori CNN menautkan URL legacy /user/CNNindonesia/videos. Metadata publik 2026-10-18 menyelesaikan URL itu ke ID ini dan handle @CNNIDOFFICIAL; label direktori @CNNIndonesiaOfficial tidak boleh dipakai untuk menebak handle terkini.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Footer situs CNN Indonesia Universe memiliki tautan YouTube persis ke URL legacy; ID berasal dari public_channel_resolution.json milik pemeriksaan induk.",
+        "observed_handles": [
+          "@CNNIDOFFICIAL"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:14.287478+00:00",
+          "requested_url": "https://www.youtube.com/user/CNNindonesia/videos",
+          "youtube_channel_id": "UCKII0Ml9S5wneKbHswmUrIQ",
+          "title": "CNN Indonesia",
+          "handle_url": "http://www.youtube.com/@CNNIDOFFICIAL",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "ed97ec12d4b333df40bcb34ee0b7f33245c968056f83a1119f35a78e25740b06"
+        }
+      },
+      {
+        "record_id": "N003",
+        "province_frame": null,
+        "publisher": "Metro TV",
+        "channel_name": "METRO TV",
+        "youtube_url": "https://www.youtube.com/channel/UCzl0OrB3-ehunyotIQvK77A",
+        "youtube_channel_id": "UCzl0OrB3-ehunyotIQvK77A",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.metrotvnews.com/read/kELCz7R1-meet-nite-live-program-baru-metro-tv-dengan-ciri-khas-unik",
+          "https://www.youtube.com/@metrotvnews",
+          "https://www.youtube.com/channel/UCzl0OrB3-ehunyotIQvK77A"
+        ],
+        "notes": "Artikel Metro TV menyebut kanal YouTube Metrotvnews. Metadata publik menghubungkan handle tersebut dengan METRO TV dan ID ini.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Artikel penerbit 21 Maret 2025 menyatakan program tersedia pada kanal YouTube Metrotvnews; ID dari metadata publik 2026-10-18.",
+        "observed_handles": [
+          "@metrotvnews"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:15.504997+00:00",
+          "requested_url": "https://www.youtube.com/@metrotvnews",
+          "youtube_channel_id": "UCzl0OrB3-ehunyotIQvK77A",
+          "title": "METRO TV ",
+          "handle_url": "http://www.youtube.com/@metrotvnews",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "44b922acb3ec81cdf4d8cf707dd74efa69f0d2d437bf65573aa837ba17374814"
+        }
+      },
+      {
+        "record_id": "N004",
+        "province_frame": null,
+        "publisher": "tvOne",
+        "channel_name": "tvOneNews",
+        "youtube_url": "https://www.youtube.com/channel/UCER4rvDnRBPr_ncYW4UCZjg",
+        "youtube_channel_id": "UCER4rvDnRBPr_ncYW4UCZjg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/tvonenews",
+          "https://www.youtube.com/channel/UCER4rvDnRBPr_ncYW4UCZjg"
+        ],
+        "notes": "Direktori sosial menautkan kanal dan situs tvonenews.com. Bedakan dari kanal digital bernama tvOnenewscom.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:15.301996+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCER4rvDnRBPr_ncYW4UCZjg",
+          "youtube_channel_id": "UCER4rvDnRBPr_ncYW4UCZjg",
+          "title": "tvOneNews ",
+          "handle_url": "http://www.youtube.com/@tvOneNews",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "c99828ab8096299ab9ff94ea54a0646fd4011271ebaaaeec96f40b00fb40b9a2"
+        },
+        "observed_handles": [
+          "@tvOneNews"
+        ]
+      },
+      {
+        "record_id": "N005",
+        "province_frame": null,
+        "publisher": "iNews",
+        "channel_name": "Official iNews",
+        "youtube_url": "https://www.youtube.com/channel/UCoSkllfpgmFHtbVK835QaQg",
+        "youtube_channel_id": "UCoSkllfpgmFHtbVK835QaQg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.inews.id/news/nasional/tonton-live-streaming-inews-tv-24-jam-di-youtube",
+          "https://www.youtube.com/@OfficialiNews",
+          "https://www.youtube.com/channel/UCoSkllfpgmFHtbVK835QaQg"
+        ],
+        "notes": "Artikel iNews menyebut Official iNews sebagai kanal resmi dan menautkan siaran kanal. Metadata publik mengonfirmasi nama dan ID handle.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Artikel penerbit 16 Juni 2025 menyebut kanal resmi Official iNews dan mengajak subscribe; ID dari metadata publik 2026-10-18.",
+        "observed_handles": [
+          "@OfficialiNews"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:15.594992+00:00",
+          "requested_url": "https://www.youtube.com/@OfficialiNews",
+          "youtube_channel_id": "UCoSkllfpgmFHtbVK835QaQg",
+          "title": "Official iNews",
+          "handle_url": "http://www.youtube.com/@OfficialiNews",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "dd73c619ca57ac58a3c31a0ea2905d2d06fd7dc0b523e9412e57efaf422eb6e7"
+        }
+      },
+      {
+        "record_id": "N006",
+        "province_frame": null,
+        "publisher": "BeritaSatu",
+        "channel_name": "BeritaSatu",
+        "youtube_url": "https://www.youtube.com/channel/UCqLsfkQSM0yfyGvONAGWd3Q",
+        "youtube_channel_id": "UCqLsfkQSM0yfyGvONAGWd3Q",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.beritasatu.com/lifestyle/2858454/dunia-rans-btv-cipung-reviu-dan-setir-mobil-ferrari-raffi-ahmad",
+          "https://www.beritasatu.com/lifestyle/2848198/jalan-dakwah-btv-mengalah-bukan-berarti-kalah",
+          "https://www.beritasatu.com/lifestyle/1067475/serial-drama-btv-titipan-ilahi-tayang-perdana-siang-ini",
+          "https://www.youtube.com/@BeritaSatuChannel",
+          "https://www.youtube.com/channel/UCqLsfkQSM0yfyGvONAGWd3Q"
+        ],
+        "notes": "Dua artikel Beritasatu mengarahkan pembaca BTV ke @BeritaSatuChannel. BTV dan BeritaSatu tidak otomatis dua kanal berbeda.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Artikel penerbit yang terindeks menyebut handle persis @BeritaSatuChannel; metadata publik memberi ID dan judul BeritaSatu.",
+        "observed_handles": [
+          "@BeritaSatuChannel"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:16.278055+00:00",
+          "requested_url": "https://www.youtube.com/@BeritaSatuChannel",
+          "youtube_channel_id": "UCqLsfkQSM0yfyGvONAGWd3Q",
+          "title": "BeritaSatu",
+          "handle_url": "http://www.youtube.com/@BeritaSatuChannel",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "f014d7d12543a1c941f9eea7544b95f336c1139032261946fa0e2f1c97dcf5ba"
+        }
+      },
+      {
+        "record_id": "N007",
+        "province_frame": null,
+        "publisher": "TVRI",
+        "channel_name": "TVRI Nasional",
+        "youtube_url": "https://www.youtube.com/channel/UCyIMsCzDRm8_y_6wM26_PWQ",
+        "youtube_channel_id": "UCyIMsCzDRm8_y_6wM26_PWQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://ppid.tvri.go.id/page/daftar-informasi-publik",
+          "https://www.youtube.com/@TVRINasional",
+          "https://www.youtube.com/channel/UCyIMsCzDRm8_y_6wM26_PWQ"
+        ],
+        "notes": "Daftar Informasi Publik PPID TVRI mencantumkan Youtube @TVRINasional. Halaman penuh tertolak, tetapi hasil indeks primer memuat baris sosial secara eksplisit.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Direktori resmi PPID TVRI menyebut exact handle; ID dari metadata publik 2026-10-18.",
+        "observed_handles": [
+          "@TVRINasional"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:16.601051+00:00",
+          "requested_url": "https://www.youtube.com/@TVRINasional",
+          "youtube_channel_id": "UCyIMsCzDRm8_y_6wM26_PWQ",
+          "title": "TVRI Nasional",
+          "handle_url": "http://www.youtube.com/@TVRINasional",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "c869a76776ef0510fa699f9945049a2d97765938ad27da59a0ec6f030e1d823c"
+        }
+      },
+      {
+        "record_id": "N008",
+        "province_frame": null,
+        "publisher": "RRI",
+        "channel_name": "RRI NET OFFICIAL",
+        "youtube_url": "https://www.youtube.com/channel/UCyUr8PM0PFwYQAy5yUPH36Q",
+        "youtube_channel_id": "UCyUr8PM0PFwYQAy5yUPH36Q",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://rri.co.id/hiburan/965279/link-streaming-konser-hut-rri-ke-79-tahun",
+          "https://ppid.rri.go.id/berita/ppid-rri/259/rri-masuk-kategori-radio-terpopuler-di-indonesia",
+          "https://www.youtube.com/@RRINETOFFICIAL",
+          "https://www.youtube.com/channel/UCyUr8PM0PFwYQAy5yUPH36Q"
+        ],
+        "notes": "PPID RRI menyebut RRI NET OFFICIAL (@RRINETOFFICIAL) sebagai akun yang dikelola/milik RRI. Ini radio visual, bukan khusus TV berita.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Artikel resmi PPID RRI secara eksplisit menyebut kepemilikan dan exact handle; ID dari metadata publik.",
+        "observed_handles": [
+          "@RRINETOFFICIAL"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:16.532052+00:00",
+          "requested_url": "https://www.youtube.com/@RRINETOFFICIAL",
+          "youtube_channel_id": "UCyUr8PM0PFwYQAy5yUPH36Q",
+          "title": "RRI NET OFFICIAL",
+          "handle_url": "http://www.youtube.com/@RRINETOFFICIAL",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "834b916fc7ef9683d85b8bd77d97923701c42eb2b2b1669b474de6d4c0613818"
+        }
+      },
+      {
+        "record_id": "N009",
+        "province_frame": null,
+        "publisher": "Garuda TV",
+        "channel_name": "GARUDA TV",
+        "youtube_url": "https://www.youtube.com/channel/UCmXp0n4Oq8DGzjRZj3EvG4Q",
+        "youtube_channel_id": "UCmXp0n4Oq8DGzjRZj3EvG4Q",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://garuda.tv/dirut-garuda-tv-tegaskan-komitmen-terus-tumbuh-dan-berkembang/",
+          "https://www.youtube.com/@garudatv.official",
+          "https://www.youtube.com/channel/UCmXp0n4Oq8DGzjRZj3EvG4Q"
+        ],
+        "notes": "Artikel Garuda TV mencantumkan instruksi subscribe official channel dan exact URL @garudatv.official.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Sumber penerbit menautkan exact official YouTube URL secara eksplisit; ID dari metadata publik.",
+        "observed_handles": [
+          "@garudatv.official"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:17.335056+00:00",
+          "requested_url": "https://www.youtube.com/@garudatv.official",
+          "youtube_channel_id": "UCmXp0n4Oq8DGzjRZj3EvG4Q",
+          "title": "GARUDA TV",
+          "handle_url": "http://www.youtube.com/@garudatv.official",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "66f7a6557f18365d2e09f900589c4f5600347c29c87d07ebd0676db1cec3551a"
+        }
+      },
+      {
+        "record_id": "N010",
+        "province_frame": null,
+        "publisher": "CNBC Indonesia",
+        "channel_name": "CNBC Indonesia",
+        "youtube_url": "https://www.youtube.com/channel/UCGN9JsnkvK05v2lnTI_-uGA",
+        "youtube_channel_id": "UCGN9JsnkvK05v2lnTI_-uGA",
+        "verification_status": "user_confirmed",
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCGN9JsnkvK05v2lnTI_-uGA",
+          "previous_verification_status": "crosscheck_pending"
+        },
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCGN9JsnkvK05v2lnTI_-uGA",
+          "https://www.youtube.com/watch?v=_cYVXC7tNbI",
+          "https://www.youtube.com/watch?v=5c7yGycg9oE",
+          "https://www.youtube.com/watch?v=WeN-6wdhfr8",
+          "https://www.cnbcindonesia.com/"
+        ],
+        "notes": "Pemeriksaan 18 Oktober: metadata publik mengonfirmasi ID dan @CNBC_ID; tautan silang exact dari situs penerbit belum berhasil dibaca (403). Pada 20 Oktober 2026 peneliti memberikan URL UC persis dan meminta kanal ini dimasukkan. Diaktifkan sebagai user_confirmed, bukan publisher_confirmed; keterbatasan bukti penerbit tetap dipertahankan.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID dan handle didukung metadata publik; pilihan kanal dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026. Tautan silang penerbit tetap belum terselesaikan.",
+        "observed_handles": [
+          "@CNBC_ID"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:17.637048+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCGN9JsnkvK05v2lnTI_-uGA",
+          "youtube_channel_id": "UCGN9JsnkvK05v2lnTI_-uGA",
+          "title": "CNBC Indonesia",
+          "handle_url": "http://www.youtube.com/@CNBC_ID",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "49c9c677834ad97d0c7b49c93607c569d878d6fae361b73e30f5559db1bebe52"
+        }
+      },
+      {
+        "record_id": "N011",
+        "province_frame": null,
+        "publisher": "Kompas.com",
+        "channel_name": "Kompas.com",
+        "youtube_url": "https://www.youtube.com/channel/UCPAxpUn1mrn14xU0JpsLhDg",
+        "youtube_channel_id": "UCPAxpUn1mrn14xU0JpsLhDg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://play.google.com/store/apps/details?hl=en-GB&id=com.ertanto.kompas.official",
+          "https://www.youtube.com/channel/UCPAxpUn1mrn14xU0JpsLhDg"
+        ],
+        "notes": "Terpisah dari KOMPASTV; kesamaan grup media perlu dicatat dalam analisis sumber.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:17.546055+00:00",
+          "requested_url": "https://www.youtube.com/@kompascom",
+          "youtube_channel_id": "UCPAxpUn1mrn14xU0JpsLhDg",
+          "title": "Kompas.com",
+          "handle_url": "http://www.youtube.com/@kompascom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "678f6e50cb9024cd99df3071eeaf53d2033f8696042d839dc6c33c10f71996f8"
+        },
+        "observed_handles": [
+          "@kompascom"
+        ]
+      },
+      {
+        "record_id": "N012",
+        "province_frame": null,
+        "publisher": "detikcom",
+        "channel_name": "detikcom",
+        "youtube_url": "https://www.youtube.com/channel/UCuMAjEaSMj7q7YLf0xW1MjQ",
+        "youtube_channel_id": "UCuMAjEaSMj7q7YLf0xW1MjQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/detikcom",
+          "https://www.youtube.com/watch?v=5iEv8JPhVB0",
+          "https://www.youtube.com/detikcom",
+          "https://www.youtube.com/channel/UCuMAjEaSMj7q7YLf0xW1MjQ"
+        ],
+        "notes": "Status publisher_confirmed dipertahankan dari bukti direktori penerbit pada registry awal. Linktree tidak berhasil dimuat ulang dalam pemeriksaan ini. URL legacy berhasil diselesaikan metadata publik menjadi @detikcom dan ID ini.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Tambahan utama ialah ID dari metadata publik. Bukti publisher awal tetap disimpan dan kegagalan fetch ulang tidak dinyatakan sebagai bukti baru.",
+        "observed_handles": [
+          "@detikcom"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:18.376052+00:00",
+          "requested_url": "https://www.youtube.com/detikcom",
+          "youtube_channel_id": "UCuMAjEaSMj7q7YLf0xW1MjQ",
+          "title": "detikcom",
+          "handle_url": "http://www.youtube.com/@detikcom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "de5149a377e2abbe0680890f5512db14802af1ca995bf6a34aec56d867bbe0f4"
+        }
+      },
+      {
+        "record_id": "N013",
+        "province_frame": null,
+        "publisher": "Tribunnews",
+        "channel_name": "Tribunnews",
+        "youtube_url": "https://www.youtube.com/channel/UCmxAIW7RDDC88EPk4ry16Kg",
+        "youtube_channel_id": "UCmxAIW7RDDC88EPk4ry16Kg",
+        "verification_status": "user_confirmed",
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCmxAIW7RDDC88EPk4ry16Kg",
+          "previous_verification_status": "channel_self_identified"
+        },
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=8j3l3i1DbVs",
+          "https://www.tribunnewswiki.com/2020/11/14/tribun-network-hadir-di-banten-semua-ada-di-tribunbantencom",
+          "https://www.youtube.com/@tribunnews",
+          "https://www.youtube.com/channel/UCmxAIW7RDDC88EPk4ry16Kg"
+        ],
+        "notes": "Pemeriksaan 18 Oktober: metadata publik mengonfirmasi @tribunnews dan ID berjudul Tribunnews; situs penerbit menolak fetch sehingga tautan silang exact belum tuntas. Pada 20 Oktober 2026 peneliti memberikan URL UC persis dan meminta kanal ini dimasukkan. Diaktifkan sebagai user_confirmed, bukan publisher_confirmed. Persetujuan ini tidak berlaku otomatis untuk kanal Tribun daerah.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID dan handle didukung metadata publik; pilihan kanal dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026. Bukti tautan silang penerbit belum ditambahkan.",
+        "observed_handles": [
+          "@tribunnews"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:18.640048+00:00",
+          "requested_url": "https://www.youtube.com/@tribunnews",
+          "youtube_channel_id": "UCmxAIW7RDDC88EPk4ry16Kg",
+          "title": "Tribunnews",
+          "handle_url": "http://www.youtube.com/@tribunnews",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "1817465745b8391d976f03fa3f97e335532ca87e8a9057831947de7debbf0477"
+        }
+      },
+      {
+        "record_id": "N014",
+        "province_frame": null,
+        "publisher": "Liputan6.com",
+        "channel_name": "Liputan6",
+        "youtube_url": "https://www.youtube.com/channel/UC1QpnGo11epfexw1bIiTHTg",
+        "youtube_channel_id": "UC1QpnGo11epfexw1bIiTHTg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.jti-app.com/report/AvPy9exXq1edDqkn/7",
+          "https://www.youtube.com/watch?v=t2MnDCmqKHk",
+          "https://www.youtube.com/@liputan6_news",
+          "https://www.youtube.com/watch?v=FL39Uzq569k",
+          "https://www.youtube.com/watch?v=87mhnfCrrFM",
+          "https://www.youtube.com/channel/UC1QpnGo11epfexw1bIiTHTg"
+        ],
+        "notes": "Laporan transparansi Liputan6.com menyebut @liputan6_news, tetapi unggahan verified kanal itu menjelaskan dirinya sebagai Liputan 6 SCTV. Karena itu N028 mengarah ke kanal sama, bukan sumber YouTube independen kedua. Koreksi catatan awal yang menyatakan kanal ini pasti berbeda dari SCTV.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "JTI media-outlet disclosure memberi exact handle. Video primer kanal secara eksplisit menyebut Liputan 6 SCTV; metadata publik memberi ID yang sama.",
+        "observed_handles": [
+          "@liputan6_news"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:19.074602+00:00",
+          "requested_url": "https://www.youtube.com/@liputan6_news",
+          "youtube_channel_id": "UC1QpnGo11epfexw1bIiTHTg",
+          "title": "Liputan6",
+          "handle_url": "http://www.youtube.com/@liputan6_news",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "425ced74b52043565552b419999a9fe40f28f70ee602819a7749c8644a077e8e"
+        }
+      },
+      {
+        "record_id": "N015",
+        "province_frame": null,
+        "publisher": "kumparan",
+        "channel_name": "kumparan",
+        "youtube_url": "https://www.youtube.com/channel/UCm2Fz7aL464TC_0uG_yagng",
+        "youtube_channel_id": "UCm2Fz7aL464TC_0uG_yagng",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/kumparancom",
+          "https://www.youtube.com/watch?v=C7QB2MAAybM",
+          "https://www.youtube.com/kumparan",
+          "https://www.youtube.com/@kumparan",
+          "https://www.youtube.com/channel/UCm2Fz7aL464TC_0uG_yagng"
+        ],
+        "notes": "Direktori kumparancom menautkan 'Subscribe to our YouTube Channel | @kumparan' ke /kumparan. Jangan tertukar dengan kanal lain bernama Kumparan TV.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Direktori sosial publisher menautkan kanal persis dan situs kumparan.com; metadata publik mengonfirmasi ID.",
+        "observed_handles": [
+          "@kumparan"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:19.360600+00:00",
+          "requested_url": "https://www.youtube.com/@kumparan",
+          "youtube_channel_id": "UCm2Fz7aL464TC_0uG_yagng",
+          "title": "kumparan",
+          "handle_url": "http://www.youtube.com/@kumparan",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "959b120a55578e745936f7927b8aaeb270deabadf1fd53423a0423567b5b3fc9"
+        }
+      },
+      {
+        "record_id": "N016",
+        "province_frame": null,
+        "publisher": "ANTARA",
+        "channel_name": "Antara TV Indonesia",
+        "youtube_url": "https://www.youtube.com/channel/UCAXcJqVpDHSfr_MdEuclSCg",
+        "youtube_channel_id": "UCAXcJqVpDHSfr_MdEuclSCg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://next.antaranews.com/product/antara-tv",
+          "https://www.youtube.com/channel/UCAXcJqVpDHSfr_MdEuclSCg"
+        ],
+        "notes": "Kanal video Kantor Berita ANTARA.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:19.621605+00:00",
+          "requested_url": "https://www.youtube.com/@antaraTV",
+          "youtube_channel_id": "UCAXcJqVpDHSfr_MdEuclSCg",
+          "title": "Antara TV Indonesia",
+          "handle_url": "http://www.youtube.com/@antaraTV",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "c1e1bd4b35b5c827b23ec986f6e4ae591bc094b014870f911e83443baf75434f"
+        },
+        "observed_handles": [
+          "@antaraTV"
+        ]
+      },
+      {
+        "record_id": "N017",
+        "province_frame": null,
+        "publisher": "Tempo",
+        "channel_name": "Tempodotco",
+        "youtube_url": "https://www.youtube.com/channel/UC3QRoNY-nYDTNSv-1dR0P-g",
+        "youtube_channel_id": "UC3QRoNY-nYDTNSv-1dR0P-g",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://event.tempo.co/read/2027150/omon-omon-program-baru-ngobrol-tempo-di-youtube",
+          "https://www.youtube.com/channel/UC3QRoNY-nYDTNSv-1dR0P-g"
+        ],
+        "notes": "Gunakan ID/URL yang ditemukan, bukan menebak handle dari nama Tempodotco.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:20.221118+00:00",
+          "requested_url": "https://www.youtube.com/channel/UC3QRoNY-nYDTNSv-1dR0P-g",
+          "youtube_channel_id": "UC3QRoNY-nYDTNSv-1dR0P-g",
+          "title": "Tempodotco",
+          "handle_url": "http://www.youtube.com/@tempovideochannel",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "455e29badbd14d95b207e87578b383396dbac492354b102a73f3778c68d343f9"
+        },
+        "observed_handles": [
+          "@tempovideochannel"
+        ]
+      },
+      {
+        "record_id": "N018",
+        "province_frame": null,
+        "publisher": "Narasi",
+        "channel_name": "Narasi Newsroom",
+        "youtube_url": "https://www.youtube.com/channel/UCnOf30K0d0e8M7mc4FUzR0A",
+        "youtube_channel_id": "UCnOf30K0d0e8M7mc4FUzR0A",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://narasi.tv/video/buka-mata/siapa-yang-berdusta-di-kasus-luhut-atau-haris-fathia-memuat-hak-jawab",
+          "https://www.youtube.com/channel/UCnOf30K0d0e8M7mc4FUzR0A"
+        ],
+        "notes": "Kanal pemberitaan Narasi, berbeda dari kanal Narasi utama tetapi penerbit sama.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:20.521120+00:00",
+          "requested_url": "https://www.youtube.com/@NarasiNewsroom",
+          "youtube_channel_id": "UCnOf30K0d0e8M7mc4FUzR0A",
+          "title": "Narasi Newsroom",
+          "handle_url": "http://www.youtube.com/@NarasiNewsroom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "58daaf1fe73e6bdea0fa5d3b681aa894377425d52fc4b690a0a64a76c2dbb5cc"
+        },
+        "observed_handles": [
+          "@NarasiNewsroom"
+        ]
+      },
+      {
+        "record_id": "N019",
+        "province_frame": null,
+        "publisher": "IDN Times",
+        "channel_name": "IDN TIMES",
+        "youtube_url": "https://www.youtube.com/channel/UCMcqmnF-uCBFzQ3NvmaELCg",
+        "youtube_channel_id": "UCMcqmnF-uCBFzQ3NvmaELCg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.idntimes.com/",
+          "https://www.idntimes.com/business/economy/banyak-penipuan-catut-idn-ini-kanal-kanal-resminya-00-brqf5-cpr0rl/amp",
+          "https://www.youtube.com/@idntimes",
+          "https://www.youtube.com/channel/UCMcqmnF-uCBFzQ3NvmaELCg"
+        ],
+        "notes": "Artikel anti-penipuan IDN menyebut IDN Times sebagai kanal YouTube resmi dalam ekosistem. Status exact-handle awal dipertahankan; metadata publik @idntimes mengonfirmasi judul IDN TIMES dan ID ini. Konten tidak seluruhnya berita MBG.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Artikel penerbit 8 Maret 2025 mengidentifikasi nama akun resmi. ID dan exact handle dari metadata publik; homepage awal tercatat sebagai publisher linkage.",
+        "observed_handles": [
+          "@idntimes"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:20.675118+00:00",
+          "requested_url": "https://www.youtube.com/@idntimes",
+          "youtube_channel_id": "UCMcqmnF-uCBFzQ3NvmaELCg",
+          "title": "IDN TIMES",
+          "handle_url": "http://www.youtube.com/@Idntimes",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "97cd58e3651d80e4608e5aaf31efbf31df0a4185bce1d36ef01d41f1d77c51a9"
+        }
+      },
+      {
+        "record_id": "N020",
+        "province_frame": null,
+        "publisher": "Suara.com",
+        "channel_name": "Suaradotcom",
+        "youtube_url": "https://www.youtube.com/channel/UCeq1WeHIbMyeKp_sUNolgzA",
+        "youtube_channel_id": "UCeq1WeHIbMyeKp_sUNolgzA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.suara.com/",
+          "https://www.youtube.com/user/suaradotcom",
+          "https://www.youtube.com/channel/UCeq1WeHIbMyeKp_sUNolgzA"
+        ],
+        "notes": "Footer Suara.com, Social Media - Youtube, menautkan persis /user/suaradotcom; metadata publik menyelesaikannya menjadi @suaradotcom dan ID ini.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Tautan silang langsung dari homepage publisher berhasil dibuka; ID dari metadata publik.",
+        "observed_handles": [
+          "@suaradotcom"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:21.143117+00:00",
+          "requested_url": "https://www.youtube.com/user/suaradotcom",
+          "youtube_channel_id": "UCeq1WeHIbMyeKp_sUNolgzA",
+          "title": "Suaradotcom",
+          "handle_url": "http://www.youtube.com/@suaradotcom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "4b70cbc34fcaa7aab322e2821ddf3dd837decf3c9250611b546aa3a7a7ce1298"
+        }
+      },
+      {
+        "record_id": "N021",
+        "province_frame": null,
+        "publisher": "Medcom.id",
+        "channel_name": "medcom id",
+        "youtube_url": "https://www.youtube.com/channel/UCjEz1Z4kKpb5T6HzFw_qlzA",
+        "youtube_channel_id": "UCjEz1Z4kKpb5T6HzFw_qlzA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.medcom.id/",
+          "https://www.medcom.id/teknologi/news-teknologi/wkB7dGqK-akun-youtube-medcom-id-raih-silver-play-button",
+          "https://www.youtube.com/channel/UCjEz1Z4kKpb5T6HzFw_qlzA"
+        ],
+        "notes": "Nama didukung artikel penerbit. Metadata publik pada putaran pemeriksaan ini mengonfirmasi ID kanal dan nama tampilan medcom id.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:21.672121+00:00",
+          "requested_url": "https://www.youtube.com/@medcomid",
+          "youtube_channel_id": "UCjEz1Z4kKpb5T6HzFw_qlzA",
+          "title": "medcom id",
+          "handle_url": "http://www.youtube.com/@medcomid",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "b2d25a1d2154ac4caaba2843891b4d01ef19b918c66518e3c9cb172229519ec7"
+        },
+        "observed_handles": [
+          "@medcomid"
+        ]
+      },
+      {
+        "record_id": "N022",
+        "province_frame": null,
+        "publisher": "JPNN.com",
+        "channel_name": "JPNN.COM",
+        "youtube_url": "https://www.youtube.com/channel/UCHYuEi41c1RcoTf8NgJLdkg",
+        "youtube_channel_id": "UCHYuEi41c1RcoTf8NgJLdkg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.jpnn.com/",
+          "https://www.youtube.com/channel/UCHYuEi41c1RcoTf8NgJLdkg"
+        ],
+        "notes": "Ditautkan pada homepage penerbit.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:21.566120+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCHYuEi41c1RcoTf8NgJLdkg",
+          "youtube_channel_id": "UCHYuEi41c1RcoTf8NgJLdkg",
+          "title": "JPNN.COM",
+          "handle_url": "http://www.youtube.com/@JPNNCOM11",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "20b04b668bc880c9f9d9adb1e073508a2b3f7960cfa06ebdbde4f7da6d4464c8"
+        },
+        "observed_handles": [
+          "@JPNNCOM11"
+        ]
+      },
+      {
+        "record_id": "N023",
+        "province_frame": null,
+        "publisher": "Merdeka.com",
+        "channel_name": "MerdekaDotCom",
+        "youtube_url": "https://www.youtube.com/channel/UCdOovgmIPfj9a-o3VP5i2_g",
+        "youtube_channel_id": "UCdOovgmIPfj9a-o3VP5i2_g",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.merdeka.com/",
+          "https://www.youtube.com/channel/UCdOovgmIPfj9a-o3VP5i2_g"
+        ],
+        "notes": "Ditautkan pada homepage penerbit.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:22.040120+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCdOovgmIPfj9a-o3VP5i2_g",
+          "youtube_channel_id": "UCdOovgmIPfj9a-o3VP5i2_g",
+          "title": "MerdekaDotCom",
+          "handle_url": "http://www.youtube.com/@merdekadotcom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "f4e42d5f5a718b89b541485ba342600199e9cb812999538c27fbdd3a0d571961"
+        },
+        "observed_handles": [
+          "@merdekadotcom"
+        ]
+      },
+      {
+        "record_id": "N024",
+        "province_frame": null,
+        "publisher": "SINDOnews",
+        "channel_name": "SINDOnews",
+        "youtube_url": "https://www.youtube.com/channel/UCGfXjFgIUUTUUlzdG6BenXA",
+        "youtube_channel_id": "UCGfXjFgIUUTUUlzdG6BenXA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.sindonews.com/",
+          "https://nasional.sindonews.com/read/1466733/12/profil-abchandra-muhammad-akbar-supratman-anak-menkumham-yang-jadi-wakil-ketua-mpr-1727917847?showpage=all",
+          "https://www.youtube.com/@OfficialSINDOnews",
+          "https://www.youtube.com/channel/UCGfXjFgIUUTUUlzdG6BenXA"
+        ],
+        "notes": "Artikel penerbit yang terindeks memuat exact URL @officialsindonews. Resolver metadata publik induk pada additional_channel_resolution.json berhasil menyelesaikan handle itu ke ID ini, judul SINDOnews, dan deskripsi kanal berita publisher. Hasil metadata_not_found awal sudah teratasi.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Exact handle diperkuat artikel domain publisher; retry metadata publik mengonfirmasi UC ID.",
+        "observed_handles": [
+          "@OfficialSINDOnews"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:55.166235+00:00",
+          "requested_url": "https://www.youtube.com/@OfficialSINDOnews",
+          "youtube_channel_id": "UCGfXjFgIUUTUUlzdG6BenXA",
+          "title": "SINDOnews",
+          "handle_url": "http://www.youtube.com/@OfficialSINDOnews",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "82c6ad02a7e9958c101f2da1dd6894927067aeaf32eda9db488f88793ab816ad"
+        }
+      },
+      {
+        "record_id": "N025",
+        "province_frame": null,
+        "publisher": "Republika",
+        "channel_name": "REPUBLIKA Official",
+        "youtube_url": "https://www.youtube.com/channel/UCWBqcKLh_Ta6ua00OX57ejA",
+        "youtube_channel_id": "UCWBqcKLh_Ta6ua00OX57ejA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.republika.co.id/",
+          "https://www.youtube.com/channel/UCWBqcKLh_Ta6ua00OX57ejA"
+        ],
+        "notes": "Ditautkan pada homepage penerbit.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:22.549118+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCWBqcKLh_Ta6ua00OX57ejA",
+          "youtube_channel_id": "UCWBqcKLh_Ta6ua00OX57ejA",
+          "title": "REPUBLIKA Official",
+          "handle_url": "http://www.youtube.com/@REPUBLIKAOfficialChannel",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "60c8dcf52d1dd0e1e30aa2e83b1b9a6e1698170ba96ec93059641a86534078bf"
+        },
+        "observed_handles": [
+          "@REPUBLIKAOfficialChannel"
+        ]
+      },
+      {
+        "record_id": "N029",
+        "province_frame": null,
+        "publisher": "VIVA.co.id",
+        "channel_name": "VIVA.CO.ID",
+        "youtube_url": "https://www.youtube.com/channel/UCB1fvlA5xmLJ0tZblpoTuaQ",
+        "youtube_channel_id": "UCB1fvlA5xmLJ0tZblpoTuaQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.viva.co.id/",
+          "https://www.youtube.com/channel/UCB1fvlA5xmLJ0tZblpoTuaQ",
+          "https://www.youtube.com/@PortalVIVAcoid",
+          "https://www.youtube.com/user/VIVAcoid",
+          "https://www.vivagroup.co.id/about-us/corporate-overview/"
+        ],
+        "notes": "Homepage VIVA berhasil diperiksa oleh induk melalui HTML publik: footer menautkan exact /user/VIVAcoid. followup_channel_resolution.json menyelesaikan URL publisher itu ke ID ini dan @PortalVIVAcoid. Ini mengonfirmasi candidate self-identification sebelumnya melalui tautan silang publisher.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "publisher_outbound_links.json membuktikan homepage VIVA menautkan /user/VIVAcoid; followup_channel_resolution.json mengonfirmasi legacy URL itu sama dengan @PortalVIVAcoid dan UC ID ini.",
+        "observed_handles": [
+          "@PortalVIVAcoid"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:44.309391+00:00",
+          "requested_url": "https://www.youtube.com/user/VIVAcoid",
+          "youtube_channel_id": "UCB1fvlA5xmLJ0tZblpoTuaQ",
+          "title": "VIVA.CO.ID",
+          "handle_url": "http://www.youtube.com/@PortalVIVAcoid",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "89b5731429d3b806c2a4bb3c43edbe1d4ac93fa4e712eaaaeb0786ae785ff5f1"
+        }
+      },
+      {
+        "record_id": "N030",
+        "province_frame": null,
+        "publisher": "Okezone",
+        "channel_name": "Okezone",
+        "youtube_url": "https://www.youtube.com/channel/UCHc8PjWfjZUFVmPQeLcFT2g",
+        "youtube_channel_id": "UCHc8PjWfjZUFVmPQeLcFT2g",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.okezone.com/",
+          "https://www.youtube.com/user/okezoneindonesia",
+          "https://digital.okezone.com/cinematic/1DzZe05pQ6E/final-indonesia-vs-thailand-makin-panas-gianni-infantino-dijadwalkan-hadir-locker-room",
+          "https://digital.okezone.com/cinematic/OJM-3kJ8k-A/john-herdman-kebangetan-jika-tak-bawa-garuda-juara-fifa-asean-cup",
+          "https://digital.okezone.com/view/2026/05/29/1/105121/copylink.html",
+          "https://www.youtube.com/@officialokezone",
+          "https://www.youtube.com/channel/UCHc8PjWfjZUFVmPQeLcFT2g"
+        ],
+        "notes": "Ambiguitas lama diselesaikan menggunakan publikasi Okezone yang secara eksplisit mencantumkan 'Yuk Subscribe' ke @officialokezone. Jangan gunakan /user/okezoneindonesia yang sebelumnya membuka Radio RDI. Pemeriksaan induk kemudian menyelesaikan metadata publik @officialokezone ke UCHc8PjWfjZUFVmPQeLcFT2g; ID ini dipakai atas hasil primer tersebut, bukan statistik pihak ketiga.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Dua halaman cinematic publisher memberi exact subscription URL; artikel event publisher juga menyebut @officialokezone. Root public metadata resolution mengonfirmasi ID kanal.",
+        "observed_handles": [
+          "@officialokezone"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:55.608235+00:00",
+          "requested_url": "https://www.youtube.com/@officialokezone",
+          "youtube_channel_id": "UCHc8PjWfjZUFVmPQeLcFT2g",
+          "title": "Okezone",
+          "handle_url": "http://www.youtube.com/@officialokezone",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "3ffb441e44d996d0c9cd624d5317a4e09aeeed312d92a9e4965ed4fbc8b9ff11"
+        }
+      }
+    ],
+    "media_regional": [
+      {
+        "record_id": "R001",
+        "province_frame": "Aceh",
+        "publisher": "TVRI",
+        "channel_name": "TVRI ACEH OFFICIAL",
+        "youtube_url": "https://www.youtube.com/channel/UCS6QvcOIR7pzOhUAQaYK1Ig",
+        "youtube_channel_id": "UCS6QvcOIR7pzOhUAQaYK1Ig",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=kEQ3ykHTCII",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_18",
+          "https://www.youtube.com/channel/UCS6QvcOIR7pzOhUAQaYK1Ig"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: YouTube primer mengidentifikasi akun resmi LPP TVRI Stasiun Aceh dan handle @tvriacehofficial. Tautan silang penerbit di luar kanal belum ditemukan. URL /tvriaceh dalam deskripsi video lama jangan dianggap handle terkini tanpa resolusi.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvriacehofficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:56.850230+00:00",
+          "requested_url": "https://www.youtube.com/@tvriacehofficial",
+          "youtube_channel_id": "UCS6QvcOIR7pzOhUAQaYK1Ig",
+          "title": "TVRI ACEH OFFICIAL",
+          "handle_url": "http://www.youtube.com/@tvriacehofficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "1207bb9e3a64e4c23902d2a6191671f9cd767090404e989a4cd313f93f381393"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCS6QvcOIR7pzOhUAQaYK1Ig",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R002",
+        "province_frame": "Sumatera Utara",
+        "publisher": "TVRI",
+        "channel_name": "LIVE STREAMING TVRI SUMUT",
+        "youtube_url": "https://www.youtube.com/channel/UCu9aHpmySlsZhghpLzU9CHw",
+        "youtube_channel_id": "UCu9aHpmySlsZhghpLzU9CHw",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCu9aHpmySlsZhghpLzU9CHw",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_30",
+          "https://www.youtube.com/watch?v=WMK5vsiWOBE"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: DOM publik mengonfirmasi canonical ID existing dan handle @LIVESTREAMINGTVRISUMUT, tetapi deskripsi About kosong dan tidak ada tautan silang penerbit. Halaman menampilkan video terbaru April 2025. Terdapat kanal lain TVRI SUMATERA UTARA dengan unggahan 2026 dan deskripsi Official Account of TVRI North Sumatra; jangan mengganti existing ID hanya berdasarkan nama atau menggabungkan dua feed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@LIVESTREAMINGTVRISUMUT",
+          "@tvrisumaterautara"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:23.489122+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCu9aHpmySlsZhghpLzU9CHw",
+          "youtube_channel_id": "UCu9aHpmySlsZhghpLzU9CHw",
+          "title": "LIVE STREAMING TVRI SUMUT",
+          "handle_url": "http://www.youtube.com/@LIVESTREAMINGTVRISUMUT",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "2fe9684c1dc3527c7d24ca6d4b8e1ef6b470f1ad04ab268eb6aaac45ee29c59d"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCu9aHpmySlsZhghpLzU9CHw",
+          "previous_verification_status": "crosscheck_pending"
+        }
+      },
+      {
+        "record_id": "R003",
+        "province_frame": "Sumatera Barat",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sumatera Barat",
+        "youtube_url": "https://www.youtube.com/channel/UCO_Ga01t2fUtIzJZGIfSKeg",
+        "youtube_channel_id": "UCO_Ga01t2fUtIzJZGIfSKeg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.tvrisumbar.co.id/",
+          "https://ppid.tvrisumbar.co.id/faq",
+          "https://www.youtube.com/channel/UCO_Ga01t2fUtIzJZGIfSKeg"
+        ],
+        "notes": "Footer situs resmi stasiun, diperiksa melalui DOM browser publik, menautkan exact ID existing. Kerangka Sumatera Barat didukung profil resmi stasiun di Padang; bukan lokasi setiap insiden.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Anchor YouTube footer https://www.tvrisumbar.co.id/ memiliki href https://www.youtube.com/channel/UCO_Ga01t2fUtIzJZGIfSKeg. FAQ mengakui akun YouTube stasiun.",
+        "observed_handles": [
+          "@tvrisumatrabarat"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:23.871772+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCO_Ga01t2fUtIzJZGIfSKeg",
+          "youtube_channel_id": "UCO_Ga01t2fUtIzJZGIfSKeg",
+          "title": "TVRI Sumatera Barat",
+          "handle_url": "http://www.youtube.com/@tvrisumatrabarat",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "69d37d98737d436981d5c7c9f96719a5f4158ded841aa44d36ecf10c947467b4"
+        }
+      },
+      {
+        "record_id": "R004",
+        "province_frame": "Riau",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Stasiun Riau",
+        "youtube_url": "https://www.youtube.com/channel/UC21r5LntLxcTAHJeQ-m8XLg",
+        "youtube_channel_id": "UC21r5LntLxcTAHJeQ-m8XLg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.tvririau.id/",
+          "https://www.youtube.com/channel/UC21r5LntLxcTAHJeQ-m8XLg"
+        ],
+        "notes": "DOM situs resmi mengonfirmasi tautan exact @TVRIStasiunRiauOfficial. ID diselesaikan melalui metadata publik YouTube, tanpa Data API. Pertahankan peringatan kanal terbaru versus kanal lama.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Dua anchor publik pada situs penerbit mengarah ke https://www.youtube.com/@TVRIStasiunRiauOfficial, salah satunya berteks handle persis.",
+        "observed_handles": [
+          "@TVRIStasiunRiauOfficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:24.359763+00:00",
+          "requested_url": "https://www.youtube.com/@TVRIStasiunRiauOfficial",
+          "youtube_channel_id": "UC21r5LntLxcTAHJeQ-m8XLg",
+          "title": "TVRI Stasiun Riau ",
+          "handle_url": "http://www.youtube.com/@TVRIStasiunRiauOfficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "82c08c0afaef5499880e71653f04a8cced6e5273030688d465b3107d6b93ebb9"
+        }
+      },
+      {
+        "record_id": "R005",
+        "province_frame": "Kepulauan Riau",
+        "publisher": "Tribun Batam",
+        "channel_name": "TribunbatamID",
+        "youtube_url": "https://www.youtube.com/channel/UCE6DVbdIKAQdBu024fZCK-A",
+        "youtube_channel_id": "UCE6DVbdIKAQdBu024fZCK-A",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCE6DVbdIKAQdBu024fZCK-A"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Identitas primer existing dipertahankan; belum memperoleh tautan silang exact dari penerbit. Browser menolak akses homepage batam.tribunnews.com karena site-safety gate, sehingga domain tersebut tidak diperiksa melalui jalur alternatif. Bagian jaringan Tribun; Kepulauan Riau merupakan kerangka penerbit, bukan bukti lokasi video atau komentator.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tribunbatamvideo"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:24.746770+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCE6DVbdIKAQdBu024fZCK-A",
+          "youtube_channel_id": "UCE6DVbdIKAQdBu024fZCK-A",
+          "title": "TribunbatamID",
+          "handle_url": "http://www.youtube.com/@tribunbatamvideo",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "359c496935b9d87fe7bbd28d98f276414dbfaa9411b87b9749f6d4732efe8dcb"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCE6DVbdIKAQdBu024fZCK-A",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R006",
+        "province_frame": "Jambi",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Jambi",
+        "youtube_url": "https://www.youtube.com/channel/UCF-92y696PkSuHUXe1mAmEw",
+        "youtube_channel_id": "UCF-92y696PkSuHUXe1mAmEw",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCF-92y696PkSuHUXe1mAmEw",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_10"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Status existing dipertahankan. Halaman YouTube exact masih berjudul TVRI Jambi pada hasil primer, tetapi pembaca web memuat halaman tipis dan tautan silang penerbit baru belum ditemukan dalam pencarian terbatas.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRIJambi"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:24.567762+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCF-92y696PkSuHUXe1mAmEw",
+          "youtube_channel_id": "UCF-92y696PkSuHUXe1mAmEw",
+          "title": "TVRI Jambi",
+          "handle_url": "http://www.youtube.com/@TVRIJambi",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "e812a81f2b0cbde865b791266020927b0a0cbc22c9e2a5479446f68ee681a57e"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCF-92y696PkSuHUXe1mAmEw",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R007",
+        "province_frame": "Sumatera Selatan",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sumsel",
+        "youtube_url": "https://www.youtube.com/channel/UC4reYzWwhgeTka1poVb1G_g",
+        "youtube_channel_id": "UC4reYzWwhgeTka1poVb1G_g",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://fliphtml5.com/xziwv/khet/OK_REVISI_DRAFT_BUKU_50TH_99%25_27_mei/",
+          "https://www.youtube.com/watch?v=-daF0hM1XTI",
+          "https://www.youtube.com/@TVRISumsel",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_29",
+          "https://www.youtube.com/channel/UC4reYzWwhgeTka1poVb1G_g"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Canonical ID dibaca langsung dari DOM halaman YouTube publik. Deskripsi kanal menyebut pendirian stasiun, alamat Jalan Balap Sepeda No.1 Palembang, dan program Sumatera Selatan. Buku Media Baru TVRI Sumsel menyebut exact handle tetapi hosting non-TVRI tetap bukan satu-satunya bukti penerbit.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRISumsel"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:25.319772+00:00",
+          "requested_url": "https://www.youtube.com/@TVRISumsel",
+          "youtube_channel_id": "UC4reYzWwhgeTka1poVb1G_g",
+          "title": "TVRI Sumsel",
+          "handle_url": "http://www.youtube.com/@TVRISumsel",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "e520f06f1df3be49a317139378c88df50093917d2210019239ce0cdbe92fc1c6"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UC4reYzWwhgeTka1poVb1G_g",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R008",
+        "province_frame": "Bengkulu",
+        "publisher": "TVRI",
+        "channel_name": "TVRI BENGKULU",
+        "youtube_url": "https://www.youtube.com/channel/UCz0yMhCqB7-AZTImAwjqJig",
+        "youtube_channel_id": "UCz0yMhCqB7-AZTImAwjqJig",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCz0yMhCqB7-AZTImAwjqJig",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_07"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: YouTube primer menampilkan handle @tvribengkulu1476 dan deskripsi program khas TVRI Bengkulu. Tautan silang exact dari penerbit belum ditemukan, sehingga status self identified dipertahankan.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvribengkulu1476"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:26.061405+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCz0yMhCqB7-AZTImAwjqJig",
+          "youtube_channel_id": "UCz0yMhCqB7-AZTImAwjqJig",
+          "title": "TVRI BENGKULU",
+          "handle_url": "http://www.youtube.com/@tvribengkulu1476",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "cd2294f91c26954ee24ac191a52d1e2c6184dced4cd654621bc8715877935302"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCz0yMhCqB7-AZTImAwjqJig",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R009",
+        "province_frame": "Lampung",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Lampung Official",
+        "youtube_url": "https://www.youtube.com/channel/UCxB05wBgn6al3X0HRqDR8_w",
+        "youtube_channel_id": "UCxB05wBgn6al3X0HRqDR8_w",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCxB05wBgn6al3X0HRqDR8_w",
+          "https://www.youtube.com/@TVRILampungOfficial"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: YouTube primer mengonfirmasi handle @TVRILampungOfficial dan pernyataan kanal resmi TVRI Lampung. Tautan silang exact penerbit belum ditemukan.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRILampungOfficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:25.520300+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCxB05wBgn6al3X0HRqDR8_w",
+          "youtube_channel_id": "UCxB05wBgn6al3X0HRqDR8_w",
+          "title": "TVRI Lampung Official",
+          "handle_url": "http://www.youtube.com/@TVRILampungOfficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "6d049eccf6b45825b4cfb6369a799386586054098a7d4fc78569e4ca422b8cf5"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@TVRILampungOfficial",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R010",
+        "province_frame": "Kepulauan Bangka Belitung",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Bangka Belitung",
+        "youtube_url": "https://www.youtube.com/channel/UC1kC8HPOd5GnkRHg2HKtKcQ",
+        "youtube_channel_id": "UC1kC8HPOd5GnkRHg2HKtKcQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UC1kC8HPOd5GnkRHg2HKtKcQ",
+          "https://linktr.ee/TVRiBangkaBelitung"
+        ],
+        "notes": "Tombol sosial YouTube direktori stasiun dibuka melalui browser dan menghasilkan tab dengan exact UC existing. Direktori juga menautkan profil stasiun tvri.go.id serta TVRI Klik/TVRI News Bangka Belitung.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Klik link berlabel TVRI Bangka Belitung YouTube pada https://linktr.ee/TVRiBangkaBelitung membuka https://www.youtube.com/channel/UC1kC8HPOd5GnkRHg2HKtKcQ.",
+        "observed_handles": [
+          "@tvribangkabelitung"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:26.016404+00:00",
+          "requested_url": "https://www.youtube.com/channel/UC1kC8HPOd5GnkRHg2HKtKcQ",
+          "youtube_channel_id": "UC1kC8HPOd5GnkRHg2HKtKcQ",
+          "title": "TVRI Bangka Belitung",
+          "handle_url": "http://www.youtube.com/@tvribangkabelitung",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "aa20e0a340ae474145743779383ba0e429b3ea79e3703e9a822b4f4b7a52f9e5"
+        }
+      },
+      {
+        "record_id": "R011",
+        "province_frame": "Banten",
+        "publisher": "Banten TV",
+        "channel_name": "Banten TV",
+        "youtube_url": "https://www.youtube.com/channel/UCSms6StVOp-I14RFSuGzvEA",
+        "youtube_channel_id": "UCSms6StVOp-I14RFSuGzvEA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://app.bantentv.com/",
+          "https://play.google.com/store/apps/details?hl=id&id=com.app.bantentv",
+          "https://bantentv.com/",
+          "https://www.youtube.com/channel/UCSms6StVOp-I14RFSuGzvEA"
+        ],
+        "notes": "Homepage penerbit menautkan exact handle melalui ikon YouTube pada bar sosial atas. ID diselesaikan melalui metadata publik YouTube, tanpa Data API. Publisher Banten TV berbeda dari TVRI Jakarta dan dari stasiun TVRI Banten.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Anchor publik berlabel Youtube pada https://bantentv.com/ memiliki href https://www.youtube.com/@officialbantentv.",
+        "observed_handles": [
+          "@officialbantentv"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:56.715231+00:00",
+          "requested_url": "https://www.youtube.com/@officialbantentv",
+          "youtube_channel_id": "UCSms6StVOp-I14RFSuGzvEA",
+          "title": "Banten TV",
+          "handle_url": "http://www.youtube.com/@officialbantentv",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "a60a00403ed0e85bea49f4ab68dc3dca97c42c375d38621d6e9ce3e750ee00b7"
+        }
+      },
+      {
+        "record_id": "R012",
+        "province_frame": "DKI Jakarta",
+        "publisher": "TVRI",
+        "channel_name": "TVRI DKI Jakarta / TVRI Jakarta",
+        "youtube_url": "https://www.youtube.com/channel/UC57QeU5XpjBzdZYM2btCtTg",
+        "youtube_channel_id": "UC57QeU5XpjBzdZYM2btCtTg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://staging.tvri.go.id/assets/ppid/monitor_Mei_2018.pdf",
+          "https://www.youtube.com/TVRIJakarta",
+          "https://www.youtube.com/@TVRIJakarta",
+          "https://www.youtube.com/channel/UC57QeU5XpjBzdZYM2btCtTg"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Legacy /TVRIJakarta diselesaikan melalui DOM publik ke canonical UC57QeU5XpjBzdZYM2btCtTg dan handle @TVRIJakarta. Header secara eksplisit menyatakan Official YouTube Channel TVRI Jakarta. Direktori lama linktr.ee/TVRIJakarta tidak ditemukan. Catatan historis Jakarta & Banten tidak membenarkan duplikasi kanal untuk dua provinsi.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRIJakarta"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved_in_browser",
+          "youtube_channel_id": "UC57QeU5XpjBzdZYM2btCtTg",
+          "requested_url": "https://www.youtube.com/@TVRIJakarta",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/regional_west_findings.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@TVRIJakarta",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R013",
+        "province_frame": "Jawa Barat",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Jawa Barat",
+        "youtube_url": "https://www.youtube.com/channel/UCuLNF1uaW-DVF_bSa0Php5A",
+        "youtube_channel_id": "UCuLNF1uaW-DVF_bSa0Php5A",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCuLNF1uaW-DVF_bSa0Php5A",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_09",
+          "https://jabar.antaranews.com/amp/berita/638657/persib-bandung-umumkan-pemain-baru-di-tvri-jabar-thom-haye"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Exact URL YouTube existing dibuka dan berjudul TVRI Jawa Barat. ANTARA mengutip rilis Persib bahwa pengumuman pemain disiarkan di YouTube resmi TVRI Jawa Barat, tetapi tidak mengikat exact UC ini. Tidak dipromosikan publisher_confirmed tanpa crosslink exact.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRIJawaBarat"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:26.563410+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCuLNF1uaW-DVF_bSa0Php5A",
+          "youtube_channel_id": "UCuLNF1uaW-DVF_bSa0Php5A",
+          "title": "TVRI Jawa Barat",
+          "handle_url": "http://www.youtube.com/@TVRIJawaBarat",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "943873fd14370271f17210a5d68ccc02c8b8ee9206a31cfb226d65989a479767"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCuLNF1uaW-DVF_bSa0Php5A",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R014",
+        "province_frame": "Jawa Barat",
+        "publisher": "PRFM",
+        "channel_name": "Radio PRFM 107,5 News Channel",
+        "youtube_url": "https://www.youtube.com/channel/UC8R8OzIS07_3jo1OfxKRC0w",
+        "youtube_channel_id": "UC8R8OzIS07_3jo1OfxKRC0w",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://prfmnews.pikiran-rakyat.com/about-us",
+          "https://www.youtube.com/channel/UC8R8OzIS07_3jo1OfxKRC0w"
+        ],
+        "notes": "Footer About Us penerbit menautkan exact UC. Teks profil menyebut Radio PRFM 107,5 News Channel dan alamat Bandung. Nama tampilan terkini dapat diambil dari API root.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "DOM publik About Us PRFM memiliki anchor href https://www.youtube.com/channel/UC8R8OzIS07_3jo1OfxKRC0w. Profil penerbit menyebut YouTube Radio PRFM 107,5 News Channel.",
+        "observed_handles": [
+          "@radioprfm"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:57.015235+00:00",
+          "requested_url": "https://www.youtube.com/channel/UC8R8OzIS07_3jo1OfxKRC0w",
+          "youtube_channel_id": "UC8R8OzIS07_3jo1OfxKRC0w",
+          "title": "Radio PRFM 107,5 News Channel",
+          "handle_url": "http://www.youtube.com/@radioprfm",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "b4c401a664ca59495f9c107ba8004342f71c593d008fcdb4024b799f3445be6e"
+        }
+      },
+      {
+        "record_id": "R015",
+        "province_frame": "Jawa Tengah",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Jateng Live Streaming",
+        "youtube_url": "https://www.youtube.com/channel/UCJ5BQ4tNgjL9NTy4uHiqhYA",
+        "youtube_channel_id": "UCJ5BQ4tNgjL9NTy4uHiqhYA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/tvrijateng",
+          "https://jatengprov.go.id/beritaopd/integrasi-tvri-dengan-medsos-diharap-dorong-pembangunan-jateng/",
+          "https://www.youtube.com/c/TVRIJawaTengah/?sub_confirmation=1",
+          "https://www.youtube.com/@tvrijatenglivestreaming",
+          "https://www.youtube.com/channel/UCJ5BQ4tNgjL9NTy4uHiqhYA"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Identitas pilihan saat ini tercatat pada metadata publik baru; identitas registry sebelumnya dipertahankan terpisah tanpa mengklaim migrasi. Catatan pemeriksaan sebelumnya: Direktori bertuliskan Akun Resmi TVRI Jawa Tengah menautkan legacy /c/TVRIJawaTengah/?sub_confirmation=1. Pembaca web mengidentifikasi judul TVRI Jawa Tengah pada URL, tetapi browser langsung mengembalikan 404 pada path tanpa trailing slash/query. Exact ID dan kanal aktif tetap pending; jangan menebak handle atau memakai arsip lama. Status publisher_confirmed hanya menyatakan bukti outbound publisher, bukan URL aktif teresolusi. Tautan penerbit ditemukan, tetapi metadata kanal terkini belum berhasil diselesaikan pada pengecekan publik. Record tidak disertakan dalam pilihan otomatis; kegagalan ini bukan bukti pasti kanal telah dihapus.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Peneliti memilih handle persis. ID kanal dibaca dari meta identifier dan RSS halaman publik YouTube yang saling cocok; bukan klaim tautan silang penerbit baru.",
+        "observed_handles": [
+          "@tvrijatenglivestreaming"
+        ],
+        "verification_checked_on": "2026-10-20",
+        "public_metadata_check": {
+          "requested_url": "https://www.youtube.com/@tvrijatenglivestreaming",
+          "http_status": 200,
+          "status": "resolved_from_public_html",
+          "checked_at_utc": "2026-10-20T09:44:48.6397218Z",
+          "youtube_channel_id": "UCJ5BQ4tNgjL9NTy4uHiqhYA",
+          "title": "TVRI Jateng Live Streaming",
+          "handle_url": "https://www.youtube.com/@tvrijatenglivestreaming",
+          "metadata_fields": {
+            "schema_org_identifier": "UCJ5BQ4tNgjL9NTy4uHiqhYA",
+            "rss_channel_id": "UCJ5BQ4tNgjL9NTy4uHiqhYA"
+          },
+          "html_sha256": "4f3aa855be07eeb5d89909af70140a37e42d871de5678aa6c111869ec5c3b4ae",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@tvrijatenglivestreaming",
+          "previous_verification_status": "publisher_link_unresolved"
+        },
+        "previous_registry_identity": {
+          "channel_name": "TVRI Jawa Tengah",
+          "youtube_url": "https://www.youtube.com/c/TVRIJawaTengah/",
+          "youtube_channel_id": null,
+          "verification_status": "publisher_link_unresolved",
+          "observed_handles": [],
+          "public_metadata_check": {
+            "status": "http_error",
+            "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+            "requested_url": "https://www.youtube.com/c/TVRIJawaTengah",
+            "checked_at_utc": "2026-10-18T15:59:44.079388+00:00"
+          },
+          "replacement_basis": "Pilihan pengganti dari peneliti; tidak menyatakan migrasi atau kesinambungan historis antar-kanal."
+        }
+      },
+      {
+        "record_id": "R016",
+        "province_frame": "DI Yogyakarta",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Yogyakarta Official",
+        "youtube_url": "https://www.youtube.com/channel/UCzKDE6O21TdcFCuE-F_8Emw",
+        "youtube_channel_id": "UCzKDE6O21TdcFCuE-F_8Emw",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/tvrijogja",
+          "https://yogyakarta.tvri.go.id/",
+          "https://youtube.com/c/TVRIYogyakartaOfficial",
+          "https://www.youtube.com/@TVRIYogyakartaOfficial",
+          "https://www.youtube.com/channel/UCzKDE6O21TdcFCuE-F_8Emw"
+        ],
+        "notes": "Direktori stasiun menautkan /c/TVRIYogyakartaOfficial; DOM publik YouTube mengonfirmasi handle dan canonical UC. Satu penerbit dengan R017; kanal Official terpisah dari feed Streaming.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Linktree: Youtube TVRI Yogyakarta Official -> https://youtube.com/c/TVRIYogyakartaOfficial. Kanal publik: TVRI Yogyakarta Official, @TVRIYogyakartaOfficial, canonical UCzKDE6O21TdcFCuE-F_8Emw, 81,8 ribu subscriber/22 ribu video.",
+        "observed_handles": [
+          "@TVRIYogyakartaOfficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:57.730313+00:00",
+          "requested_url": "https://www.youtube.com/c/TVRIYogyakartaOfficial",
+          "youtube_channel_id": "UCzKDE6O21TdcFCuE-F_8Emw",
+          "title": "TVRI Yogyakarta Official",
+          "handle_url": "http://www.youtube.com/@TVRIYogyakartaOfficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "99ae1512d81b93a86cfb886647b95d61ca2115113571b519c5d3e1de1ebe66f4"
+        }
+      },
+      {
+        "record_id": "R017",
+        "province_frame": "DI Yogyakarta",
+        "publisher": "TVRI",
+        "channel_name": "Streaming TVRI Yogyakarta",
+        "youtube_url": "https://www.youtube.com/channel/UCXhIJoUAUnwryCBW39Qyumg",
+        "youtube_channel_id": "UCXhIJoUAUnwryCBW39Qyumg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://linktr.ee/tvrijogja",
+          "https://yogyakarta.tvri.go.id/",
+          "https://youtube.com/@streamingtvriyogyakarta?si=FCWQVFpW_1PaPOOy",
+          "https://www.youtube.com/@streamingtvriyogyakarta",
+          "https://www.youtube.com/channel/UCXhIJoUAUnwryCBW39Qyumg"
+        ],
+        "notes": "Tautan Streaming pada direktori stasiun kini mengarah ke @StreamingTVRIYogyakarta. Kanal publik baru/kecil menampilkan 294 subscriber dan 3 video serta live aktif saat diperiksa. Jangan menyalin ID kanal streaming historis bernama TVRI Yogyakarta Streaming atau menghitungnya sebagai penerbit independen tambahan.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Linktree membedakan Streaming TVRI Yogyakarta dan Official. Href streaming persis https://youtube.com/@streamingtvriyogyakarta?si=FCWQVFpW_1PaPOOy; DOM YouTube mengonfirmasi canonical UCXhIJoUAUnwryCBW39Qyumg.",
+        "observed_handles": [
+          "@StreamingTVRIYogyakarta"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:57.690304+00:00",
+          "requested_url": "https://www.youtube.com/@streamingtvriyogyakarta",
+          "youtube_channel_id": "UCXhIJoUAUnwryCBW39Qyumg",
+          "title": "Streaming TVRI Yogyakarta",
+          "handle_url": "http://www.youtube.com/@StreamingTVRIYogyakarta",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "9d658d4c9766e60531e70de6123ff5a06d533a99ccad0306150afad89de8f83e"
+        }
+      },
+      {
+        "record_id": "R018",
+        "province_frame": "DI Yogyakarta",
+        "publisher": "Tribun Jogja",
+        "channel_name": "Tribun Jogja Official",
+        "youtube_url": "https://www.youtube.com/channel/UC1VBOObpFMoqduxFdzJrnvA",
+        "youtube_channel_id": "UC1VBOObpFMoqduxFdzJrnvA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=LF4Pt6Fq5JU",
+          "https://www.youtube.com/@tribunjogjaofc",
+          "https://dprd.jogjakota.go.id/detail/index/44451/dprd-kota-yogyakarta-dorong-sinergi-budaya-dan-ekonomi-lewat-program-warga-istimewa-2025-11-07",
+          "https://www.youtube.com/channel/UC1VBOObpFMoqduxFdzJrnvA"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Handle ditemukan sebagai kandidat lalu diverifikasi langsung pada halaman YouTube primer. Header menyatakan bagian dari website tribunjogja.com jaringan Tribun Network; canonical ID dibaca dari DOM, tidak diterima dari situs statistik. Crosslink exact publisher belum didapat.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tribunjogjaofc"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:46.537653+00:00",
+          "requested_url": "https://www.youtube.com/@tribunjogjaofc",
+          "youtube_channel_id": "UC1VBOObpFMoqduxFdzJrnvA",
+          "title": "Tribun Jogja Official",
+          "handle_url": "http://www.youtube.com/@tribunjogjaofc",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "8ad6ed16d6708a378bbe7abb66cb1aa44c811d51e187a1ef831e42f346602497"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UC1VBOObpFMoqduxFdzJrnvA",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R019",
+        "province_frame": "Jawa Timur",
+        "publisher": "JTV",
+        "channel_name": "JTV Rek",
+        "youtube_url": "https://www.youtube.com/channel/UChcbVcSElDI3JmhA8BpJUPA",
+        "youtube_channel_id": "UChcbVcSElDI3JmhA8BpJUPA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=aWJZhXEn9zA",
+          "https://publik.untag-sby.ac.id/web/beritadetail/memperingati-hut-ke81-ri-rektor-untag-surabaya-hadir-dalam-dialog-tanah-air-jtv.html",
+          "https://www.youtube.com/@jtvrekofficial",
+          "https://www.youtube.com/channel/UChcbVcSElDI3JmhA8BpJUPA"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Nama tampilan terkini pada halaman primer JTV Rek, bukan sekadar JTV. Canonical UC dan handle exact dikonfirmasi DOM. Header menyebut Channel Resmi JTV Rek; tautan silang situs penerbit exact belum ditemukan. Jangan tertukar dengan Jewelry Television Amerika atau kanal Portal JTV yang berbeda.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@jtvrekofficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:26.913407+00:00",
+          "requested_url": "https://www.youtube.com/@jtvrekofficial",
+          "youtube_channel_id": "UChcbVcSElDI3JmhA8BpJUPA",
+          "title": "JTV Rek",
+          "handle_url": "http://www.youtube.com/@jtvrekofficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "768d8fc7b37f0bc4604758a001f41ca0e77455761caa8fb8ba9a44154f0469c9"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UChcbVcSElDI3JmhA8BpJUPA",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R020",
+        "province_frame": "Jawa Timur",
+        "publisher": "Suara Surabaya",
+        "channel_name": "Suara Surabaya Media",
+        "youtube_url": "https://www.youtube.com/channel/UCBVA5QjSUukGuoWutAKyq5w",
+        "youtube_channel_id": "UCBVA5QjSUukGuoWutAKyq5w",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.suarasurabaya.net/kampoengmedia/2026/hut-ke-43-suara-surabaya-usung-tagline-nyala-terus-lewat-rangkaian-acara-sebulan-penuh/",
+          "https://www.suarasurabaya.net/redaksi/",
+          "https://www.youtube.com/@SuaraSurabayaMedia",
+          "https://www.youtube.com/channel/UCBVA5QjSUukGuoWutAKyq5w"
+        ],
+        "notes": "Bukti penerbit existing menyebut exact handle. Kanal publik mengonfirmasi nama tampilan Suara Surabaya Media, canonical UC, dan deskripsi official YouTube Suara Surabaya. Relevansi MBG belum diperiksa.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "DOM primer @SuaraSurabayaMedia menampilkan canonical UCBVA5QjSUukGuoWutAKyq5w, 125 ribu subscriber/4,4 ribu video, pernyataan SELAMAT DATANG DI OFFICIAL YOUTUBE SUARA SURABAYA serta link suarasurabaya.net.",
+        "observed_handles": [
+          "@suarasurabayamedia"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:27.020408+00:00",
+          "requested_url": "https://www.youtube.com/@SuaraSurabayaMedia",
+          "youtube_channel_id": "UCBVA5QjSUukGuoWutAKyq5w",
+          "title": "Suara Surabaya Media",
+          "handle_url": "http://www.youtube.com/@suarasurabayamedia",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "9fddce650ec27948b07130c8ea31caa0f6c9a56a534cc7c61e53575d92c06896"
+        }
+      },
+      {
+        "record_id": "R021",
+        "province_frame": "Jawa Timur",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Jatim Live Streaming",
+        "youtube_url": "https://www.youtube.com/channel/UCQmCseSPZ-fdMy0HCf3M38A",
+        "youtube_channel_id": "UCQmCseSPZ-fdMy0HCf3M38A",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://linktr.ee/TVRIJatim",
+          "https://www.youtube.com/@TVRIJatim",
+          "https://www.youtube.com/@TVRIJatimLiveStreaming-hw2lm",
+          "https://www.youtube.com/channel/UCQmCseSPZ-fdMy0HCf3M38A"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Identitas pilihan saat ini tercatat pada metadata publik baru; identitas registry sebelumnya dipertahankan terpisah tanpa mengklaim migrasi. Catatan pemeriksaan sebelumnya: Direktori sosial TVRI Jatim menautkan exact @TVRIJatim. Web index mengenali TVRI Jatim, tetapi browser publik menghasilkan 404 saat pengecekan langsung; canonical ID/aktivitas masih pending dan harus divalidasi root. Kanal live streaming lain jangan digabung otomatis. Publisher_confirmed menyatakan bukti outbound exact, bukan resolusi aktif. Tautan penerbit ditemukan, tetapi metadata kanal terkini belum berhasil diselesaikan pada pengecekan publik. Record tidak disertakan dalam pilihan otomatis; kegagalan ini bukan bukti pasti kanal telah dihapus.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Peneliti memilih handle persis. ID kanal dibaca dari meta identifier dan RSS halaman publik YouTube yang saling cocok; bukan klaim tautan silang penerbit baru.",
+        "observed_handles": [
+          "@TVRIJatimLiveStreaming-hw2lm"
+        ],
+        "verification_checked_on": "2026-10-20",
+        "public_metadata_check": {
+          "requested_url": "https://www.youtube.com/@TVRIJatimLiveStreaming-hw2lm",
+          "http_status": 200,
+          "status": "resolved_from_public_html",
+          "checked_at_utc": "2026-10-20T09:44:49.0286966Z",
+          "youtube_channel_id": "UCQmCseSPZ-fdMy0HCf3M38A",
+          "title": "TVRI Jatim Live Streaming",
+          "handle_url": "https://www.youtube.com/@TVRIJatimLiveStreaming-hw2lm",
+          "metadata_fields": {
+            "schema_org_identifier": "UCQmCseSPZ-fdMy0HCf3M38A",
+            "rss_channel_id": "UCQmCseSPZ-fdMy0HCf3M38A"
+          },
+          "html_sha256": "c83d5c429f86ca2a59a8f410e79591837607fbf84961f7fc867a022aa7573e01",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@TVRIJatimLiveStreaming-hw2lm",
+          "previous_verification_status": "publisher_link_unresolved"
+        },
+        "previous_registry_identity": {
+          "channel_name": "TVRI Jawa Timur",
+          "youtube_url": "https://www.youtube.com/@TVRIJatim",
+          "youtube_channel_id": null,
+          "verification_status": "publisher_link_unresolved",
+          "observed_handles": [
+            "@TVRIJatim"
+          ],
+          "public_metadata_check": {
+            "status": "http_error",
+            "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+            "requested_url": "https://www.youtube.com/@TVRIJatim",
+            "checked_at_utc": "2026-10-18T15:59:44.601388+00:00"
+          },
+          "replacement_basis": "Pilihan pengganti dari peneliti; tidak menyatakan migrasi atau kesinambungan historis antar-kanal."
+        }
+      },
+      {
+        "record_id": "R022",
+        "province_frame": "Bali",
+        "publisher": "Bali TV",
+        "channel_name": "news balitv",
+        "youtube_url": "https://www.youtube.com/channel/UCEcJC_9FNJhvKecmg_NtodA",
+        "youtube_channel_id": "UCEcJC_9FNJhvKecmg_NtodA",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://balitv.tv/youtube/",
+          "https://www.youtube.com/newsbalitv",
+          "https://www.youtube.com/@newsbalitv",
+          "https://www.youtube.com/channel/UCEcJC_9FNJhvKecmg_NtodA"
+        ],
+        "notes": "Penerbit menautkan BALI TV NEWS CHANNEL ke /newsbalitv. DOM YouTube mengonfirmasi canonical UC, handle @newsbalitv, nama news balitv, dan Official Channel/Account Of BALI TV. Bedakan dari Programme channel.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Halaman resmi balitv.tv/youtube/ memiliki tautan BALI TV NEWS CHANNEL ke /newsbalitv; kanal publik berisi 99,8 ribu subscriber/68 ribu video dan canonical UCEcJC_9FNJhvKecmg_NtodA.",
+        "observed_handles": [
+          "@newsbalitv"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:27.302462+00:00",
+          "requested_url": "https://www.youtube.com/newsbalitv",
+          "youtube_channel_id": "UCEcJC_9FNJhvKecmg_NtodA",
+          "title": "news balitv",
+          "handle_url": "http://www.youtube.com/@newsbalitv",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "a4648236bd87c1d385545ec4f38b4986b832cfdb6b9bc61dc8a17d09c51002c2"
+        }
+      },
+      {
+        "record_id": "R023",
+        "province_frame": "Bali",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Bali",
+        "youtube_url": "https://www.youtube.com/channel/UCJns204aCd1u4B8w_FbMxGQ",
+        "youtube_channel_id": "UCJns204aCd1u4B8w_FbMxGQ",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://www.youtube.com/@tvristasiunbali",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_05",
+          "https://www.youtube.com/watch?v=69mL7jyDJWY",
+          "https://www.youtube.com/channel/UCJns204aCd1u4B8w_FbMxGQ"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Kandidat handle diselesaikan langsung pada YouTube primer: nama TVRI Bali, canonical UCJns204aCd1u4B8w_FbMxGQ dan link Instagram tvribali. Kanal menampilkan program TVRI Bali, tetapi About header tidak memuat deskripsi resmi dan crosslink publisher exact belum ditemukan. Video profil yang masih terindeks kini private di browser; jangan jadikan bukti aktivitas aktif tunggal. Tidak dipromosikan hanya karena nama.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRIStasiunBali"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:46.881655+00:00",
+          "requested_url": "https://www.youtube.com/@TVRIStasiunBali",
+          "youtube_channel_id": "UCJns204aCd1u4B8w_FbMxGQ",
+          "title": "TVRI Bali",
+          "handle_url": "http://www.youtube.com/@TVRIStasiunBali",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "309cfd58f1ee1ee104903ac2aa302d670be7b6104db6ba47c933d4ed685d1ae9"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCJns204aCd1u4B8w_FbMxGQ",
+          "previous_verification_status": "crosscheck_pending"
+        }
+      },
+      {
+        "record_id": "R024",
+        "province_frame": "Nusa Tenggara Barat",
+        "publisher": "TVRI",
+        "channel_name": "TVRI NTB",
+        "youtube_url": "https://www.youtube.com/channel/UC4McL01RGjeLux7SnCUhDCA",
+        "youtube_channel_id": "UC4McL01RGjeLux7SnCUhDCA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://ntbprov.go.id/post/wagub-ntb-penayangan-piala-dunia-2026-di-tvri-jadi-kebanggaan-masyarakat-indonesia",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://www.youtube.com/channel/UC4McL01RGjeLux7SnCUhDCA",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_19"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: YouTube primary index resolves name TVRI NTB and handle @TVRI_NTB; profile upload and description identify TVRI Nusa Tenggara Barat. Exact publisher-side crosslink not located in bounded search. Prior TVRI_CH_00 is TVRI Nasional, not NTB. MBG availability not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRI_NTB"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:58.727307+00:00",
+          "requested_url": "https://www.youtube.com/@TVRI_NTB",
+          "youtube_channel_id": "UC4McL01RGjeLux7SnCUhDCA",
+          "title": "TVRI NTB",
+          "handle_url": "http://www.youtube.com/@TVRI_NTB",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "7e33726e3fe51b5a4ea0f6767541345d8967cfa286176e86657f1f48babff88f"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UC4McL01RGjeLux7SnCUhDCA",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R025",
+        "province_frame": "Nusa Tenggara Barat",
+        "publisher": "Suara NTB",
+        "channel_name": "SUARANTBcom",
+        "youtube_url": "https://www.youtube.com/channel/UCjcZ_m8uXJTT-gANrYcP68g",
+        "youtube_channel_id": "UCjcZ_m8uXJTT-gANrYcP68g",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://suarantb.com/2024/08/15/alumni-beasiswa-ntb-titip-harapan-untuk-bang-zul/",
+          "https://suarantb.com/",
+          "https://suarantb.com/tentang-kami/",
+          "https://suarantb.com/2026/10/09/pertamina-dorong-ekonomi-sirkular-dan-mandiri-energi-di-desa-kuta-sambut-motogp-mandalika-2026/",
+          "https://www.youtube.com/channel/UCjcZ_m8uXJTT-gANrYcP68g"
+        ],
+        "notes": "Root public raw HTML extraction from publisher homepage and 9 Oct 2026 video article finds exact YouTube href https://www.youtube.com/suarantbcom; article also embeds video oc99WgByk0Y. Canonical channel ID now resolved from public YouTube metadata. Do not confuse suarantb.com (Bali Post group) with suara.com/ntb. MBG not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Primary publisher homepage exact outbound YouTube link proves publisher-to-URL relationship; raw observation recorded in publisher_outbound_links.json.",
+        "observed_handles": [
+          "@SUARANTBcom"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:45.644398+00:00",
+          "requested_url": "https://www.youtube.com/suarantbcom",
+          "youtube_channel_id": "UCjcZ_m8uXJTT-gANrYcP68g",
+          "title": "SUARANTBcom",
+          "handle_url": "http://www.youtube.com/@SUARANTBcom",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "f29a343c1598d4262be8f95222c34edf78cf0bb25e9ed766e13c4357cd4172a4"
+        }
+      },
+      {
+        "record_id": "R027",
+        "province_frame": "Nusa Tenggara Timur",
+        "publisher": "Pos Kupang",
+        "channel_name": "POS KUPANG",
+        "youtube_url": "https://www.youtube.com/channel/UCVy-0L8I4ME0DHqc9wVYtsg",
+        "youtube_channel_id": "UCVy-0L8I4ME0DHqc9wVYtsg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=F0MN_-7Uyms",
+          "https://www.youtube.com/watch?v=LB8pjhqD6E8",
+          "https://www.youtube.com/watch?v=EGCulyv5Ef0",
+          "https://www.youtube.com/channel/UCVy-0L8I4ME0DHqc9wVYtsg"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Public YouTube oEmbed for evidence video F0MN_-7Uyms returns POS KUPANG at @POSKUPANGKU. Public channel metadata resolves the handle to UCVy-0L8I4ME0DHqc9wVYtsg. Video descriptions identify POS-KUPANG.COM, but exact publisher-side affiliation remains unconfirmed because the publisher site was inaccessible. MBG availability not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@POSKUPANGKU"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:45.809415+00:00",
+          "requested_url": "https://www.youtube.com/@POSKUPANGKU",
+          "youtube_channel_id": "UCVy-0L8I4ME0DHqc9wVYtsg",
+          "title": "POS KUPANG",
+          "handle_url": "http://www.youtube.com/@POSKUPANGKU",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "f01ef77e54b57ef6a686c178e173ab8a603bf4ea4fe042781b38853ad88f212c"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCVy-0L8I4ME0DHqc9wVYtsg",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R028",
+        "province_frame": "Kalimantan Barat",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Kalbar",
+        "youtube_url": "https://www.youtube.com/channel/UCpKK_m89tNO5cBoAXkId0TQ",
+        "youtube_channel_id": "UCpKK_m89tNO5cBoAXkId0TQ",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UC3HCy0KEW6S0pkulqYEFAWg",
+          "https://shor.by/gtxk",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_13",
+          "https://shor.by/grN3",
+          "https://www.youtube.com/watch?v=TdC4r97Sf-M",
+          "https://www.youtube.com/@TVRIKalbar",
+          "https://www.youtube.com/channel/UCpKK_m89tNO5cBoAXkId0TQ"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Identitas pilihan saat ini tercatat pada metadata publik baru; identitas registry sebelumnya dipertahankan terpisah tanpa mengklaim migrasi. Catatan pemeriksaan sebelumnya: Resolved publisher service directory button 'Nonton Melalui Live Streaming Youtube' through shor.by/grN3 to exact existing UC ID. Separate social YouTube button shor.by/A6M1 leads /c/TVRIKalbar; do not replace live channel with program channel silently. Root initial direct fetch lacked metadata; this is not proof of inactivity. MBG availability not assessed. Tautan penerbit ditemukan, tetapi metadata kanal terkini belum berhasil diselesaikan pada pengecekan publik. Record tidak disertakan dalam pilihan otomatis; kegagalan ini bukan bukti pasti kanal telah dihapus.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Peneliti memilih handle persis. ID kanal dibaca dari meta identifier dan RSS halaman publik YouTube yang saling cocok; bukan klaim tautan silang penerbit baru.",
+        "observed_handles": [
+          "@TVRIKalbar"
+        ],
+        "verification_checked_on": "2026-10-20",
+        "public_metadata_check": {
+          "requested_url": "https://www.youtube.com/@TVRIKalbar",
+          "http_status": 200,
+          "status": "resolved_from_public_html",
+          "checked_at_utc": "2026-10-20T09:44:49.8828656Z",
+          "youtube_channel_id": "UCpKK_m89tNO5cBoAXkId0TQ",
+          "title": "TVRI Kalbar",
+          "handle_url": "https://www.youtube.com/@TVRIKalbar",
+          "metadata_fields": {
+            "schema_org_identifier": "UCpKK_m89tNO5cBoAXkId0TQ",
+            "rss_channel_id": "UCpKK_m89tNO5cBoAXkId0TQ"
+          },
+          "html_sha256": "306439a57ff99ac11944d93b9b8c7f37dae9711ba24d909b4d0a5902f41b5177",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@TVRIKalbar",
+          "previous_verification_status": "publisher_link_unresolved"
+        },
+        "previous_registry_identity": {
+          "channel_name": "TVRI Kalbar Live Streaming",
+          "youtube_url": "https://www.youtube.com/channel/UC3HCy0KEW6S0pkulqYEFAWg",
+          "youtube_channel_id": "UC3HCy0KEW6S0pkulqYEFAWg",
+          "verification_status": "publisher_link_unresolved",
+          "observed_handles": [],
+          "public_metadata_check": {
+            "status": "channel_metadata_not_found",
+            "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+            "requested_url": "https://www.youtube.com/channel/UC3HCy0KEW6S0pkulqYEFAWg",
+            "checked_at_utc": "2026-10-18T15:59:45.057391+00:00"
+          },
+          "replacement_basis": "Pilihan pengganti dari peneliti; tidak menyatakan migrasi atau kesinambungan historis antar-kanal."
+        }
+      },
+      {
+        "record_id": "R029",
+        "province_frame": "Kalimantan Tengah",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Kalteng",
+        "youtube_url": "https://www.youtube.com/channel/UCfos1HX7R4zA-uY9JhYfoMQ",
+        "youtube_channel_id": "UCfos1HX7R4zA-uY9JhYfoMQ",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UC0prZ7ggPRHi-bxepmxKC3g",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://diskopukm.kalteng.go.id/berita/detail/tvri-kalteng-bicara--koperasi-dan-umkm-sebagai-penggerak-ekonomi-di-kalimantan-tengah",
+          "https://www.youtube.com/live/Z5qUhnHEZ9M",
+          "https://www.kalteng.go.id/berita/read/1539/sinergitas-pemprov-kalteng-amp-tvri-dalam-meningkatkan-kualitas-layanan-kepada-masyarakat",
+          "https://www.youtube.com/@TVRIKALIMANTANTENGAHOFFICIAL",
+          "https://www.youtube.com/channel/UCfos1HX7R4zA-uY9JhYfoMQ"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Identitas pilihan saat ini tercatat pada metadata publik baru; identitas registry sebelumnya dipertahankan terpisah tanpa mengklaim migrasi. Catatan pemeriksaan sebelumnya: Primary indexed YouTube maps old ID to @livestreamingtvrikalteng, but root current direct ID fetch has no metadata and handle fetch returned HTTP 404. Government participant page links live video Z5qUhnHEZ9M, whose current owner should be resolved. Do not infer current active identity from stale index or generic TVRI_CH_00 national directory.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Peneliti memilih handle persis. ID kanal dibaca dari meta identifier dan RSS halaman publik YouTube yang saling cocok; bukan klaim tautan silang penerbit baru.",
+        "observed_handles": [
+          "@TVRIKALIMANTANTENGAHOFFICIAL"
+        ],
+        "verification_checked_on": "2026-10-20",
+        "public_metadata_check": {
+          "requested_url": "https://www.youtube.com/@TVRIKALIMANTANTENGAHOFFICIAL",
+          "http_status": 200,
+          "status": "resolved_from_public_html",
+          "checked_at_utc": "2026-10-20T09:44:50.2759296Z",
+          "youtube_channel_id": "UCfos1HX7R4zA-uY9JhYfoMQ",
+          "title": "TVRI Kalteng",
+          "handle_url": "https://www.youtube.com/@TVRIKALIMANTANTENGAHOFFICIAL",
+          "metadata_fields": {
+            "schema_org_identifier": "UCfos1HX7R4zA-uY9JhYfoMQ",
+            "rss_channel_id": "UCfos1HX7R4zA-uY9JhYfoMQ"
+          },
+          "html_sha256": "b16d273d407d5f271179b367b545af06ab4cc19ab431f7797bed7ff09d48659b",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@TVRIKALIMANTANTENGAHOFFICIAL",
+          "previous_verification_status": "crosscheck_pending"
+        },
+        "previous_registry_identity": {
+          "channel_name": "Live Streaming TVRI Kalteng",
+          "youtube_url": "https://www.youtube.com/channel/UC0prZ7ggPRHi-bxepmxKC3g",
+          "youtube_channel_id": "UC0prZ7ggPRHi-bxepmxKC3g",
+          "verification_status": "crosscheck_pending",
+          "observed_handles": [
+            "@livestreamingtvrikalteng"
+          ],
+          "public_metadata_check": {
+            "status": "channel_metadata_not_found",
+            "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+            "requested_url": "https://www.youtube.com/channel/UC0prZ7ggPRHi-bxepmxKC3g",
+            "checked_at_utc": "2026-10-18T15:59:45.245387+00:00"
+          },
+          "replacement_basis": "Pilihan pengganti dari peneliti; tidak menyatakan migrasi atau kesinambungan historis antar-kanal."
+        }
+      },
+      {
+        "record_id": "R030",
+        "province_frame": "Kalimantan Selatan",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Kalimantan Selatan Live Streaming",
+        "youtube_url": "https://www.youtube.com/channel/UCb8blDvcEntSUtE0JC0ijbg",
+        "youtube_channel_id": "UCb8blDvcEntSUtE0JC0ijbg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCb8blDvcEntSUtE0JC0ijbg",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://diskominfomc.kalselprov.go.id/2026/01/29/diskominfo-kalsel-apresiasi-peran-tvri-sebagai-jembatan-informasi-pemerintah-ke-masyarakat/",
+          "https://diskominfomc.kalselprov.go.id/2026/01/05/bpbd-kalsel-paparkan-dampak-banjir-dan-upaya-penanggulangan-pada-program-perspektif-tvri/"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root public metadata resolves existing UC ID to title TVRI Kalimantan Selatan Live Streaming and @tvrikalsellive. Government reports confirm station and programs but not exact channel URL; affiliation crosslink remains pending. Avoid same-name small accounts.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvrikalsellive"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:28.064460+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCb8blDvcEntSUtE0JC0ijbg",
+          "youtube_channel_id": "UCb8blDvcEntSUtE0JC0ijbg",
+          "title": "TVRI Kalimantan Selatan Live Streaming",
+          "handle_url": "http://www.youtube.com/@tvrikalsellive",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "e94d2ba28cb8e6a97fe9f70bd59d9e067379e5b3c6aeeb71fbb9e52e17210a5f"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCb8blDvcEntSUtE0JC0ijbg",
+          "previous_verification_status": "crosscheck_pending"
+        }
+      },
+      {
+        "record_id": "R031",
+        "province_frame": "Kalimantan Timur",
+        "publisher": "TVRI",
+        "channel_name": "TVRI KALIMANTAN TIMUR",
+        "youtube_url": "https://www.youtube.com/channel/UC7uTmoyZwcg-495-VXgDmqg",
+        "youtube_channel_id": "UC7uTmoyZwcg-495-VXgDmqg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UC7uTmoyZwcg-495-VXgDmqg",
+          "https://www.peternakan.kaltimprov.go.id/agenda/dpkh-kaltim-bahas-kesiapan-hewan-kurban-di-program-publika-tvri",
+          "https://ikn.go.id/id/posts/pesan-keimanan-dan-anti-hoaks-warnai-nusantara-bertabligh-jilid-ii-di-ikn"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root metadata resolves existing ID to @tvristasiunkalimantantimur. OIKN 23 Nov 2025 report instead points to separate live handle @LiveTvriKalimantanTimur. This official reference cannot be used to assert existing channel is same ID. Retain news/station channel identity pending exact publisher crosslink.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvristasiunkalimantantimur",
+          "@LiveTvriKalimantanTimur"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:28.149621+00:00",
+          "requested_url": "https://www.youtube.com/channel/UC7uTmoyZwcg-495-VXgDmqg",
+          "youtube_channel_id": "UC7uTmoyZwcg-495-VXgDmqg",
+          "title": "TVRI KALIMANTAN TIMUR",
+          "handle_url": "http://www.youtube.com/@tvristasiunkalimantantimur",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "519378eaeece5673f3ab0ce03ca51df1f807b45033889555c5f231113b639e12"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UC7uTmoyZwcg-495-VXgDmqg",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R032",
+        "province_frame": "Kalimantan Utara",
+        "publisher": "Tribun Kaltara",
+        "channel_name": "Tribun Kaltara Official",
+        "youtube_url": "https://www.youtube.com/channel/UCMX8N60EN6Rlz7cH9OJrigw",
+        "youtube_channel_id": "UCMX8N60EN6Rlz7cH9OJrigw",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://kaltara.tribunnews.com/",
+          "https://www.youtube.com/watch?v=bBl2ZZmq_Mg",
+          "https://www.youtube.com/watch?v=g0ObG_7S3mE",
+          "https://www.youtube.com/watch?v=gM8qVDsD_s8",
+          "https://kaltara.antaranews.com/berita/511605/debat-publik-pertama-calon-bupatiwakil-bupati-bulungan-pada-23-oktober-2024",
+          "https://www.youtube.com/channel/UCMX8N60EN6Rlz7cH9OJrigw"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root public YouTube oEmbed of bBl2ZZmq_Mg returns Tribun Kaltara Official at @tribunkaltara. Primary YouTube index also has 2026 uploads. Canonical UC ID now resolved from public YouTube metadata. Publisher portal returned 403; no bypass attempted. ANTARA's named-channel reference supports activity but does not prove exact URL.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tribunkaltara"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:46.107658+00:00",
+          "requested_url": "https://www.youtube.com/@tribunkaltara",
+          "youtube_channel_id": "UCMX8N60EN6Rlz7cH9OJrigw",
+          "title": "Tribun Kaltara Official",
+          "handle_url": "http://www.youtube.com/@tribunkaltara",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "d68f5da9538f2eea2e6918bdf4a88dafc7584d8e20cdfbbc2c6f428bdad629af"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCMX8N60EN6Rlz7cH9OJrigw",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R033",
+        "province_frame": "Sulawesi Utara",
+        "publisher": "TVRI",
+        "channel_name": "TVRI SULAWESI UTARA",
+        "youtube_url": "https://www.youtube.com/channel/UCQKAjIBbfjrYeZrkW546eNA",
+        "youtube_channel_id": "UCQKAjIBbfjrYeZrkW546eNA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCQKAjIBbfjrYeZrkW546eNA",
+          "https://manado.pom.go.id/storage/informasipublik/Balai-Besar-POM-di-Manado-_LAKIP%20INTERIM%20TW%201%20TAHUN%202023%20BBPOM%20DI%20MANADO_26042023%20-%20Copy1.pdf"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root metadata resolves current ID and @tvrisulawesiutara. Registry description self-identifies official LPP TVRI station; no exact publisher-side crosslink located in bounded search. BPOM report confirms TVRI Sulut Forum Publik streamed to social media, but not exact URL.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvrisulawesiutara"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:28.481883+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCQKAjIBbfjrYeZrkW546eNA",
+          "youtube_channel_id": "UCQKAjIBbfjrYeZrkW546eNA",
+          "title": "TVRI SULAWESI UTARA",
+          "handle_url": "http://www.youtube.com/@tvrisulawesiutara",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "dea9e1b72bedd23e5f37525dd2f19ae320c7e65d8182fd3c89970b41a92af9bc"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCQKAjIBbfjrYeZrkW546eNA",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R034",
+        "province_frame": "Gorontalo",
+        "publisher": "TVRI",
+        "channel_name": "tvri gorontalo",
+        "youtube_url": "https://www.youtube.com/channel/UCocMVpIWbr_sE5dnXae7-dQ",
+        "youtube_channel_id": "UCocMVpIWbr_sE5dnXae7-dQ",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCocMVpIWbr_sE5dnXae7-dQ",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_00",
+          "https://fis.ung.ac.id/home/berita/tvri-gorontalo-percepat-transformasi-digital-demi-tingkatkan-layanan-siaran"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root metadata confirms current title tvri gorontalo and @tvrigorontalo2630. Primary university report describes a direct visit/interview with TVRI content team and active official social platforms, but contains no exact YouTube URL. Crosslink still pending; CH_00 national listing is not enough.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvrigorontalo2630"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:29.767051+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCocMVpIWbr_sE5dnXae7-dQ",
+          "youtube_channel_id": "UCocMVpIWbr_sE5dnXae7-dQ",
+          "title": "tvri gorontalo",
+          "handle_url": "http://www.youtube.com/@tvrigorontalo2630",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "300662646a7d0e1c434fa497ff8ab2fb81c5387686632e58a1d7fb6bb55f7f52"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCocMVpIWbr_sE5dnXae7-dQ",
+          "previous_verification_status": "crosscheck_pending"
+        }
+      },
+      {
+        "record_id": "R035",
+        "province_frame": "Sulawesi Tengah",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sulawesi Tengah",
+        "youtube_url": "https://www.youtube.com/channel/UCBTJw6YPjIGI-gKuV6QdF6g",
+        "youtube_channel_id": "UCBTJw6YPjIGI-gKuV6QdF6g",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/c/TVRISulawesiTengah",
+          "https://www.tvrisulteng.co.id/p/livestreaming.html",
+          "https://www.youtube.com/@TVRISulawesiTengah",
+          "https://www.youtube.com/channel/UCBTJw6YPjIGI-gKuV6QdF6g"
+        ],
+        "notes": "Official station page Media Sosial > Youtube link resolves exact @TVRISulawesiTengah. Root canonical public metadata maps both existing /c/ URL and handle to UCBTJw6YPjIGI-gKuV6QdF6g. Identity confirmed; MBG availability not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Station website exact social link plus root public canonical metadata establishes publisher-to-handle-to-ID.",
+        "observed_handles": [
+          "@TVRISulawesiTengah"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:28.958919+00:00",
+          "requested_url": "https://www.youtube.com/c/TVRISulawesiTengah",
+          "youtube_channel_id": "UCBTJw6YPjIGI-gKuV6QdF6g",
+          "title": "TVRI Sulawesi Tengah",
+          "handle_url": "http://www.youtube.com/@TVRISulawesiTengah",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "4c678071af3218701ff31ce7640107f29ed30de78797df3165d4f4c791f39383"
+        }
+      },
+      {
+        "record_id": "R036",
+        "province_frame": "Sulawesi Barat",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sulawesi Barat",
+        "youtube_url": "https://www.youtube.com/channel/UCoWiOzsUFBbhnt6hDLW_IRw",
+        "youtube_channel_id": "UCoWiOzsUFBbhnt6hDLW_IRw",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://tvrisulbar.id/",
+          "https://www.youtube.com/channel/UCoWiOzsUFBbhnt6hDLW_IRw"
+        ],
+        "notes": "Didukung identitas dan tautan sosial situs stasiun. Program regional juga dapat meliput luar provinsi.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Bukti afiliasi penerbit dari registry awal dipertahankan; pemetaan URL ke ID diperiksa ulang melalui metadata publik YouTube.",
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:29.170916+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCoWiOzsUFBbhnt6hDLW_IRw",
+          "youtube_channel_id": "UCoWiOzsUFBbhnt6hDLW_IRw",
+          "title": "TVRI Sulawesi Barat",
+          "handle_url": "http://www.youtube.com/@tvrisulbar",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "4ebeb13677beea1efe093345415c8cb29ec086e72f7291be29b9b3ce8c6c72d7"
+        },
+        "observed_handles": [
+          "@tvrisulbar"
+        ]
+      },
+      {
+        "record_id": "R037",
+        "province_frame": "Sulawesi Selatan",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sulawesi Selatan",
+        "youtube_url": "https://www.youtube.com/channel/UCHKckJY79h3fQzxjatoexdQ",
+        "youtube_channel_id": "UCHKckJY79h3fQzxjatoexdQ",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://tvrisulsel.id/",
+          "https://www.youtube.com/@TVRISulselOfficial",
+          "https://www.youtube.com/channel/UCHKckJY79h3fQzxjatoexdQ"
+        ],
+        "notes": "Rechecked official station homepage Subscribers link to exact handle @TVRISulselOfficial. Root public metadata supplies UCHKckJY79h3fQzxjatoexdQ. MBG availability not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Publisher homepage exact link and public canonical metadata confirm ID.",
+        "observed_handles": [
+          "@TVRISulselOfficial"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:29.886054+00:00",
+          "requested_url": "https://www.youtube.com/@TVRISulselOfficial",
+          "youtube_channel_id": "UCHKckJY79h3fQzxjatoexdQ",
+          "title": "TVRI Sulawesi Selatan",
+          "handle_url": "http://www.youtube.com/@TVRISulselOfficial",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "a65824d56c68a419fbb75470678612d39595bbc7ce68905dffadac5d943947fc"
+        }
+      },
+      {
+        "record_id": "R038",
+        "province_frame": "Sulawesi Tenggara",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Sulawesi Tenggara",
+        "youtube_url": "https://www.youtube.com/channel/UCgmaoTKizML1Tpae8AtG6kw",
+        "youtube_channel_id": "UCgmaoTKizML1Tpae8AtG6kw",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UCgmaoTKizML1Tpae8AtG6kw"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Primary YouTube indexed channel and root public metadata agree on @TVRISulawesiTenggara and existing UC ID. Official description self-identifies station; no independent publisher-side exact crosslink located. Keep below publisher_confirmed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRISulawesiTenggara"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:29.979048+00:00",
+          "requested_url": "https://www.youtube.com/channel/UCgmaoTKizML1Tpae8AtG6kw",
+          "youtube_channel_id": "UCgmaoTKizML1Tpae8AtG6kw",
+          "title": "TVRI Sulawesi Tenggara",
+          "handle_url": "http://www.youtube.com/@TVRISulawesiTenggara",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "42a70ec2afab8d7b5ed89f550415e41518c27aaa660bc6dbcd5749a2932edd03"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCgmaoTKizML1Tpae8AtG6kw",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R039",
+        "province_frame": "Maluku",
+        "publisher": "TVRI",
+        "channel_name": "TVRI STASIUN MALUKU",
+        "youtube_url": "https://www.youtube.com/channel/UCGGsXcmyunGS9e7QmLuamjg",
+        "youtube_channel_id": "UCGGsXcmyunGS9e7QmLuamjg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=C1NEt6-4O4w",
+          "https://www.youtube.com/channel/UC-k1Kl7GtQVsTHrZaF8WOmg",
+          "https://www.youtube.com/@TVRISTASIUNMALUKU",
+          "https://www.youtube.com/channel/UCGGsXcmyunGS9e7QmLuamjg"
+        ],
+        "notes": "PRIMARY MIGRATION CONFIRMED: root public metadata of archival UC-k1Kl7GtQVsTHrZaF8WOmg (now Sudah Tidak Aktif; @tvrimaluku) states security issues and directs all new news, programs, podcasts, documentaries, and broadcasts to @TVRISTASIUNMALUKU. New handle resolves UCGGsXcmyunGS9e7QmLuamjg, TVRI STASIUN MALUKU, with official station description and same TVRI Maluku social accounts. Preserve old ID as archival predecessor; migration date not established and matters for research-period coverage. MBG availability not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Primary old-channel description directly links replacement; primary current channel metadata supplies new UC ID and station description. Both observations in additional_channel_resolution.json.",
+        "observed_handles": [
+          "@TVRISTASIUNMALUKU",
+          "@tvrimaluku"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "archival_predecessor": {
+          "youtube_channel_id": "UC-k1Kl7GtQVsTHrZaF8WOmg",
+          "youtube_url": "https://www.youtube.com/channel/UC-k1Kl7GtQVsTHrZaF8WOmg",
+          "migration_date": null,
+          "include_automatically": false
+        },
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:58.951305+00:00",
+          "requested_url": "https://www.youtube.com/@TVRISTASIUNMALUKU",
+          "youtube_channel_id": "UCGGsXcmyunGS9e7QmLuamjg",
+          "title": "TVRI STASIUN MALUKU",
+          "handle_url": "http://www.youtube.com/@TVRISTASIUNMALUKU",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "6d28d3d6d9a6cae6da1b92b0754db7a877aa6a684c87d2477f2c08c90d53b5c2"
+        }
+      },
+      {
+        "record_id": "R040",
+        "province_frame": "Maluku Utara",
+        "publisher": "TVRI",
+        "channel_name": "TVRI MALUKU UTARA",
+        "youtube_url": "https://www.youtube.com/channel/UClrOKOxmumOGsyXFyaqJ4lw",
+        "youtube_channel_id": "UClrOKOxmumOGsyXFyaqJ4lw",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UClrOKOxmumOGsyXFyaqJ4lw",
+          "https://balaibahasamalut.kemendikdasmen.go.id/index.php/2026/10/04/balai-bahasa-maluku-utara-perkuat-kolaborasi-dengan-tvri-dan-lpka-kelas-ii-ternate-kerja-sama-dorong-penguatan-kebahasaan-literasi-dan-pemanfaatan-media-bagi-masyarakat/",
+          "https://malut.brmp.pertanian.go.id/index.php/galeri",
+          "https://youtu.be/Jy_v3W6BV5M"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Primary YouTube channel index says Kanal Youtube Official TVRI Maluku Utara; root canonical metadata resolves @TVRIMALUKUUTARA. Official BRMP participant gallery links TVRI Maluku Utara interview video Jy_v3W6BV5M, whose owner can be checked before upgrading. Official collaboration article confirms station, not exact channel.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@TVRIMALUKUUTARA"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:30.648822+00:00",
+          "requested_url": "https://www.youtube.com/channel/UClrOKOxmumOGsyXFyaqJ4lw",
+          "youtube_channel_id": "UClrOKOxmumOGsyXFyaqJ4lw",
+          "title": "TVRI MALUKU UTARA",
+          "handle_url": "http://www.youtube.com/@TVRIMALUKUUTARA",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "3747fcca10049a5243961831bf801ff077220806a51969bc9634d8b3363f9723"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UClrOKOxmumOGsyXFyaqJ4lw",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R041",
+        "province_frame": "Papua",
+        "publisher": "TVRI",
+        "channel_name": "TVRI Papua",
+        "youtube_url": "https://www.youtube.com/channel/UC_Qlz7E_cH2X-2MvVoS2Gvg",
+        "youtube_channel_id": "UC_Qlz7E_cH2X-2MvVoS2Gvg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/@tvripapua",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_21",
+          "https://www.youtube.com/channel/UC_Qlz7E_cH2X-2MvVoS2Gvg"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root public metadata resolves @tvripapua to UC_Qlz7E_cH2X-2MvVoS2Gvg and TVRI Papua. Exact publisher crosslink not found; station directory only confirms station existence. Coverage cannot be assumed to represent all new Papua provinces.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvripapua"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:30.699820+00:00",
+          "requested_url": "https://www.youtube.com/@tvripapua",
+          "youtube_channel_id": "UC_Qlz7E_cH2X-2MvVoS2Gvg",
+          "title": "TVRI Papua",
+          "handle_url": "http://www.youtube.com/@tvripapua",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "3da71638168c0aa4cdb24238887ccc89da7b3947b7e0e38f4e2b1fcd555dcff9"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UC_Qlz7E_cH2X-2MvVoS2Gvg",
+          "previous_verification_status": "crosscheck_pending"
+        }
+      },
+      {
+        "record_id": "R042",
+        "province_frame": "Papua Barat",
+        "publisher": "TVRI",
+        "channel_name": "Tvri Papua barat",
+        "youtube_url": "https://www.youtube.com/channel/UCDHTRhSb5qG1dsouWeFWlnA",
+        "youtube_channel_id": "UCDHTRhSb5qG1dsouWeFWlnA",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=P8u7QO2K3bs",
+          "https://klik.tvri.go.id/detailchannel/TVRI_CH_32",
+          "https://www.youtube.com/watch?v=JgXlQniokaE",
+          "https://rri.co.id/manokwari/regional/2531959/tvri-papua-barat-tingkatkan-kualitas-siaran-dan-perkuat-konten-budaya-lokal",
+          "https://www.youtube.com/channel/UCDHTRhSb5qG1dsouWeFWlnA"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Root public YouTube oEmbed on both P8u7QO2K3bs and JgXlQniokaE returns uploader Tvri Papua barat at @tvripapuabarat. Canonical UC ID now resolved from public YouTube metadata. TVRI official directory confirms station, but exact external publisher crosslink remains pending. Cross-province service does not establish incident location.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@tvripapuabarat"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:59:46.480653+00:00",
+          "requested_url": "https://www.youtube.com/@tvripapuabarat",
+          "youtube_channel_id": "UCDHTRhSb5qG1dsouWeFWlnA",
+          "title": "Tvri Papua barat",
+          "handle_url": "http://www.youtube.com/@tvripapuabarat",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/followup_channel_resolution.json",
+          "html_sha256": "82fd4b0105de26e381fc8593686b71a0670b44f83627f1861b1b58a89f5454de"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCDHTRhSb5qG1dsouWeFWlnA",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R043",
+        "province_frame": "Papua Selatan",
+        "publisher": "RRI",
+        "channel_name": "RRI Merauke Official",
+        "youtube_url": "https://www.youtube.com/channel/UCgxYoXaSzArPSw3xmLnXcVg",
+        "youtube_channel_id": "UCgxYoXaSzArPSw3xmLnXcVg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://rri.co.id/merauke/regional/1827465/yakobus-resubun-apresiasi-capaian-rri-merauke",
+          "https://www.youtube.com/channel/UCgxYoXaSzArPSw3xmLnXcVg"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Catatan pemeriksaan sebelumnya: Primary YouTube indexed description explicitly says Channel Resmi RRI Merauke and province Papua Selatan, Merauke. Canonical ID and handle obtained. Publisher report independently confirms local subscriber growth, but no exact handle crosslink was located; keep self-identified. MBG not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "ID/handle pilihan cocok dengan pemetaan registry sebelumnya dan dikonfirmasi langsung oleh peneliti pada 20 Oktober 2026; status user_confirmed tidak mengklaim bukti afiliasi penerbit baru.",
+        "observed_handles": [
+          "@rrimerauke_official"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:59.484305+00:00",
+          "requested_url": "https://www.youtube.com/@rrimerauke_official",
+          "youtube_channel_id": "UCgxYoXaSzArPSw3xmLnXcVg",
+          "title": "RRI Merauke Official",
+          "handle_url": "http://www.youtube.com/@rrimerauke_official",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "130883faf862cf3bd667ff69eb18b02a8e673edee27f4b5a83118d458e0891b0"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/channel/UCgxYoXaSzArPSw3xmLnXcVg",
+          "previous_verification_status": "channel_self_identified"
+        }
+      },
+      {
+        "record_id": "R044",
+        "province_frame": "Papua Tengah",
+        "publisher": "RRI",
+        "channel_name": "RRINET NABIRE",
+        "youtube_url": "https://www.youtube.com/channel/UC3zLiSKGiN9WNJUvb-svTXg",
+        "youtube_channel_id": "UC3zLiSKGiN9WNJUvb-svTXg",
+        "verification_status": "user_confirmed",
+        "evidence_urls": [
+          "https://rri.co.id/nabire/lainnya/1048738/waktu-tempat-pelaksanaan-debat-kandidat-pilkada-nabire-alami-perubahan",
+          "https://nabire.ppid.rri.go.id/berita/ppid-rri/1272/kepala-lpp-rri-nabire-surya-s-thalib-sap-msi-melakukan-silaturahmi-ke-kantor-dpr-papua-tengah",
+          "https://www.youtube.com/@rrinetnabire8336",
+          "https://www.youtube.com/channel/UC3zLiSKGiN9WNJUvb-svTXg"
+        ],
+        "notes": "Pembaruan 20 Oktober 2026: peneliti memilih URL kanal ini dan menyetujui pengumpulan sebagai user_confirmed. Identitas pilihan saat ini tercatat pada metadata publik baru; identitas registry sebelumnya dipertahankan terpisah tanpa mengklaim migrasi. Catatan pemeriksaan sebelumnya: Publisher/PPID index explicitly names YouTube RRINet Nabire for local dialogue. No exact channel URL surfaced after bounded search; do not substitute national RRI NET OFFICIAL or Papua Pos Nabire. Full PPID page returned 403, indexed primary text available.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Peneliti memilih handle persis. ID kanal dibaca dari meta identifier dan RSS halaman publik YouTube yang saling cocok; bukan klaim tautan silang penerbit baru.",
+        "observed_handles": [
+          "@rrinetnabire8336"
+        ],
+        "verification_checked_on": "2026-10-20",
+        "public_metadata_check": {
+          "requested_url": "https://www.youtube.com/@rrinetnabire8336",
+          "http_status": 200,
+          "status": "resolved_from_public_html",
+          "checked_at_utc": "2026-10-20T09:44:50.5905080Z",
+          "youtube_channel_id": "UC3zLiSKGiN9WNJUvb-svTXg",
+          "title": "RRINET NABIRE",
+          "handle_url": "https://www.youtube.com/@rrinetnabire8336",
+          "metadata_fields": {
+            "schema_org_identifier": "UC3zLiSKGiN9WNJUvb-svTXg",
+            "rss_channel_id": "UC3zLiSKGiN9WNJUvb-svTXg"
+          },
+          "html_sha256": "c641bee08977938640c34bb6440157013aac1f96df891d8a7cdb99727942cc33",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json"
+        },
+        "user_confirmation": {
+          "confirmed_on": "2026-10-20",
+          "source": "user_provided_channel_link",
+          "youtube_url": "https://www.youtube.com/@rrinetnabire8336",
+          "previous_verification_status": "channel_url_pending"
+        },
+        "previous_registry_identity": {
+          "channel_name": "RRI Nabire (kandidat)",
+          "youtube_url": null,
+          "youtube_channel_id": null,
+          "verification_status": "channel_url_pending",
+          "observed_handles": [],
+          "public_metadata_check": {
+            "status": "not_resolved",
+            "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/regional_east_findings.json"
+          },
+          "replacement_basis": "Pilihan pengganti dari peneliti; tidak menyatakan migrasi atau kesinambungan historis antar-kanal."
+        }
+      },
+      {
+        "record_id": "R046",
+        "province_frame": "Papua Barat Daya",
+        "publisher": "RRI",
+        "channel_name": "RRI SORONG",
+        "youtube_url": "https://www.youtube.com/channel/UCLqT3yWJso_4cv5_uoAzf_A",
+        "youtube_channel_id": "UCLqT3yWJso_4cv5_uoAzf_A",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://rri.co.id/sorong/iptek/1736584/tips-personal-branding-ala-influencer-sorong-erlynda-kho",
+          "https://rri.co.id/sorong/regional/2684095/srikandi-polwan-papua-barat-daya-hadir-di-program-rri-sorong-bisa",
+          "https://www.youtube.com/@RRISorong",
+          "https://www.youtube.com/channel/UCLqT3yWJso_4cv5_uoAzf_A"
+        ],
+        "notes": "Reopened publisher article explicitly credits Foto/Youtube:@RRISorong and links dialog video. Root public metadata maps exact publisher handle to UCLqT3yWJso_4cv5_uoAzf_A. DIFFERENT self-described official channel @lpprrisorong maps UC4XQvCk2jW4Qp04aN18-S8Q; do not merge or overwrite registry with that alternative by display name. MBG not assessed.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Publisher exact handle credit plus root public canonical metadata proves intended current registry identity; similarly named older/other channel kept as conflict note.",
+        "observed_handles": [
+          "@RRISorong",
+          "@lpprrisorong"
+        ],
+        "verification_checked_on": "2026-10-18",
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:54:31.321373+00:00",
+          "requested_url": "https://www.youtube.com/@RRISorong",
+          "youtube_channel_id": "UCLqT3yWJso_4cv5_uoAzf_A",
+          "title": "RRI SORONG",
+          "handle_url": "http://www.youtube.com/@RRISORONG",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/public_channel_resolution.json",
+          "html_sha256": "b7d73a386c23d1a37f8bc3fef45068aed16034c05cbc216c64c3fc03a3b3d84a"
+        }
+      }
+    ],
+    "pemerintah": [
+      {
+        "record_id": "G001",
+        "province_frame": null,
+        "publisher": "Badan Gizi Nasional",
+        "channel_name": "Badan Gizi Nasional Republik Indonesia",
+        "youtube_url": "https://www.youtube.com/channel/UC3USej-LVYCple4BOOLGYTg",
+        "youtube_channel_id": "UC3USej-LVYCple4BOOLGYTg",
+        "verification_status": "publisher_confirmed",
+        "evidence_urls": [
+          "https://www.youtube.com/channel/UC3USej-LVYCple4BOOLGYTg",
+          "https://www.bgn.go.id/news/video/luncurkan-maskot-baru-bgn-siap-gencarkan-publikasi-program-mbg",
+          "https://ppid.bgn.go.id/",
+          "https://jdih.bgn.go.id/",
+          "https://www.youtube.com/@BadanGiziNasional"
+        ],
+        "notes": "Situs PPID dan JDIH BGN menautkan tepat @BadanGiziNasional. Metadata publik menyelesaikannya ke Badan Gizi Nasional Republik Indonesia dan ID ini. URL ID lama memiliki posisi tanda hubung salah dan telah dikoreksi. Ketersediaan video MBG belum diuji.",
+        "enabled_for_collection": true,
+        "identity_evidence_summary": "Tautan silang dua situs resmi BGN ke handle persis, diikuti pemetaan handle ke canonical UC ID melalui metadata publik tanpa API key.",
+        "verification_checked_on": "2026-10-18",
+        "observed_handles": [
+          "@BadanGiziNasional"
+        ],
+        "public_metadata_check": {
+          "status": "resolved",
+          "checked_at_utc": "2026-10-18T15:55:54.885229+00:00",
+          "requested_url": "https://www.youtube.com/@BadanGiziNasional",
+          "youtube_channel_id": "UC3USej-LVYCple4BOOLGYTg",
+          "title": "Badan Gizi Nasional Republik Indonesia",
+          "handle_url": "http://www.youtube.com/@BadanGiziNasional",
+          "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-18/additional_channel_resolution.json",
+          "html_sha256": "0ea026c76cd309cc1c8c4c5b3ad0bf3a3f160a9fb69111ae9e26d2dfa1daebbe"
+        }
+      }
+    ]
+  },
+  "last_updated_on": "2026-10-20",
+  "registry_pruning_update": {
+    "pruned_on": "2026-10-20",
+    "source": "Explicit user request to remove unused channels from the active registry.",
+    "removed_record_ids": [
+      "N026",
+      "N027",
+      "N028",
+      "R026",
+      "R045"
+    ],
+    "records_before": 77,
+    "records_after": 72,
+    "selected_channels_before": 72,
+    "selected_channels_after": 72,
+    "backup": "backup/registry_prune_unused_20261020_19ac22e8/",
+    "note": "Only the five inactive rows were removed from categories. All 72 retained channel records, IDs, selection criteria, and historical audit snapshots are unchanged. Dated user_confirmation_update, regional_user_confirmation_update, verification_audit, and older notes may refer to removed records as historical context, not active entries. No collected datasets were deleted."
+  },
+  "regional_user_confirmation_update": {
+    "confirmed_on": "2026-10-20",
+    "source": "User supplied regional channel URLs, corrected Kalsel to UCb8blDvcEntSUtE0JC0ijbg, and explicitly approved updating the registry.",
+    "newly_enabled_record_ids": [
+      "R001",
+      "R002",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R012",
+      "R013",
+      "R015",
+      "R018",
+      "R019",
+      "R021",
+      "R023",
+      "R024",
+      "R027",
+      "R028",
+      "R029",
+      "R030",
+      "R031",
+      "R032",
+      "R033",
+      "R034",
+      "R038",
+      "R040",
+      "R041",
+      "R042",
+      "R043",
+      "R044"
+    ],
+    "excluded_record_ids": [
+      "R026",
+      "R045"
+    ],
+    "replaced_or_resolved_identity_record_ids": [
+      "R015",
+      "R021",
+      "R028",
+      "R029",
+      "R044"
+    ],
+    "ready_before": 43,
+    "ready_after": 72,
+    "evidence_file": "TK2/Youtube/FINAL/verification/2026-10-20/user_regional_channel_resolution.json",
+    "note": "Kalsel uses its own live channel ID, not the Kalteng handle. Previous Kalbar/Kalteng live IDs are preserved for audit, not collected automatically. Earlier verification summaries remain historical. No authenticated YouTube Data API or video/comment collection was run."
+  },
+  "collection_selection_summary": {
+    "as_of": "2026-10-20",
+    "records": 72,
+    "ready": 72,
+    "unique_ready_channel_ids": 72,
+    "by_category": {
+      "media_nasional": {
+        "total": 27,
+        "ready": 27
+      },
+      "media_regional": {
+        "total": 44,
+        "ready": 44
+      },
+      "pemerintah": {
+        "total": 1,
+        "ready": 1
+      }
+    },
+    "by_status": {
+      "publisher_confirmed": 41,
+      "user_confirmed": 31
+    }
+  },
+  "user_confirmation_update": {
+    "confirmed_on": "2026-10-20",
+    "source": "User supplied five channel URLs and explicitly requested the registry update.",
+    "newly_enabled_record_ids": ["N010", "N013"],
+    "already_enabled_record_ids": ["N017", "N018", "N014"],
+    "ready_before": 41,
+    "ready_after": 43,
+    "confirmed_channel_mappings": [
+      {"record_id": "N010", "supplied_url": "https://www.youtube.com/channel/UCGN9JsnkvK05v2lnTI_-uGA"},
+      {"record_id": "N013", "supplied_url": "https://www.youtube.com/channel/UCmxAIW7RDDC88EPk4ry16Kg"},
+      {"record_id": "N017", "supplied_url": "https://www.youtube.com/@tempovideochannel"},
+      {"record_id": "N018", "supplied_url": "https://www.youtube.com/channel/UCnOf30K0d0e8M7mc4FUzR0A"},
+      {"record_id": "N014", "supplied_url": "https://www.youtube.com/channel/UC1QpnGo11epfexw1bIiTHTg"}
+    ],
+    "note": "Tempo uses existing N017, Narasi Newsroom uses N018, and Liputan6 uses N014 once. N026/N027 are not replaced or enabled, and duplicate N028 stays excluded. The older verification_audit.summary is the historical 18-19 October snapshot, not the current selection count. No YouTube API collection was run."
+  },
+  "public_channel_metadata_checked": true,
+  "verification_audit": {
+    "observation_date": "2026-10-18",
+    "merged_on": "2026-10-19",
+    "backup": "FINAL/backup/youtube_channel_registry_before_verification_20261018_155151_UTC.json",
+    "report": "FINAL/verification/2026-10-18/verification_summary.md",
+    "authenticated_api_used": false,
+    "video_comment_collection_run": false,
+    "notebook_modified": false,
+    "checks": "Sumber primer penerbit + pemetaan URL ke metadata canonical publik; konflik dan hasil yang belum tuntas dipertahankan.",
+    "summary": {
+      "records": 77,
+      "previous_ready": 11,
+      "ready": 41,
+      "newly_ready": 30,
+      "by_category": {
+        "media_nasional": {
+          "total": 30,
+          "ready": 25
+        },
+        "media_regional": {
+          "total": 46,
+          "ready": 15
+        },
+        "pemerintah": {
+          "total": 1,
+          "ready": 1
+        }
+      },
+      "by_status": {
+        "publisher_confirmed": 41,
+        "crosscheck_pending": 9,
+        "channel_self_identified": 20,
+        "ambiguous_identity": 1,
+        "duplicate_record": 1,
+        "publisher_link_unresolved": 3,
+        "channel_url_pending": 2
+      }
+    }
+  }
+}

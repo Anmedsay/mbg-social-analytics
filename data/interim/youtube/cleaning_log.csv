@@ -1,0 +1,13 @@
+step,count
+video_rows_before,14515
+video_empty_id,0
+video_duplicate_id,0
+video_rows_after,14515
+comment_rows_before,818828
+comment_empty_id,0
+comment_duplicate_id,79
+comment_empty_text,41
+comment_orphan,0
+comment_repeated_text,52471
+comment_suspected_spam,2236
+comment_rows_after,818708
