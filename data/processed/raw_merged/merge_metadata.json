@@ -1,23 +1,23 @@
 {
-  "created_at_utc": "2026-10-22T12:52:07.155487+00:00",
+  "created_at_utc": "2026-10-24T09:51:49.416148+00:00",
   "input_files": {
-    "youtube_unified": "data/v2/mbg_youtube_v2/output/youtube_unified.csv",
-    "youtube_metadata": "data/v2/mbg_youtube_v2/output/run_metadata.json",
-    "x_unified": "DATADARIX/data/interim/x_unified.csv",
-    "x_clean": "DATADARIX/data/interim/x_clean.csv"
+    "youtube_unified": "data/interim/youtube/youtube_unified.csv",
+    "youtube_metadata": "data/interim/youtube/run_metadata.json",
+    "x_unified": "data/interim/x_unified.csv",
+    "x_clean": "data/interim/x_clean.csv"
   },
-  "youtube_collection_complete": false,
-  "youtube_dataset_created_at_utc": "2026-10-22T11:00:49.296492+00:00",
+  "youtube_collection_complete": true,
+  "youtube_dataset_created_at_utc": "2026-10-24T09:26:12.745631+00:00",
   "rows": {
     "x": 24535,
-    "youtube": 644848,
-    "total": 669383
+    "youtube": 1085353,
+    "total": 1109888
   },
   "doc_types": {
     "youtube": {
-      "comment": 526280,
-      "reply": 107505,
-      "video": 11063
+      "comment": 892141,
+      "reply": 175549,
+      "video": 17663
     },
     "x": {
       "post": 13985,
@@ -28,27 +28,27 @@
   "flags": {
     "is_suspected_spam": {
       "x": 0,
-      "youtube": 2089
+      "youtube": 2357
     },
     "is_repeated_text": {
       "x": 1012,
-      "youtube": 38283
+      "youtube": 69737
     },
     "mentions_mbg": {
       "x": 24187,
-      "youtube": 172660
+      "youtube": 288895
     },
     "mentions_food_safety": {
       "x": 14833,
-      "youtube": 55014
+      "youtube": 88383
     },
     "context_mentions_mbg": {
       "x": 17435,
-      "youtube": 642467
+      "youtube": 1082877
     },
     "is_relevant_candidate": {
       "x": 14731,
-      "youtube": 54785
+      "youtube": 88135
     }
   },
   "province_renamed": {
