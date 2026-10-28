@@ -113,10 +113,3 @@ Notebook juga bisa dijalankan dari folder utama repositori atau dari Google Cola
 | `comments_clean.csv` | 413 MB | `data/interim/youtube/` | Pipeline YouTube | [Google Drive](https://drive.google.com/file/d/1XodX0gF5Ys4rbaT5-kLIDA2Z-g0fnQqL/view?usp=drive_link) |
 | `mbg_merged.csv` | 610 MB | `data/processed/raw_merged/` | Pipeline merge | [Google Drive](https://drive.google.com/file/d/1DJgUZKJmES_pHripBJpS1yk5ZkgiDEzR/view?usp=drive_link) |
 | `mbg_processed.csv` | 887 MB | `data/processed/mbg_processed/` | Prapemrosesan per RQ | [Google Drive](https://drive.google.com/file/d/1VfyK_6EUDLwVF7HN9QUXvdKqZqjkzGYR/view?usp=drive_link) |
-
-## Etika dan privasi
-
-- Hanya konten publik yang dikumpulkan. Data YouTube diambil lewat API resmi; nama tampilan dan foto profil penulis tidak diminta.
-- ID akun YouTube dan *handle* X diganti pseudonim (`author_hash`, SHA-256 dengan *salt* rahasia).
-- Spam, teks berulang, dan dokumen tidak relevan **ditandai, tidak dihapus**, sehingga setiap keputusan penyaringan bisa ditelusuri.
-- Hasil penelitian dilaporkan secara agregat.
