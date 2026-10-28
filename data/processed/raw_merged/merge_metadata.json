@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-10-24T09:51:49.416148+00:00",
+  "input_files": {
+    "youtube_unified": "data/interim/youtube/youtube_unified.csv",
+    "youtube_metadata": "data/interim/youtube/run_metadata.json",
+    "x_unified": "data/interim/x_unified.csv",
+    "x_clean": "data/interim/x_clean.csv"
+  },
+  "youtube_collection_complete": true,
+  "youtube_dataset_created_at_utc": "2026-10-24T09:26:12.745631+00:00",
+  "rows": {
+    "x": 24535,
+    "youtube": 1085353,
+    "total": 1109888
+  },
+  "doc_types": {
+    "youtube": {
+      "comment": 892141,
+      "reply": 175549,
+      "video": 17663
+    },
+    "x": {
+      "post": 13985,
+      "reply": 8069,
+      "quote": 2481
+    }
+  },
+  "flags": {
+    "is_suspected_spam": {
+      "x": 0,
+      "youtube": 2357
+    },
+    "is_repeated_text": {
+      "x": 1012,
+      "youtube": 69737
+    },
+    "mentions_mbg": {
+      "x": 24187,
+      "youtube": 288895
+    },
+    "mentions_food_safety": {
+      "x": 14833,
+      "youtube": 88383
+    },
+    "context_mentions_mbg": {
+      "x": 17435,
+      "youtube": 1082877
+    },
+    "is_relevant_candidate": {
+      "x": 14731,
+      "youtube": 88135
+    }
+  },
+  "province_renamed": {
+    "DI Yogyakarta": "Daerah Istimewa Yogyakarta"
+  },
+  "re_mbg": "mbg|makan\\s+(?:bergizi|siang)\\s+gratis|makan\\s+gratis|\\bsppg\\b|\\bbgn\\b|badan\\s+gizi\\s+nasional|pemenuhan\\s+gizi",
+  "re_pangan": "racun|(?<!\\w)(?:ber|ter|ke|di|me|meng)?(?:basi|busuk|bau|lendir|bakteri|kontaminasi|salmonella|e\\.?\\s?coli|belatung|ulat|kecoa|serangga|benda\\s+asing|rambut|plastik|higien\\w*|kebersihan|sanitasi|kotor|jorok|mentah|hambar|(?:tidak|belum|kurang)\\s+matang|tidak\\s+layak|layak\\s+konsumsi|kedaluwarsa|kadaluarsa|kadaluwarsa|muntah|mual|diare|sakit\\s+perut|rawat\\s+inap|opname|alergi|steril\\w*)(?:nya|an|kan|i)?(?!\\w)"
+}

@@ -1,0 +1,977 @@
+{"search_id": "kw_keracunan|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|4f663d28", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:17:44Z"}
+{"search_id": "kw_keracunan|2025-01-01T00:00:00Z|2025-01-16T00:00:00Z|f5325776", "status": "ok", "n_posts": 4, "saturated": false, "error": null, "logged_at": "2026-10-19T04:18:07Z"}
+{"search_id": "kw_keracunan|2025-01-16T00:00:00Z|2025-01-31T00:00:00Z|8e49ecdf", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:19:11Z"}
+{"search_id": "kw_keracunan|2025-01-16T00:00:00Z|2025-01-23T12:00:00Z|c8c1cdb9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:20:11Z"}
+{"search_id": "kw_keracunan|2025-01-16T00:00:00Z|2025-01-19T18:00:00Z|e56e7c11", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:21:16Z"}
+{"search_id": "kw_keracunan|2025-01-16T00:00:00Z|2025-01-17T21:00:00Z|a344ed58", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:22:19Z"}
+{"search_id": "kw_keracunan|2025-01-16T00:00:00Z|2025-01-16T22:30:00Z|11b4d174", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-19T04:23:12Z"}
+{"search_id": "kw_keracunan|2025-01-16T22:30:00Z|2025-01-17T21:00:00Z|4c9f1b77", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:24:13Z"}
+{"search_id": "kw_keracunan|2025-01-16T22:30:00Z|2025-01-17T09:45:00Z|433e299f", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-19T04:25:08Z"}
+{"search_id": "kw_keracunan|2025-01-17T09:45:00Z|2025-01-17T21:00:00Z|e12d7ceb", "status": "ok", "n_posts": 47, "saturated": false, "error": null, "logged_at": "2026-10-19T04:25:49Z"}
+{"search_id": "kw_keracunan|2025-01-17T21:00:00Z|2025-01-19T18:00:00Z|3f1349ec", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T04:26:27Z"}
+{"search_id": "kw_keracunan|2025-01-19T18:00:00Z|2025-01-23T12:00:00Z|9c851722", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1083). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T04:28:16Z"}
+{"search_id": "kw_keracunan|2025-01-23T12:00:00Z|2025-01-31T00:00:00Z|ad8b90b3", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1072). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T04:30:02Z"}
+{"search_id": "kw_basi|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|bda71fb8", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1069). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T04:31:52Z"}
+{"search_id": "kw_bakteri|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|4673b12a", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-19T04:32:41Z"}
+{"search_id": "kw_benda_asing|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|feab3ee2", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 535). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T04:34:28Z"}
+{"search_id": "kw_higiene|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|e0577214", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T04:35:58Z"}
+{"search_id": "kw_kualitas|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|e9fe391e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:37:42Z"}
+{"search_id": "kw_kualitas|2025-01-01T00:00:00Z|2025-01-16T00:00:00Z|931ce171", "status": "ok", "n_posts": 91, "saturated": false, "error": null, "logged_at": "2026-10-19T04:39:02Z"}
+{"search_id": "kw_kualitas|2025-01-16T00:00:00Z|2025-01-31T00:00:00Z|240d9452", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-19T04:40:09Z"}
+{"search_id": "ht_mbg|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|c4b49e47", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:41:40Z"}
+{"search_id": "ht_mbg|2025-01-01T00:00:00Z|2025-01-16T00:00:00Z|be43998b", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T04:42:45Z"}
+{"search_id": "ht_mbg|2025-01-16T00:00:00Z|2025-01-31T00:00:00Z|217af7d9", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-19T04:44:05Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|f2d0070c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:45:46Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-01T00:00:00Z|2025-01-16T00:00:00Z|1fa81782", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:47:23Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-01T00:00:00Z|2025-01-08T12:00:00Z|1395a9c5", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-19T04:49:03Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-08T12:00:00Z|2025-01-16T00:00:00Z|e8e62d36", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:50:35Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-08T12:00:00Z|2025-01-12T06:00:00Z|21997e1c", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-19T04:51:41Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-12T06:00:00Z|2025-01-16T00:00:00Z|e213b533", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-19T04:52:38Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-16T00:00:00Z|2025-01-31T00:00:00Z|d5fadbc3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:54:14Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-16T00:00:00Z|2025-01-23T12:00:00Z|a1ba7618", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T04:55:47Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-16T00:00:00Z|2025-01-19T18:00:00Z|1635d408", "status": "ok", "n_posts": 73, "saturated": false, "error": null, "logged_at": "2026-10-19T04:57:02Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-19T18:00:00Z|2025-01-23T12:00:00Z|0e6350f3", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T04:57:46Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-23T12:00:00Z|2025-01-31T00:00:00Z|50741be7", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-19T04:59:12Z"}
+{"search_id": "ht_keracunanmbg|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|175d549e", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-19T04:59:34Z"}
+{"search_id": "ht_mbgkeracunan|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|da150579", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:00:02Z"}
+{"search_id": "ht_mbgbasi|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|f23be3ed", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:00:27Z"}
+{"search_id": "kw_keracunan|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|5a349b2f", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T05:01:26Z"}
+{"search_id": "kw_basi|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|4d820db9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:03:36Z"}
+{"search_id": "kw_basi|2025-01-31T00:00:00Z|2025-02-15T00:00:00Z|23968ae2", "status": "ok", "n_posts": 9, "saturated": false, "error": null, "logged_at": "2026-10-19T05:04:00Z"}
+{"search_id": "kw_basi|2025-02-15T00:00:00Z|2025-03-02T00:00:00Z|6572d17f", "status": "ok", "n_posts": 94, "saturated": false, "error": null, "logged_at": "2026-10-19T05:05:25Z"}
+{"search_id": "kw_bakteri|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|838e3b2c", "status": "ok", "n_posts": 3, "saturated": false, "error": null, "logged_at": "2026-10-19T05:05:48Z"}
+{"search_id": "kw_benda_asing|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|c84ba06c", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-19T05:06:51Z"}
+{"search_id": "kw_higiene|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|b9f38863", "status": "ok", "n_posts": 55, "saturated": false, "error": null, "logged_at": "2026-10-19T05:07:47Z"}
+{"search_id": "kw_kualitas|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|920bdb5e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:08:58Z"}
+{"search_id": "kw_kualitas|2025-01-31T00:00:00Z|2025-02-15T00:00:00Z|f1270584", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-19T05:10:05Z"}
+{"search_id": "kw_kualitas|2025-02-15T00:00:00Z|2025-03-02T00:00:00Z|ecd2de68", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-19T05:11:10Z"}
+{"search_id": "ht_mbg|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|1455adc6", "status": "ok", "n_posts": 76, "saturated": false, "error": null, "logged_at": "2026-10-19T05:12:27Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|1d38149b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:14:07Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-31T00:00:00Z|2025-02-15T00:00:00Z|d1ebfcee", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1123). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T05:15:54Z"}
+{"search_id": "ht_makanbergizigratis|2025-02-15T00:00:00Z|2025-03-02T00:00:00Z|d386fc05", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1105). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T05:17:43Z"}
+{"search_id": "ht_keracunanmbg|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|dc770496", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:18:10Z"}
+{"search_id": "ht_mbgkeracunan|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|32b37bcc", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:18:35Z"}
+{"search_id": "ht_mbgbasi|2025-01-31T00:00:00Z|2025-03-02T00:00:00Z|73264bbf", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:19:00Z"}
+{"search_id": "kw_keracunan|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|40e2d65c", "status": "ok", "n_posts": 23, "saturated": false, "error": null, "logged_at": "2026-10-19T05:19:26Z"}
+{"search_id": "kw_basi|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|27eba266", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-19T05:20:14Z"}
+{"search_id": "kw_bakteri|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|6803ddb7", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-19T05:20:38Z"}
+{"search_id": "kw_benda_asing|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|31170bb1", "status": "ok", "n_posts": 7, "saturated": false, "error": null, "logged_at": "2026-10-19T05:21:01Z"}
+{"search_id": "kw_higiene|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|ddb5966a", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-19T05:21:56Z"}
+{"search_id": "kw_kualitas|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|cec3aa97", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-19T05:23:09Z"}
+{"search_id": "ht_mbg|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|f0905803", "status": "ok", "n_posts": 33, "saturated": false, "error": null, "logged_at": "2026-10-19T05:23:52Z"}
+{"search_id": "ht_makanbergizigratis|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|73ae7537", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:25:42Z"}
+{"search_id": "ht_makanbergizigratis|2025-03-02T00:00:00Z|2025-03-17T00:00:00Z|4b56cf27", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-19T05:27:08Z"}
+{"search_id": "ht_makanbergizigratis|2025-03-17T00:00:00Z|2025-04-01T00:00:00Z|4b3604c5", "status": "ok", "n_posts": 41, "saturated": false, "error": null, "logged_at": "2026-10-19T05:28:07Z"}
+{"search_id": "ht_keracunanmbg|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|c6f018c6", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:28:31Z"}
+{"search_id": "ht_mbgkeracunan|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|8c2b236d", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:28:58Z"}
+{"search_id": "ht_mbgbasi|2025-03-02T00:00:00Z|2025-04-01T00:00:00Z|03aadd77", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:29:25Z"}
+{"search_id": "kw_keracunan|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|c9c1957f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:30:32Z"}
+{"search_id": "kw_keracunan|2025-04-01T00:00:00Z|2025-04-16T00:00:00Z|3b2cd1bb", "status": "ok", "n_posts": 3, "saturated": false, "error": null, "logged_at": "2026-10-19T05:31:04Z"}
+{"search_id": "kw_keracunan|2025-04-16T00:00:00Z|2025-05-01T00:00:00Z|424d5fc5", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1159). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T05:32:52Z"}
+{"search_id": "kw_basi|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|29051d59", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-19T05:33:34Z"}
+{"search_id": "kw_bakteri|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|151780bd", "status": "ok", "n_posts": 7, "saturated": false, "error": null, "logged_at": "2026-10-19T05:33:57Z"}
+{"search_id": "kw_benda_asing|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|e4ecad7d", "status": "ok", "n_posts": 16, "saturated": false, "error": null, "logged_at": "2026-10-19T05:34:19Z"}
+{"search_id": "kw_higiene|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|0c20188f", "status": "ok", "n_posts": 77, "saturated": false, "error": null, "logged_at": "2026-10-19T05:35:26Z"}
+{"search_id": "kw_kualitas|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|d065e415", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-19T05:36:28Z"}
+{"search_id": "ht_mbg|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|cfbc24fd", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-19T05:37:48Z"}
+{"search_id": "ht_makanbergizigratis|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|ca2f649d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:39:29Z"}
+{"search_id": "ht_makanbergizigratis|2025-04-01T00:00:00Z|2025-04-16T00:00:00Z|58ca99b8", "status": "ok", "n_posts": 48, "saturated": false, "error": null, "logged_at": "2026-10-19T05:40:36Z"}
+{"search_id": "ht_makanbergizigratis|2025-04-16T00:00:00Z|2025-05-01T00:00:00Z|475ad8ef", "status": "ok", "n_posts": 90, "saturated": false, "error": null, "logged_at": "2026-10-19T05:42:24Z"}
+{"search_id": "ht_keracunanmbg|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|bc1fb088", "status": "ok", "n_posts": 7, "saturated": false, "error": null, "logged_at": "2026-10-19T05:42:44Z"}
+{"search_id": "ht_mbgkeracunan|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|e49f2449", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:43:11Z"}
+{"search_id": "ht_mbgbasi|2025-04-01T00:00:00Z|2025-05-01T00:00:00Z|7f1793c8", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T05:43:39Z"}
+{"search_id": "kw_keracunan|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|24190bd8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:44:48Z"}
+{"search_id": "kw_keracunan|2025-05-01T00:00:00Z|2025-05-16T00:00:00Z|24f34388", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T05:45:35Z"}
+{"search_id": "kw_keracunan|2025-05-16T00:00:00Z|2025-05-31T00:00:00Z|5ac66544", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1123). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T05:47:23Z"}
+{"search_id": "kw_basi|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|351b99fa", "status": "ok", "n_posts": 77, "saturated": false, "error": null, "logged_at": "2026-10-19T05:49:23Z"}
+{"search_id": "kw_bakteri|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|fb7e4fef", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-19T05:50:21Z"}
+{"search_id": "kw_benda_asing|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|234c7379", "status": "ok", "n_posts": 27, "saturated": false, "error": null, "logged_at": "2026-10-19T05:50:53Z"}
+{"search_id": "kw_higiene|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|eac8283a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:52:07Z"}
+{"search_id": "kw_higiene|2025-05-01T00:00:00Z|2025-05-16T00:00:00Z|1679cd8a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T05:53:17Z"}
+{"search_id": "kw_higiene|2025-05-01T00:00:00Z|2025-05-08T12:00:00Z|f696e801", "status": "ok", "n_posts": 47, "saturated": false, "error": null, "logged_at": "2026-10-19T05:54:07Z"}
+{"search_id": "kw_higiene|2025-05-08T12:00:00Z|2025-05-16T00:00:00Z|df7f03ae", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-19T05:55:02Z"}
+{"search_id": "kw_higiene|2025-05-16T00:00:00Z|2025-05-31T00:00:00Z|54266649", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-19T05:55:56Z"}
+{"search_id": "kw_kualitas|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|e82ddf74", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-19T05:57:12Z"}
+{"search_id": "ht_mbg|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|e9d769bf", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-19T05:58:37Z"}
+{"search_id": "ht_makanbergizigratis|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|032b003b", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T05:59:15Z"}
+{"search_id": "ht_keracunanmbg|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|3b5bb09e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1142). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:01:05Z"}
+{"search_id": "ht_mbgkeracunan|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|8762b096", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1148). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:02:56Z"}
+{"search_id": "ht_mbgbasi|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|1eb0aefa", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:03:48Z"}
+{"search_id": "kw_keracunan|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|c704a6fd", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:04:37Z"}
+{"search_id": "kw_keracunan|2025-05-31T00:00:00Z|2025-06-15T00:00:00Z|aacac6ae", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-19T06:05:33Z"}
+{"search_id": "kw_keracunan|2025-06-15T00:00:00Z|2025-06-30T00:00:00Z|aa5f32ac", "status": "ok", "n_posts": 43, "saturated": false, "error": null, "logged_at": "2026-10-19T06:06:10Z"}
+{"search_id": "kw_basi|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|29da43a5", "status": "ok", "n_posts": 50, "saturated": false, "error": null, "logged_at": "2026-10-19T06:06:58Z"}
+{"search_id": "kw_bakteri|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|e44ab85c", "status": "ok", "n_posts": 4, "saturated": false, "error": null, "logged_at": "2026-10-19T06:07:21Z"}
+{"search_id": "kw_benda_asing|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|47b6d10e", "status": "ok", "n_posts": 7, "saturated": false, "error": null, "logged_at": "2026-10-19T06:07:45Z"}
+{"search_id": "kw_higiene|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|924f4ee4", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-19T06:09:22Z"}
+{"search_id": "kw_kualitas|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|67076113", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:10:36Z"}
+{"search_id": "kw_kualitas|2025-05-31T00:00:00Z|2025-06-15T00:00:00Z|6b0f77af", "status": "ok", "n_posts": 18, "saturated": false, "error": null, "logged_at": "2026-10-19T06:11:03Z"}
+{"search_id": "kw_kualitas|2025-06-15T00:00:00Z|2025-06-30T00:00:00Z|9b19b1bf", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:12:15Z"}
+{"search_id": "kw_kualitas|2025-06-15T00:00:00Z|2025-06-22T12:00:00Z|7e96c2d1", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-19T06:13:39Z"}
+{"search_id": "kw_kualitas|2025-06-22T12:00:00Z|2025-06-30T00:00:00Z|e07169a3", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1157). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:15:29Z"}
+{"search_id": "ht_mbg|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|61b92dfe", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1138). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:17:18Z"}
+{"search_id": "ht_makanbergizigratis|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|77bb6feb", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1147). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:19:05Z"}
+{"search_id": "ht_keracunanmbg|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|5215356d", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:19:31Z"}
+{"search_id": "ht_mbgkeracunan|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|af145f01", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:19:58Z"}
+{"search_id": "ht_mbgbasi|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|6e2b7f3f", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:20:26Z"}
+{"search_id": "kw_keracunan|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|8cbc008b", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:20:52Z"}
+{"search_id": "kw_basi|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|9c564f4c", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-19T06:21:43Z"}
+{"search_id": "kw_bakteri|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|31ba28d6", "status": "ok", "n_posts": 2, "saturated": false, "error": null, "logged_at": "2026-10-19T06:22:04Z"}
+{"search_id": "kw_benda_asing|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|c476dc06", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:23:11Z"}
+{"search_id": "kw_benda_asing|2025-06-30T00:00:00Z|2025-07-15T00:00:00Z|fbfa7685", "status": "ok", "n_posts": 2, "saturated": false, "error": null, "logged_at": "2026-10-19T06:23:34Z"}
+{"search_id": "kw_benda_asing|2025-07-15T00:00:00Z|2025-07-30T00:00:00Z|a00587ce", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:24:38Z"}
+{"search_id": "kw_benda_asing|2025-07-15T00:00:00Z|2025-07-22T12:00:00Z|6aa8dd9a", "status": "ok", "n_posts": 87, "saturated": false, "error": null, "logged_at": "2026-10-19T06:25:52Z"}
+{"search_id": "kw_benda_asing|2025-07-22T12:00:00Z|2025-07-30T00:00:00Z|1d7c1278", "status": "ok", "n_posts": 34, "saturated": false, "error": null, "logged_at": "2026-10-19T06:26:30Z"}
+{"search_id": "kw_higiene|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|fbe2cea1", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:27:45Z"}
+{"search_id": "kw_higiene|2025-06-30T00:00:00Z|2025-07-15T00:00:00Z|d6d58bb0", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T06:28:34Z"}
+{"search_id": "kw_higiene|2025-07-15T00:00:00Z|2025-07-30T00:00:00Z|66eb8a2f", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-19T06:29:40Z"}
+{"search_id": "kw_kualitas|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|4493d0b0", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-19T06:30:40Z"}
+{"search_id": "ht_mbg|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|220b5ef7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1153). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:32:29Z"}
+{"search_id": "ht_makanbergizigratis|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|958eb8d7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1142). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:34:19Z"}
+{"search_id": "ht_keracunanmbg|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|1cbe6dec", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:34:45Z"}
+{"search_id": "ht_mbgkeracunan|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|8c396ea2", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:35:10Z"}
+{"search_id": "ht_mbgbasi|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|4dd2f3c2", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T06:35:37Z"}
+{"search_id": "kw_keracunan|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|cf650562", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:36:52Z"}
+{"search_id": "kw_keracunan|2025-07-30T00:00:00Z|2025-08-14T00:00:00Z|c2960ea4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:38:00Z"}
+{"search_id": "kw_keracunan|2025-07-30T00:00:00Z|2025-08-06T12:00:00Z|92b00c0a", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-19T06:38:52Z"}
+{"search_id": "kw_keracunan|2025-08-06T12:00:00Z|2025-08-14T00:00:00Z|54da9166", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:40:05Z"}
+{"search_id": "kw_keracunan|2025-08-06T12:00:00Z|2025-08-10T06:00:00Z|f56a1f97", "status": "ok", "n_posts": 15, "saturated": false, "error": null, "logged_at": "2026-10-19T06:40:32Z"}
+{"search_id": "kw_keracunan|2025-08-10T06:00:00Z|2025-08-14T00:00:00Z|64c0fbc2", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-19T06:41:54Z"}
+{"search_id": "kw_keracunan|2025-08-14T00:00:00Z|2025-08-29T00:00:00Z|c8c97649", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:43:05Z"}
+{"search_id": "kw_keracunan|2025-08-14T00:00:00Z|2025-08-21T12:00:00Z|b50ccb17", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:44:12Z"}
+{"search_id": "kw_keracunan|2025-08-14T00:00:00Z|2025-08-17T18:00:00Z|c645f7e4", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-19T06:45:33Z"}
+{"search_id": "kw_keracunan|2025-08-17T18:00:00Z|2025-08-21T12:00:00Z|8bf4d98e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1117). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:47:23Z"}
+{"search_id": "kw_keracunan|2025-08-21T12:00:00Z|2025-08-29T00:00:00Z|1e8145b0", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1126). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T06:49:13Z"}
+{"search_id": "kw_basi|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|e537ee68", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:50:46Z"}
+{"search_id": "kw_basi|2025-07-30T00:00:00Z|2025-08-14T00:00:00Z|d7d97f63", "status": "ok", "n_posts": 30, "saturated": false, "error": null, "logged_at": "2026-10-19T06:51:20Z"}
+{"search_id": "kw_basi|2025-08-14T00:00:00Z|2025-08-29T00:00:00Z|6478ebee", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-19T06:52:22Z"}
+{"search_id": "kw_bakteri|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|03e46d08", "status": "ok", "n_posts": 19, "saturated": false, "error": null, "logged_at": "2026-10-19T06:52:49Z"}
+{"search_id": "kw_benda_asing|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|e425c536", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-19T06:53:56Z"}
+{"search_id": "kw_higiene|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|2615e488", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T06:55:17Z"}
+{"search_id": "kw_higiene|2025-07-30T00:00:00Z|2025-08-14T00:00:00Z|edf6f334", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-19T06:56:32Z"}
+{"search_id": "kw_higiene|2025-08-14T00:00:00Z|2025-08-29T00:00:00Z|9f0af7ed", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T06:57:10Z"}
+{"search_id": "kw_kualitas|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|7737721e", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-19T06:58:51Z"}
+{"search_id": "ht_mbg|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|43ea1aba", "status": "ok", "n_posts": 50, "saturated": false, "error": null, "logged_at": "2026-10-19T07:00:00Z"}
+{"search_id": "ht_makanbergizigratis|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|93d9f932", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-19T07:01:45Z"}
+{"search_id": "ht_keracunanmbg|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|e37a3ddf", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1125). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:03:35Z"}
+{"search_id": "ht_mbgkeracunan|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|848573b1", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1118). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:05:23Z"}
+{"search_id": "ht_mbgbasi|2025-07-30T00:00:00Z|2025-08-29T00:00:00Z|99a1d331", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T07:05:51Z"}
+{"search_id": "kw_keracunan|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|c0d95d22", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:07:16Z"}
+{"search_id": "kw_keracunan|2025-08-29T00:00:00Z|2025-09-13T00:00:00Z|f0de389f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:08:23Z"}
+{"search_id": "kw_keracunan|2025-08-29T00:00:00Z|2025-09-05T12:00:00Z|2632f7e0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:09:27Z"}
+{"search_id": "kw_keracunan|2025-08-29T00:00:00Z|2025-09-01T18:00:00Z|7f24b32d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:10:21Z"}
+{"search_id": "kw_keracunan|2025-08-29T00:00:00Z|2025-08-30T21:00:00Z|b5e4e239", "status": "ok", "n_posts": 73, "saturated": false, "error": null, "logged_at": "2026-10-19T07:11:16Z"}
+{"search_id": "kw_keracunan|2025-08-30T21:00:00Z|2025-09-01T18:00:00Z|771fbc46", "status": "ok", "n_posts": 36, "saturated": false, "error": null, "logged_at": "2026-10-19T07:11:50Z"}
+{"search_id": "kw_keracunan|2025-09-01T18:00:00Z|2025-09-05T12:00:00Z|83300765", "status": "ok", "n_posts": 92, "saturated": false, "error": null, "logged_at": "2026-10-19T07:13:04Z"}
+{"search_id": "kw_keracunan|2025-09-05T12:00:00Z|2025-09-13T00:00:00Z|aca89ae5", "status": "ok", "n_posts": 98, "saturated": false, "error": null, "logged_at": "2026-10-19T07:14:16Z"}
+{"search_id": "kw_keracunan|2025-09-13T00:00:00Z|2025-09-28T00:00:00Z|4ad77139", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:15:42Z"}
+{"search_id": "kw_keracunan|2025-09-13T00:00:00Z|2025-09-20T12:00:00Z|10ce2523", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1095). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:17:29Z"}
+{"search_id": "kw_keracunan|2025-09-20T12:00:00Z|2025-09-28T00:00:00Z|922d83dc", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 940). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:19:17Z"}
+{"search_id": "kw_basi|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|5aa97a72", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1088). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:21:07Z"}
+{"search_id": "kw_bakteri|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|b66f1069", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-19T07:22:34Z"}
+{"search_id": "kw_benda_asing|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|b0599563", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:23:41Z"}
+{"search_id": "kw_benda_asing|2025-08-29T00:00:00Z|2025-09-13T00:00:00Z|2d2f73ed", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T07:24:08Z"}
+{"search_id": "kw_benda_asing|2025-09-13T00:00:00Z|2025-09-28T00:00:00Z|ece298b8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:25:16Z"}
+{"search_id": "kw_benda_asing|2025-09-13T00:00:00Z|2025-09-20T12:00:00Z|6aa9806c", "status": "ok", "n_posts": 58, "saturated": false, "error": null, "logged_at": "2026-10-19T07:26:13Z"}
+{"search_id": "kw_benda_asing|2025-09-20T12:00:00Z|2025-09-28T00:00:00Z|7d86dacc", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:27:49Z"}
+{"search_id": "kw_benda_asing|2025-09-20T12:00:00Z|2025-09-24T06:00:00Z|c61ae225", "status": "ok", "n_posts": 46, "saturated": false, "error": null, "logged_at": "2026-10-19T07:28:30Z"}
+{"search_id": "kw_benda_asing|2025-09-24T06:00:00Z|2025-09-28T00:00:00Z|d75966cc", "status": "ok", "n_posts": 86, "saturated": false, "error": null, "logged_at": "2026-10-19T07:29:45Z"}
+{"search_id": "kw_higiene|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|a884e54b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:31:12Z"}
+{"search_id": "kw_higiene|2025-08-29T00:00:00Z|2025-09-13T00:00:00Z|a310a0e0", "status": "ok", "n_posts": 59, "saturated": false, "error": null, "logged_at": "2026-10-19T07:32:10Z"}
+{"search_id": "kw_higiene|2025-09-13T00:00:00Z|2025-09-28T00:00:00Z|b0312ffb", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T07:32:50Z"}
+{"search_id": "kw_kualitas|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|28716d1a", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1138). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:34:38Z"}
+{"search_id": "ht_mbg|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|52183cc9", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1146). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:36:27Z"}
+{"search_id": "ht_makanbergizigratis|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|4bc281fa", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:38:12Z"}
+{"search_id": "ht_makanbergizigratis|2025-08-29T00:00:00Z|2025-09-13T00:00:00Z|16d01246", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-19T07:39:01Z"}
+{"search_id": "ht_makanbergizigratis|2025-09-13T00:00:00Z|2025-09-28T00:00:00Z|b53fbc57", "status": "ok", "n_posts": 92, "saturated": false, "error": null, "logged_at": "2026-10-19T07:40:49Z"}
+{"search_id": "ht_keracunanmbg|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|23d762e9", "status": "ok", "n_posts": 23, "saturated": false, "error": null, "logged_at": "2026-10-19T07:41:28Z"}
+{"search_id": "ht_mbgkeracunan|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|2e12a3fa", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T07:41:56Z"}
+{"search_id": "ht_mbgbasi|2025-08-29T00:00:00Z|2025-09-28T00:00:00Z|6272ebe0", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T07:42:24Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|07fbdb77", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:43:48Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|34fedfb6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:44:59Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-10-05T12:00:00Z|3e2d1429", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:46:14Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-10-01T18:00:00Z|fe3b54fa", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:47:29Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-09-29T21:00:00Z|6f50715c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:48:45Z"}
+{"search_id": "kw_keracunan|2025-09-28T00:00:00Z|2025-09-28T22:30:00Z|eac71ea8", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T07:49:48Z"}
+{"search_id": "kw_keracunan|2025-09-28T22:30:00Z|2025-09-29T21:00:00Z|51e417d6", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1129). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T07:51:37Z"}
+{"search_id": "kw_keracunan|2025-09-29T21:00:00Z|2025-10-01T18:00:00Z|c8fb86d6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:52:51Z"}
+{"search_id": "kw_keracunan|2025-09-29T21:00:00Z|2025-09-30T19:30:00Z|718b0183", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:54:04Z"}
+{"search_id": "kw_keracunan|2025-09-29T21:00:00Z|2025-09-30T08:15:00Z|de6caa15", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-19T07:55:16Z"}
+{"search_id": "kw_keracunan|2025-09-30T08:15:00Z|2025-09-30T19:30:00Z|078df7d0", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-19T07:56:32Z"}
+{"search_id": "kw_keracunan|2025-09-30T19:30:00Z|2025-10-01T18:00:00Z|4272358c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T07:57:46Z"}
+{"search_id": "kw_keracunan|2025-09-30T19:30:00Z|2025-10-01T06:45:00Z|58283d2b", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-19T07:58:55Z"}
+{"search_id": "kw_keracunan|2025-10-01T06:45:00Z|2025-10-01T18:00:00Z|29d9f163", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-19T08:00:06Z"}
+{"search_id": "kw_keracunan|2025-10-01T18:00:00Z|2025-10-05T12:00:00Z|5db7ed4c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:01:19Z"}
+{"search_id": "kw_keracunan|2025-10-01T18:00:00Z|2025-10-03T15:00:00Z|7d42c25e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:02:32Z"}
+{"search_id": "kw_keracunan|2025-10-01T18:00:00Z|2025-10-02T16:30:00Z|7c67df50", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1134). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:04:20Z"}
+{"search_id": "kw_keracunan|2025-10-02T16:30:00Z|2025-10-03T15:00:00Z|4d7c0851", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1109). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:06:10Z"}
+{"search_id": "kw_keracunan|2025-10-03T15:00:00Z|2025-10-05T12:00:00Z|54503209", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:07:43Z"}
+{"search_id": "kw_keracunan|2025-10-03T15:00:00Z|2025-10-04T13:30:00Z|adab9466", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:09:00Z"}
+{"search_id": "kw_keracunan|2025-10-03T15:00:00Z|2025-10-04T02:15:00Z|695dc441", "status": "ok", "n_posts": 46, "saturated": false, "error": null, "logged_at": "2026-10-19T08:09:43Z"}
+{"search_id": "kw_keracunan|2025-10-04T02:15:00Z|2025-10-04T13:30:00Z|c837f900", "status": "ok", "n_posts": 90, "saturated": false, "error": null, "logged_at": "2026-10-19T08:11:00Z"}
+{"search_id": "kw_keracunan|2025-10-04T13:30:00Z|2025-10-05T12:00:00Z|9520a366", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-19T08:12:04Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-13T00:00:00Z|8a8811c1", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:13:24Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-09T06:00:00Z|cc944225", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:14:40Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-07T09:00:00Z|6e014369", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:15:50Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-06T10:30:00Z|7044eb95", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:16:52Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-05T23:15:00Z|6eda882d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1137). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:18:40Z"}
+{"search_id": "kw_keracunan|2025-10-05T23:15:00Z|2025-10-06T10:30:00Z|08bf6744", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1137). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:20:27Z"}
+{"search_id": "kw_keracunan|2025-10-06T10:30:00Z|2025-10-07T09:00:00Z|23334fa4", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1130). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:22:14Z"}
+{"search_id": "kw_keracunan|2025-10-07T09:00:00Z|2025-10-09T06:00:00Z|c4676d0a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:23:21Z"}
+{"search_id": "kw_keracunan|2025-10-07T09:00:00Z|2025-10-08T07:30:00Z|cc1df1b3", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-19T08:24:40Z"}
+{"search_id": "kw_keracunan|2025-10-08T07:30:00Z|2025-10-09T06:00:00Z|b05751ee", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-19T08:25:50Z"}
+{"search_id": "kw_keracunan|2025-10-09T06:00:00Z|2025-10-13T00:00:00Z|db531c50", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:26:55Z"}
+{"search_id": "kw_keracunan|2025-10-09T06:00:00Z|2025-10-11T03:00:00Z|ed76264f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:28:14Z"}
+{"search_id": "kw_keracunan|2025-10-09T06:00:00Z|2025-10-10T04:30:00Z|5bb0e16f", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-19T08:29:28Z"}
+{"search_id": "kw_keracunan|2025-10-10T04:30:00Z|2025-10-11T03:00:00Z|4d488dc1", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-19T08:30:32Z"}
+{"search_id": "kw_keracunan|2025-10-11T03:00:00Z|2025-10-13T00:00:00Z|bda344cf", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-19T08:31:32Z"}
+{"search_id": "kw_keracunan|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|54beb5ce", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:32:54Z"}
+{"search_id": "kw_keracunan|2025-10-13T00:00:00Z|2025-10-20T12:00:00Z|663467c7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1105). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:34:44Z"}
+{"search_id": "kw_keracunan|2025-10-20T12:00:00Z|2025-10-28T00:00:00Z|af022ab8", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1090). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:36:33Z"}
+{"search_id": "kw_basi|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|48930001", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:38:39Z"}
+{"search_id": "kw_basi|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|4a2f170b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:39:48Z"}
+{"search_id": "kw_basi|2025-09-28T00:00:00Z|2025-10-05T12:00:00Z|6dcf6b8d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:40:56Z"}
+{"search_id": "kw_basi|2025-09-28T00:00:00Z|2025-10-01T18:00:00Z|f86d9d51", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:42:03Z"}
+{"search_id": "kw_basi|2025-09-28T00:00:00Z|2025-09-29T21:00:00Z|5505ced6", "status": "ok", "n_posts": 50, "saturated": false, "error": null, "logged_at": "2026-10-19T08:42:51Z"}
+{"search_id": "kw_basi|2025-09-29T21:00:00Z|2025-10-01T18:00:00Z|4eb24a0f", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-19T08:43:37Z"}
+{"search_id": "kw_basi|2025-10-01T18:00:00Z|2025-10-05T12:00:00Z|dff87f9c", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-19T08:44:34Z"}
+{"search_id": "kw_basi|2025-10-05T12:00:00Z|2025-10-13T00:00:00Z|fe66331e", "status": "ok", "n_posts": 54, "saturated": false, "error": null, "logged_at": "2026-10-19T08:45:26Z"}
+{"search_id": "kw_basi|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|1baea0af", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-19T08:46:26Z"}
+{"search_id": "kw_bakteri|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|bd2f7b0f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:47:32Z"}
+{"search_id": "kw_bakteri|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|4d50c7cb", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T08:48:27Z"}
+{"search_id": "kw_bakteri|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|7c207c80", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1111). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:50:15Z"}
+{"search_id": "kw_benda_asing|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|d2bbe251", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1092). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T08:52:06Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|bf46f50a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:54:35Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|dba21c2a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:56:15Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-10-05T12:00:00Z|4c582ce9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:57:43Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-10-01T18:00:00Z|3de49869", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T08:59:01Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-09-29T21:00:00Z|884eb0d6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:00:21Z"}
+{"search_id": "kw_higiene|2025-09-28T00:00:00Z|2025-09-28T22:30:00Z|9b11cf1e", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-19T09:01:43Z"}
+{"search_id": "kw_higiene|2025-09-28T22:30:00Z|2025-09-29T21:00:00Z|590d99f0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:03:00Z"}
+{"search_id": "kw_higiene|2025-09-28T22:30:00Z|2025-09-29T09:45:00Z|edcdbffd", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-19T09:04:13Z"}
+{"search_id": "kw_higiene|2025-09-29T09:45:00Z|2025-09-29T21:00:00Z|0ef49581", "status": "ok", "n_posts": 36, "saturated": false, "error": null, "logged_at": "2026-10-19T09:04:55Z"}
+{"search_id": "kw_higiene|2025-09-29T21:00:00Z|2025-10-01T18:00:00Z|ad13b045", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T09:05:54Z"}
+{"search_id": "kw_higiene|2025-10-01T18:00:00Z|2025-10-05T12:00:00Z|2875943f", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1106). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T09:07:42Z"}
+{"search_id": "kw_higiene|2025-10-05T12:00:00Z|2025-10-13T00:00:00Z|9662d586", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:09:36Z"}
+{"search_id": "kw_higiene|2025-10-05T12:00:00Z|2025-10-09T06:00:00Z|5e050c9e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:11:07Z"}
+{"search_id": "kw_higiene|2025-10-05T12:00:00Z|2025-10-07T09:00:00Z|07d36a03", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:12:32Z"}
+{"search_id": "kw_higiene|2025-10-05T12:00:00Z|2025-10-06T10:30:00Z|e9fac4ac", "status": "ok", "n_posts": 55, "saturated": false, "error": null, "logged_at": "2026-10-19T09:13:31Z"}
+{"search_id": "kw_higiene|2025-10-06T10:30:00Z|2025-10-07T09:00:00Z|c4c5bb5c", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-19T09:14:33Z"}
+{"search_id": "kw_higiene|2025-10-07T09:00:00Z|2025-10-09T06:00:00Z|38b26c95", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-19T09:16:30Z"}
+{"search_id": "kw_higiene|2025-10-09T06:00:00Z|2025-10-13T00:00:00Z|af01c5b0", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-19T09:18:04Z"}
+{"search_id": "kw_higiene|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|0d055b47", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:19:29Z"}
+{"search_id": "kw_higiene|2025-10-13T00:00:00Z|2025-10-20T12:00:00Z|0b1f094a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:20:57Z"}
+{"search_id": "kw_higiene|2025-10-13T00:00:00Z|2025-10-16T18:00:00Z|edd13a38", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T09:21:36Z"}
+{"search_id": "kw_higiene|2025-10-16T18:00:00Z|2025-10-20T12:00:00Z|ee9d9d27", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1100). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T09:23:24Z"}
+{"search_id": "kw_higiene|2025-10-20T12:00:00Z|2025-10-28T00:00:00Z|17bcab18", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:24:51Z"}
+{"search_id": "kw_higiene|2025-10-20T12:00:00Z|2025-10-24T06:00:00Z|d4acaf1e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T09:26:11Z"}
+{"search_id": "kw_keracunan|2025-01-19T18:00:00Z|2025-01-23T12:00:00Z|9c851722", "status": "ok", "n_posts": 45, "saturated": false, "error": null, "logged_at": "2026-10-19T10:01:21Z"}
+{"search_id": "kw_keracunan|2025-01-23T12:00:00Z|2025-01-31T00:00:00Z|ad8b90b3", "status": "ok", "n_posts": 14, "saturated": false, "error": null, "logged_at": "2026-10-19T10:01:44Z"}
+{"search_id": "kw_basi|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|bda71fb8", "status": "ok", "n_posts": 98, "saturated": false, "error": null, "logged_at": "2026-10-19T10:02:54Z"}
+{"search_id": "kw_benda_asing|2025-01-01T00:00:00Z|2025-01-31T00:00:00Z|feab3ee2", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:04:10Z"}
+{"search_id": "kw_benda_asing|2025-01-01T00:00:00Z|2025-01-16T00:00:00Z|697cb86d", "status": "ok", "n_posts": 11, "saturated": false, "error": null, "logged_at": "2026-10-19T10:04:36Z"}
+{"search_id": "kw_benda_asing|2025-01-16T00:00:00Z|2025-01-31T00:00:00Z|bd87885a", "status": "ok", "n_posts": 94, "saturated": false, "error": null, "logged_at": "2026-10-19T10:06:01Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-31T00:00:00Z|2025-02-15T00:00:00Z|d1ebfcee", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:07:41Z"}
+{"search_id": "ht_makanbergizigratis|2025-01-31T00:00:00Z|2025-02-07T12:00:00Z|cc2e6c94", "status": "ok", "n_posts": 58, "saturated": false, "error": null, "logged_at": "2026-10-19T10:08:50Z"}
+{"search_id": "ht_makanbergizigratis|2025-02-07T12:00:00Z|2025-02-15T00:00:00Z|f20bc5b3", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-19T10:10:06Z"}
+{"search_id": "ht_makanbergizigratis|2025-02-15T00:00:00Z|2025-03-02T00:00:00Z|d386fc05", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:11:51Z"}
+{"search_id": "ht_makanbergizigratis|2025-02-15T00:00:00Z|2025-02-22T12:00:00Z|34ace36a", "status": "ok", "n_posts": 49, "saturated": false, "error": null, "logged_at": "2026-10-19T10:12:52Z"}
+{"search_id": "ht_makanbergizigratis|2025-02-22T12:00:00Z|2025-03-02T00:00:00Z|bda990d2", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1097). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:14:40Z"}
+{"search_id": "kw_keracunan|2025-04-16T00:00:00Z|2025-05-01T00:00:00Z|424d5fc5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:16:48Z"}
+{"search_id": "kw_keracunan|2025-04-16T00:00:00Z|2025-04-23T12:00:00Z|fef6c7d8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:18:00Z"}
+{"search_id": "kw_keracunan|2025-04-16T00:00:00Z|2025-04-19T18:00:00Z|ff222614", "status": "ok", "n_posts": 11, "saturated": false, "error": null, "logged_at": "2026-10-19T10:18:23Z"}
+{"search_id": "kw_keracunan|2025-04-19T18:00:00Z|2025-04-23T12:00:00Z|ed3a99ef", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:19:29Z"}
+{"search_id": "kw_keracunan|2025-04-19T18:00:00Z|2025-04-21T15:00:00Z|82948b77", "status": "ok", "n_posts": 2, "saturated": false, "error": null, "logged_at": "2026-10-19T10:19:49Z"}
+{"search_id": "kw_keracunan|2025-04-21T15:00:00Z|2025-04-23T12:00:00Z|fbadb657", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:21:03Z"}
+{"search_id": "kw_keracunan|2025-04-21T15:00:00Z|2025-04-22T13:30:00Z|f96df1fb", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-19T10:22:01Z"}
+{"search_id": "kw_keracunan|2025-04-22T13:30:00Z|2025-04-23T12:00:00Z|df3f0e09", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T10:22:51Z"}
+{"search_id": "kw_keracunan|2025-04-23T12:00:00Z|2025-05-01T00:00:00Z|bb0f7b2b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:23:57Z"}
+{"search_id": "kw_keracunan|2025-04-23T12:00:00Z|2025-04-27T06:00:00Z|7e9487ea", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:25:07Z"}
+{"search_id": "kw_keracunan|2025-04-23T12:00:00Z|2025-04-25T09:00:00Z|fdf7fc89", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T10:25:53Z"}
+{"search_id": "kw_keracunan|2025-04-25T09:00:00Z|2025-04-27T06:00:00Z|8ab7dc43", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1125). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:27:40Z"}
+{"search_id": "kw_keracunan|2025-04-27T06:00:00Z|2025-05-01T00:00:00Z|9a05857c", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1116). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:29:29Z"}
+{"search_id": "kw_keracunan|2025-05-16T00:00:00Z|2025-05-31T00:00:00Z|5ac66544", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1117). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:31:17Z"}
+{"search_id": "ht_keracunanmbg|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|3b5bb09e", "status": "ok", "n_posts": 8, "saturated": false, "error": null, "logged_at": "2026-10-19T10:31:37Z"}
+{"search_id": "ht_mbgkeracunan|2025-05-01T00:00:00Z|2025-05-31T00:00:00Z|8762b096", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T10:32:03Z"}
+{"search_id": "kw_kualitas|2025-06-22T12:00:00Z|2025-06-30T00:00:00Z|e07169a3", "status": "ok", "n_posts": 34, "saturated": false, "error": null, "logged_at": "2026-10-19T10:32:42Z"}
+{"search_id": "ht_mbg|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|61b92dfe", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-19T10:33:31Z"}
+{"search_id": "ht_makanbergizigratis|2025-05-31T00:00:00Z|2025-06-30T00:00:00Z|77bb6feb", "status": "ok", "n_posts": 76, "saturated": false, "error": null, "logged_at": "2026-10-19T10:34:57Z"}
+{"search_id": "ht_mbg|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|220b5ef7", "status": "ok", "n_posts": 33, "saturated": false, "error": null, "logged_at": "2026-10-19T10:35:32Z"}
+{"search_id": "ht_makanbergizigratis|2025-06-30T00:00:00Z|2025-07-30T00:00:00Z|958eb8d7", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-19T10:36:41Z"}
+{"search_id": "kw_keracunan|2025-08-17T18:00:00Z|2025-08-21T12:00:00Z|8bf4d98e", "status": "ok", "n_posts": 36, "saturated": false, "error": null, "logged_at": "2026-10-19T10:37:19Z"}
+{"search_id": "kw_keracunan|2025-08-21T12:00:00Z|2025-08-29T00:00:00Z|1e8145b0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:38:25Z"}
+{"search_id": "kw_keracunan|2025-08-21T12:00:00Z|2025-08-25T06:00:00Z|45a0d9fa", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-19T10:39:35Z"}
+{"search_id": "kw_keracunan|2025-08-25T06:00:00Z|2025-08-29T00:00:00Z|95b9ff6e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:40:42Z"}
+{"search_id": "kw_keracunan|2025-08-25T06:00:00Z|2025-08-27T03:00:00Z|5d2ea990", "status": "ok", "n_posts": 54, "saturated": false, "error": null, "logged_at": "2026-10-19T10:41:30Z"}
+{"search_id": "kw_keracunan|2025-08-27T03:00:00Z|2025-08-29T00:00:00Z|314b7dc3", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T10:42:25Z"}
+{"search_id": "kw_keracunan|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|ae854486", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1099). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:46:02Z"}
+{"search_id": "kw_basi|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|da551c3c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:47:39Z"}
+{"search_id": "kw_basi|2025-12-27T00:00:00Z|2026-01-11T00:00:00Z|1ad3605e", "status": "ok", "n_posts": 19, "saturated": false, "error": null, "logged_at": "2026-10-19T10:48:06Z"}
+{"search_id": "kw_basi|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|b78679bb", "status": "ok", "n_posts": 91, "saturated": false, "error": null, "logged_at": "2026-10-19T10:49:22Z"}
+{"search_id": "kw_bakteri|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|0748b94f", "status": "ok", "n_posts": 21, "saturated": false, "error": null, "logged_at": "2026-10-19T10:49:55Z"}
+{"search_id": "kw_benda_asing|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|f5dd98f2", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-19T10:50:51Z"}
+{"search_id": "kw_higiene|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|492b0b5f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:52:09Z"}
+{"search_id": "kw_higiene|2025-12-27T00:00:00Z|2026-01-11T00:00:00Z|16c8e669", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:53:22Z"}
+{"search_id": "kw_higiene|2025-12-27T00:00:00Z|2026-01-03T12:00:00Z|71d67595", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T10:54:46Z"}
+{"search_id": "kw_higiene|2025-12-27T00:00:00Z|2025-12-30T18:00:00Z|07e90282", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-19T10:56:01Z"}
+{"search_id": "kw_higiene|2025-12-30T18:00:00Z|2026-01-03T12:00:00Z|b62f2bd6", "status": "ok", "n_posts": 48, "saturated": false, "error": null, "logged_at": "2026-10-19T10:56:49Z"}
+{"search_id": "kw_higiene|2026-01-03T12:00:00Z|2026-01-11T00:00:00Z|38b0aa3c", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T10:57:28Z"}
+{"search_id": "kw_higiene|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|a1db9980", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1111). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T10:59:18Z"}
+{"search_id": "kw_kualitas|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|33d3f299", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1104). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T11:01:08Z"}
+{"search_id": "ht_mbg|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|985e8f7d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:03:12Z"}
+{"search_id": "ht_mbg|2025-12-27T00:00:00Z|2026-01-11T00:00:00Z|d811e8f0", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-19T11:04:14Z"}
+{"search_id": "ht_mbg|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|e431af74", "status": "ok", "n_posts": 90, "saturated": false, "error": null, "logged_at": "2026-10-19T11:05:59Z"}
+{"search_id": "ht_makanbergizigratis|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|535647b4", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-19T11:07:22Z"}
+{"search_id": "ht_keracunanmbg|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|209acbd8", "status": "ok", "n_posts": 2, "saturated": false, "error": null, "logged_at": "2026-10-19T11:07:41Z"}
+{"search_id": "ht_mbgkeracunan|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|350979df", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T11:08:07Z"}
+{"search_id": "ht_mbgbasi|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|c6c2d9e0", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T11:08:35Z"}
+{"search_id": "kw_keracunan|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|97791a10", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:09:56Z"}
+{"search_id": "kw_keracunan|2026-01-26T00:00:00Z|2026-02-10T00:00:00Z|027a5d82", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:11:18Z"}
+{"search_id": "kw_keracunan|2026-01-26T00:00:00Z|2026-02-02T12:00:00Z|4ddbe9d4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:12:26Z"}
+{"search_id": "kw_keracunan|2026-01-26T00:00:00Z|2026-01-29T18:00:00Z|1fdc4ec6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:13:41Z"}
+{"search_id": "kw_keracunan|2026-01-26T00:00:00Z|2026-01-27T21:00:00Z|a99cedf8", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-19T11:14:30Z"}
+{"search_id": "kw_keracunan|2026-01-27T21:00:00Z|2026-01-29T18:00:00Z|041815f5", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1108). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T11:16:20Z"}
+{"search_id": "kw_keracunan|2026-01-29T18:00:00Z|2026-02-02T12:00:00Z|9358cd9d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:17:56Z"}
+{"search_id": "kw_keracunan|2026-01-29T18:00:00Z|2026-01-31T15:00:00Z|f254795c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:18:58Z"}
+{"search_id": "kw_keracunan|2026-01-29T18:00:00Z|2026-01-30T16:30:00Z|cfcd4dad", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:20:07Z"}
+{"search_id": "kw_keracunan|2026-01-29T18:00:00Z|2026-01-30T05:15:00Z|ed7cee25", "status": "ok", "n_posts": 54, "saturated": false, "error": null, "logged_at": "2026-10-19T11:20:52Z"}
+{"search_id": "kw_keracunan|2026-01-30T05:15:00Z|2026-01-30T16:30:00Z|f3725490", "status": "ok", "n_posts": 76, "saturated": false, "error": null, "logged_at": "2026-10-19T11:21:59Z"}
+{"search_id": "kw_keracunan|2026-01-30T16:30:00Z|2026-01-31T15:00:00Z|d99f9cff", "status": "ok", "n_posts": 54, "saturated": false, "error": null, "logged_at": "2026-10-19T11:22:49Z"}
+{"search_id": "kw_keracunan|2026-01-31T15:00:00Z|2026-02-02T12:00:00Z|f8400410", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:23:57Z"}
+{"search_id": "kw_keracunan|2026-01-31T15:00:00Z|2026-02-01T13:30:00Z|ec2327aa", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-19T11:24:51Z"}
+{"search_id": "kw_keracunan|2026-02-01T13:30:00Z|2026-02-02T12:00:00Z|50ebc064", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-19T11:25:40Z"}
+{"search_id": "kw_keracunan|2026-02-02T12:00:00Z|2026-02-10T00:00:00Z|dfac49f8", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-19T11:26:53Z"}
+{"search_id": "kw_keracunan|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|8098726e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1111). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T11:28:41Z"}
+{"search_id": "kw_basi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85393878", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1122). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T11:30:28Z"}
+{"search_id": "kw_bakteri|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|bcf1702f", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1096). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T11:32:16Z"}
+{"search_id": "kw_benda_asing|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|5a148013", "status": "ok", "n_posts": 94, "saturated": false, "error": null, "logged_at": "2026-10-19T11:33:34Z"}
+{"search_id": "kw_higiene|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|776e2d9f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:34:59Z"}
+{"search_id": "kw_higiene|2026-01-26T00:00:00Z|2026-02-10T00:00:00Z|865b1feb", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:36:05Z"}
+{"search_id": "kw_higiene|2026-01-26T00:00:00Z|2026-02-02T12:00:00Z|bbd746af", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:37:22Z"}
+{"search_id": "kw_higiene|2026-01-26T00:00:00Z|2026-01-29T18:00:00Z|50dc0b3a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T11:38:38Z"}
+{"search_id": "kw_higiene|2026-01-26T00:00:00Z|2026-01-27T21:00:00Z|6c365e0c", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-19T11:39:42Z"}
+{"search_id": "kw_higiene|2026-01-27T21:00:00Z|2026-01-29T18:00:00Z|603bfb97", "status": "ok", "n_posts": 59, "saturated": false, "error": null, "logged_at": "2026-10-19T11:40:36Z"}
+{"search_id": "kw_keracunan|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|ae854486", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:24:42Z"}
+{"search_id": "kw_keracunan|2025-12-27T00:00:00Z|2026-01-11T00:00:00Z|ba06868f", "status": "ok", "n_posts": 98, "saturated": false, "error": null, "logged_at": "2026-10-19T16:25:57Z"}
+{"search_id": "kw_keracunan|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|1cbe9231", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:26:48Z"}
+{"search_id": "kw_keracunan|2026-01-11T00:00:00Z|2026-01-18T12:00:00Z|300e3333", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:27:47Z"}
+{"search_id": "kw_keracunan|2026-01-11T00:00:00Z|2026-01-14T18:00:00Z|ab3cc9d3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:29:01Z"}
+{"search_id": "kw_keracunan|2026-01-11T00:00:00Z|2026-01-12T21:00:00Z|473ce6db", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-19T16:29:53Z"}
+{"search_id": "kw_keracunan|2026-01-12T21:00:00Z|2026-01-14T18:00:00Z|9e83fb78", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-19T16:30:53Z"}
+{"search_id": "kw_keracunan|2026-01-14T18:00:00Z|2026-01-18T12:00:00Z|0f4252bf", "status": "ok", "n_posts": 98, "saturated": false, "error": null, "logged_at": "2026-10-19T16:32:04Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-26T00:00:00Z|1c250fbf", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:32:57Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-22T06:00:00Z|f5b4e76d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1105). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T16:34:45Z"}
+{"search_id": "kw_keracunan|2026-01-22T06:00:00Z|2026-01-26T00:00:00Z|7c646231", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1090). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T16:36:32Z"}
+{"search_id": "kw_higiene|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|a1db9980", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1092). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T16:38:19Z"}
+{"search_id": "kw_kualitas|2025-12-27T00:00:00Z|2026-01-26T00:00:00Z|33d3f299", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:40:36Z"}
+{"search_id": "kw_kualitas|2025-12-27T00:00:00Z|2026-01-11T00:00:00Z|61c3c5e5", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-19T16:41:26Z"}
+{"search_id": "kw_kualitas|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|cdd2a0a9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:42:43Z"}
+{"search_id": "kw_kualitas|2026-01-11T00:00:00Z|2026-01-18T12:00:00Z|c685741e", "status": "ok", "n_posts": 58, "saturated": false, "error": null, "logged_at": "2026-10-19T16:43:50Z"}
+{"search_id": "kw_kualitas|2026-01-18T12:00:00Z|2026-01-26T00:00:00Z|a0471186", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-19T16:45:13Z"}
+{"search_id": "kw_keracunan|2026-01-27T21:00:00Z|2026-01-29T18:00:00Z|041815f5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:46:27Z"}
+{"search_id": "kw_keracunan|2026-01-27T21:00:00Z|2026-01-28T19:30:00Z|9184982f", "status": "ok", "n_posts": 56, "saturated": false, "error": null, "logged_at": "2026-10-19T16:47:12Z"}
+{"search_id": "kw_keracunan|2026-01-28T19:30:00Z|2026-01-29T18:00:00Z|38dc0c45", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:48:26Z"}
+{"search_id": "kw_keracunan|2026-01-28T19:30:00Z|2026-01-29T06:45:00Z|453f1723", "status": "ok", "n_posts": 32, "saturated": false, "error": null, "logged_at": "2026-10-19T16:49:00Z"}
+{"search_id": "kw_keracunan|2026-01-29T06:45:00Z|2026-01-29T18:00:00Z|c36f3f4c", "status": "ok", "n_posts": 98, "saturated": false, "error": null, "logged_at": "2026-10-19T16:50:32Z"}
+{"search_id": "kw_keracunan|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|8098726e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1104). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T16:52:22Z"}
+{"search_id": "kw_basi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85393878", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1103). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T16:54:11Z"}
+{"search_id": "kw_bakteri|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|bcf1702f", "status": "ok", "n_posts": 21, "saturated": false, "error": null, "logged_at": "2026-10-19T16:55:06Z"}
+{"search_id": "kw_higiene|2026-01-29T18:00:00Z|2026-02-02T12:00:00Z|91436669", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:56:22Z"}
+{"search_id": "kw_higiene|2026-01-29T18:00:00Z|2026-01-31T15:00:00Z|97a87e75", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-19T16:57:34Z"}
+{"search_id": "kw_higiene|2026-01-31T15:00:00Z|2026-02-02T12:00:00Z|d87c1111", "status": "ok", "n_posts": 36, "saturated": false, "error": null, "logged_at": "2026-10-19T16:58:22Z"}
+{"search_id": "kw_higiene|2026-02-02T12:00:00Z|2026-02-10T00:00:00Z|d9784184", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T16:59:33Z"}
+{"search_id": "kw_higiene|2026-02-02T12:00:00Z|2026-02-06T06:00:00Z|79b3fa30", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:00:45Z"}
+{"search_id": "kw_higiene|2026-02-02T12:00:00Z|2026-02-04T09:00:00Z|8ca9bda5", "status": "ok", "n_posts": 67, "saturated": false, "error": null, "logged_at": "2026-10-19T17:01:45Z"}
+{"search_id": "kw_higiene|2026-02-04T09:00:00Z|2026-02-06T06:00:00Z|68010171", "status": "ok", "n_posts": 43, "saturated": false, "error": null, "logged_at": "2026-10-19T17:02:31Z"}
+{"search_id": "kw_higiene|2026-02-06T06:00:00Z|2026-02-10T00:00:00Z|a89eee96", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:03:37Z"}
+{"search_id": "kw_higiene|2026-02-06T06:00:00Z|2026-02-08T03:00:00Z|11f8cb1e", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-19T17:04:47Z"}
+{"search_id": "kw_higiene|2026-02-08T03:00:00Z|2026-02-10T00:00:00Z|97714b00", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-19T17:05:48Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|1100983d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1125). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:07:36Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|1c1fb022", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1128). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:09:26Z"}
+{"search_id": "ht_mbg|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|5434f122", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:11:39Z"}
+{"search_id": "ht_mbg|2026-01-26T00:00:00Z|2026-02-10T00:00:00Z|309243f9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:13:18Z"}
+{"search_id": "ht_mbg|2026-01-26T00:00:00Z|2026-02-02T12:00:00Z|042a7519", "status": "ok", "n_posts": 42, "saturated": false, "error": null, "logged_at": "2026-10-19T17:14:14Z"}
+{"search_id": "ht_mbg|2026-02-02T12:00:00Z|2026-02-10T00:00:00Z|222b5e68", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-19T17:15:30Z"}
+{"search_id": "ht_mbg|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|6878a3c5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:17:09Z"}
+{"search_id": "ht_mbg|2026-02-10T00:00:00Z|2026-02-17T12:00:00Z|8e607d04", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-19T17:18:39Z"}
+{"search_id": "ht_mbg|2026-02-17T12:00:00Z|2026-02-25T00:00:00Z|501b8765", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-19T17:19:56Z"}
+{"search_id": "ht_makanbergizigratis|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|0bde78f8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:21:32Z"}
+{"search_id": "ht_makanbergizigratis|2026-01-26T00:00:00Z|2026-02-10T00:00:00Z|2dd44da2", "status": "ok", "n_posts": 48, "saturated": false, "error": null, "logged_at": "2026-10-19T17:22:34Z"}
+{"search_id": "ht_makanbergizigratis|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|24f30885", "status": "ok", "n_posts": 55, "saturated": false, "error": null, "logged_at": "2026-10-19T17:23:43Z"}
+{"search_id": "ht_keracunanmbg|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|485a7815", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1102). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:25:31Z"}
+{"search_id": "ht_mbgkeracunan|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85eb354c", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T17:25:55Z"}
+{"search_id": "ht_mbgbasi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|a6d897a4", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-19T17:26:21Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|9b32849a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:27:29Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-03-12T00:00:00Z|3a640bc9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:28:30Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|ff842dd1", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:29:34Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-02-28T18:00:00Z|ba2bc8ae", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:30:37Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-02-26T21:00:00Z|30e001d0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:31:41Z"}
+{"search_id": "kw_keracunan|2026-02-25T00:00:00Z|2026-02-25T22:30:00Z|74e5d4be", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-19T17:32:43Z"}
+{"search_id": "kw_keracunan|2026-02-25T22:30:00Z|2026-02-26T21:00:00Z|ac80a6ff", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:33:51Z"}
+{"search_id": "kw_keracunan|2026-02-25T22:30:00Z|2026-02-26T09:45:00Z|83eec968", "status": "ok", "n_posts": 84, "saturated": false, "error": null, "logged_at": "2026-10-19T17:34:57Z"}
+{"search_id": "kw_keracunan|2026-02-26T09:45:00Z|2026-02-26T21:00:00Z|ee72ecc6", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-19T17:35:35Z"}
+{"search_id": "kw_keracunan|2026-02-26T21:00:00Z|2026-02-28T18:00:00Z|dc92c872", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1103). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:37:23Z"}
+{"search_id": "kw_keracunan|2026-02-28T18:00:00Z|2026-03-04T12:00:00Z|b71517fa", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1117). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:39:12Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|18f701f4", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1149). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:41:02Z"}
+{"search_id": "kw_keracunan|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|eb9db148", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:42:03Z"}
+{"search_id": "kw_keracunan|2026-03-12T00:00:00Z|2026-03-19T12:00:00Z|d0829b2d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:42:52Z"}
+{"search_id": "kw_keracunan|2026-03-12T00:00:00Z|2026-03-15T18:00:00Z|a7f0ac42", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-19T17:43:56Z"}
+{"search_id": "kw_keracunan|2026-03-15T18:00:00Z|2026-03-19T12:00:00Z|820a37fc", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-19T17:44:59Z"}
+{"search_id": "kw_keracunan|2026-03-19T12:00:00Z|2026-03-27T00:00:00Z|20e39c46", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:46:00Z"}
+{"search_id": "kw_keracunan|2026-03-19T12:00:00Z|2026-03-23T06:00:00Z|f8c33a90", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-19T17:46:52Z"}
+{"search_id": "kw_keracunan|2026-03-23T06:00:00Z|2026-03-27T00:00:00Z|97d4ba42", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-19T17:47:41Z"}
+{"search_id": "kw_basi|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|631065e5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:48:52Z"}
+{"search_id": "kw_basi|2026-02-25T00:00:00Z|2026-03-12T00:00:00Z|ac191a51", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:50:08Z"}
+{"search_id": "kw_basi|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|76788ff7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1115). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:51:56Z"}
+{"search_id": "kw_basi|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|fe8bd886", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1115). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:53:44Z"}
+{"search_id": "kw_basi|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|55928def", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1115). Cek sesi login atau koneksi.", "logged_at": "2026-10-19T17:55:32Z"}
+{"search_id": "kw_bakteri|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|2b133b71", "status": "ok", "n_posts": 46, "saturated": false, "error": null, "logged_at": "2026-10-19T17:57:17Z"}
+{"search_id": "kw_benda_asing|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|3da33db2", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T17:58:27Z"}
+{"search_id": "kw_benda_asing|2026-02-25T00:00:00Z|2026-03-12T00:00:00Z|c8ac98ca", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-19T17:59:48Z"}
+{"search_id": "kw_benda_asing|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|39bff745", "status": "ok", "n_posts": 47, "saturated": false, "error": null, "logged_at": "2026-10-19T18:00:36Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|8ec2d946", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T18:01:59Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-03-12T00:00:00Z|b3e67c6a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-19T18:03:14Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-22T06:00:00Z|f5b4e76d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:03:23Z"}
+{"search_id": "kw_keracunan|2026-01-22T06:00:00Z|2026-01-26T00:00:00Z|7c646231", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:05:14Z"}
+{"search_id": "kw_higiene|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|a1db9980", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:07:04Z"}
+{"search_id": "kw_keracunan|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|8098726e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:08:52Z"}
+{"search_id": "kw_basi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85393878", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:10:43Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|1100983d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:12:33Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|1c1fb022", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:14:20Z"}
+{"search_id": "ht_keracunanmbg|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|485a7815", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:16:09Z"}
+{"search_id": "kw_keracunan|2026-02-26T21:00:00Z|2026-02-28T18:00:00Z|dc92c872", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:17:59Z"}
+{"search_id": "kw_keracunan|2026-02-28T18:00:00Z|2026-03-04T12:00:00Z|b71517fa", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:19:47Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|18f701f4", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:21:34Z"}
+{"search_id": "kw_basi|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|76788ff7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:23:23Z"}
+{"search_id": "kw_basi|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|fe8bd886", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:25:14Z"}
+{"search_id": "kw_basi|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|55928def", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:27:04Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|bf191813", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:28:53Z"}
+{"search_id": "kw_higiene|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|560a4966", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:30:42Z"}
+{"search_id": "kw_higiene|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|f246c4bf", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:32:30Z"}
+{"search_id": "kw_kualitas|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|d76fe197", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:34:19Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-22T06:00:00Z|f5b4e76d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:37:34Z"}
+{"search_id": "kw_keracunan|2026-01-22T06:00:00Z|2026-01-26T00:00:00Z|7c646231", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:39:22Z"}
+{"search_id": "kw_higiene|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|a1db9980", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:41:11Z"}
+{"search_id": "kw_keracunan|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|8098726e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:43:00Z"}
+{"search_id": "kw_basi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85393878", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:44:49Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|1100983d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:46:40Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|1c1fb022", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:48:30Z"}
+{"search_id": "ht_keracunanmbg|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|485a7815", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 252). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T07:50:19Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-22T06:00:00Z|f5b4e76d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:25:47Z"}
+{"search_id": "kw_keracunan|2026-01-18T12:00:00Z|2026-01-20T09:00:00Z|f795e854", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-20T08:26:48Z"}
+{"search_id": "kw_keracunan|2026-01-20T09:00:00Z|2026-01-22T06:00:00Z|8f47d309", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-20T08:27:58Z"}
+{"search_id": "kw_keracunan|2026-01-22T06:00:00Z|2026-01-26T00:00:00Z|7c646231", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:28:49Z"}
+{"search_id": "kw_keracunan|2026-01-22T06:00:00Z|2026-01-24T03:00:00Z|98a69242", "status": "ok", "n_posts": 50, "saturated": false, "error": null, "logged_at": "2026-10-20T08:29:35Z"}
+{"search_id": "kw_keracunan|2026-01-24T03:00:00Z|2026-01-26T00:00:00Z|b160a802", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:30:26Z"}
+{"search_id": "kw_keracunan|2026-01-24T03:00:00Z|2026-01-25T01:30:00Z|6fc7904f", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T08:31:17Z"}
+{"search_id": "kw_keracunan|2026-01-25T01:30:00Z|2026-01-26T00:00:00Z|8732b394", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-20T08:31:58Z"}
+{"search_id": "kw_higiene|2026-01-11T00:00:00Z|2026-01-26T00:00:00Z|a1db9980", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T08:33:08Z"}
+{"search_id": "kw_keracunan|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|8098726e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1144). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T08:35:00Z"}
+{"search_id": "kw_basi|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|85393878", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1149). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T08:36:52Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|1100983d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:39:11Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-17T12:00:00Z|d384b627", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:40:31Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-13T18:00:00Z|a72d6c0a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:42:01Z"}
+{"search_id": "kw_higiene|2026-02-10T00:00:00Z|2026-02-11T21:00:00Z|64d8270b", "status": "ok", "n_posts": 67, "saturated": false, "error": null, "logged_at": "2026-10-20T08:43:12Z"}
+{"search_id": "kw_higiene|2026-02-11T21:00:00Z|2026-02-13T18:00:00Z|e121b02a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:44:39Z"}
+{"search_id": "kw_higiene|2026-02-11T21:00:00Z|2026-02-12T19:30:00Z|4b3920fa", "status": "ok", "n_posts": 38, "saturated": false, "error": null, "logged_at": "2026-10-20T08:45:29Z"}
+{"search_id": "kw_higiene|2026-02-12T19:30:00Z|2026-02-13T18:00:00Z|30ae9ebc", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:46:59Z"}
+{"search_id": "kw_higiene|2026-02-12T19:30:00Z|2026-02-13T06:45:00Z|8764176a", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-20T08:48:05Z"}
+{"search_id": "kw_higiene|2026-02-13T06:45:00Z|2026-02-13T18:00:00Z|a700f8e1", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T08:49:24Z"}
+{"search_id": "kw_higiene|2026-02-13T18:00:00Z|2026-02-17T12:00:00Z|6cbc550a", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T08:50:45Z"}
+{"search_id": "kw_higiene|2026-02-17T12:00:00Z|2026-02-25T00:00:00Z|60812c8d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1122). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T08:52:37Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|1c1fb022", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:54:20Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-10T00:00:00Z|fb9c3c19", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:55:34Z"}
+{"search_id": "kw_kualitas|2026-01-26T00:00:00Z|2026-02-02T12:00:00Z|9302450c", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-20T08:56:37Z"}
+{"search_id": "kw_kualitas|2026-02-02T12:00:00Z|2026-02-10T00:00:00Z|1800505e", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T08:57:41Z"}
+{"search_id": "kw_kualitas|2026-02-10T00:00:00Z|2026-02-25T00:00:00Z|f5ee9301", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T08:59:02Z"}
+{"search_id": "kw_kualitas|2026-02-10T00:00:00Z|2026-02-17T12:00:00Z|25ddcf23", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:00:30Z"}
+{"search_id": "kw_kualitas|2026-02-10T00:00:00Z|2026-02-13T18:00:00Z|1fc511fc", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-20T09:01:45Z"}
+{"search_id": "kw_kualitas|2026-02-13T18:00:00Z|2026-02-17T12:00:00Z|04323c22", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-20T09:02:58Z"}
+{"search_id": "kw_kualitas|2026-02-17T12:00:00Z|2026-02-25T00:00:00Z|0a9e032d", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T09:04:20Z"}
+{"search_id": "ht_keracunanmbg|2026-01-26T00:00:00Z|2026-02-25T00:00:00Z|485a7815", "status": "ok", "n_posts": 8, "saturated": false, "error": null, "logged_at": "2026-10-20T09:04:47Z"}
+{"search_id": "kw_keracunan|2026-02-26T21:00:00Z|2026-02-28T18:00:00Z|dc92c872", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T09:05:37Z"}
+{"search_id": "kw_keracunan|2026-02-28T18:00:00Z|2026-03-04T12:00:00Z|b71517fa", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1108). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:07:29Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|18f701f4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:09:29Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-08T06:00:00Z|4c072258", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:10:25Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-06T09:00:00Z|6eb1f9af", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:11:32Z"}
+{"search_id": "kw_keracunan|2026-03-04T12:00:00Z|2026-03-05T10:30:00Z|a8f9a934", "status": "ok", "n_posts": 56, "saturated": false, "error": null, "logged_at": "2026-10-20T09:12:29Z"}
+{"search_id": "kw_keracunan|2026-03-05T10:30:00Z|2026-03-06T09:00:00Z|aaae3275", "status": "ok", "n_posts": 47, "saturated": false, "error": null, "logged_at": "2026-10-20T09:13:18Z"}
+{"search_id": "kw_keracunan|2026-03-06T09:00:00Z|2026-03-08T06:00:00Z|a7a05537", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T09:14:12Z"}
+{"search_id": "kw_keracunan|2026-03-08T06:00:00Z|2026-03-12T00:00:00Z|9e99ccc4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:15:16Z"}
+{"search_id": "kw_keracunan|2026-03-08T06:00:00Z|2026-03-10T03:00:00Z|f6bb05a4", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T09:16:19Z"}
+{"search_id": "kw_keracunan|2026-03-10T03:00:00Z|2026-03-12T00:00:00Z|f4d18fac", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:17:23Z"}
+{"search_id": "kw_keracunan|2026-03-10T03:00:00Z|2026-03-11T01:30:00Z|443cca8f", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T09:18:10Z"}
+{"search_id": "kw_keracunan|2026-03-11T01:30:00Z|2026-03-12T00:00:00Z|c013ff44", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1132). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:20:01Z"}
+{"search_id": "kw_basi|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|76788ff7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1124). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:21:53Z"}
+{"search_id": "kw_basi|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|fe8bd886", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1124). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:23:43Z"}
+{"search_id": "kw_basi|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|55928def", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:24:50Z"}
+{"search_id": "kw_basi|2026-03-12T00:00:00Z|2026-03-19T12:00:00Z|b2f36279", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-20T09:26:03Z"}
+{"search_id": "kw_basi|2026-03-19T12:00:00Z|2026-03-27T00:00:00Z|6d9a919b", "status": "ok", "n_posts": 49, "saturated": false, "error": null, "logged_at": "2026-10-20T09:26:53Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-03-04T12:00:00Z|bf191813", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:28:19Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-02-28T18:00:00Z|2b848e1f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:29:44Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-02-26T21:00:00Z|069d48a9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:31:02Z"}
+{"search_id": "kw_higiene|2026-02-25T00:00:00Z|2026-02-25T22:30:00Z|419a9486", "status": "ok", "n_posts": 95, "saturated": false, "error": null, "logged_at": "2026-10-20T09:32:35Z"}
+{"search_id": "kw_higiene|2026-02-25T22:30:00Z|2026-02-26T21:00:00Z|dc6cde0d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:33:54Z"}
+{"search_id": "kw_higiene|2026-02-25T22:30:00Z|2026-02-26T09:45:00Z|3492e423", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-20T09:35:24Z"}
+{"search_id": "kw_higiene|2026-02-26T09:45:00Z|2026-02-26T21:00:00Z|8b5232e3", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1155). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:37:14Z"}
+{"search_id": "kw_higiene|2026-02-26T21:00:00Z|2026-02-28T18:00:00Z|067cdb72", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1159). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:39:06Z"}
+{"search_id": "kw_higiene|2026-02-28T18:00:00Z|2026-03-04T12:00:00Z|937d30b5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:40:32Z"}
+{"search_id": "kw_higiene|2026-02-28T18:00:00Z|2026-03-02T15:00:00Z|0c81c7c2", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:41:44Z"}
+{"search_id": "kw_higiene|2026-02-28T18:00:00Z|2026-03-01T16:30:00Z|b8f68291", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T09:43:05Z"}
+{"search_id": "kw_higiene|2026-03-01T16:30:00Z|2026-03-02T15:00:00Z|ca29b44f", "status": "ok", "n_posts": 67, "saturated": false, "error": null, "logged_at": "2026-10-20T09:44:05Z"}
+{"search_id": "kw_higiene|2026-03-02T15:00:00Z|2026-03-04T12:00:00Z|e963e185", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:45:26Z"}
+{"search_id": "kw_higiene|2026-03-02T15:00:00Z|2026-03-03T13:30:00Z|4a8e740c", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-20T09:46:39Z"}
+{"search_id": "kw_higiene|2026-03-03T13:30:00Z|2026-03-04T12:00:00Z|0839247f", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-20T09:47:55Z"}
+{"search_id": "kw_higiene|2026-03-04T12:00:00Z|2026-03-12T00:00:00Z|560a4966", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:49:20Z"}
+{"search_id": "kw_higiene|2026-03-04T12:00:00Z|2026-03-08T06:00:00Z|a87e8a69", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:50:30Z"}
+{"search_id": "kw_higiene|2026-03-04T12:00:00Z|2026-03-06T09:00:00Z|a1aa049b", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T09:51:30Z"}
+{"search_id": "kw_higiene|2026-03-06T09:00:00Z|2026-03-08T06:00:00Z|ef8a4312", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1139). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T09:53:21Z"}
+{"search_id": "kw_higiene|2026-03-08T06:00:00Z|2026-03-12T00:00:00Z|09759d83", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:55:33Z"}
+{"search_id": "kw_higiene|2026-03-08T06:00:00Z|2026-03-10T03:00:00Z|299f83bb", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T09:56:41Z"}
+{"search_id": "kw_higiene|2026-03-08T06:00:00Z|2026-03-09T04:30:00Z|665877e7", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-20T09:57:42Z"}
+{"search_id": "kw_higiene|2026-03-09T04:30:00Z|2026-03-10T03:00:00Z|2b349257", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T09:58:43Z"}
+{"search_id": "kw_higiene|2026-03-10T03:00:00Z|2026-03-12T00:00:00Z|e551bcc3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:00:00Z"}
+{"search_id": "kw_higiene|2026-03-10T03:00:00Z|2026-03-11T01:30:00Z|4ec2f6d7", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:01:19Z"}
+{"search_id": "kw_higiene|2026-03-10T03:00:00Z|2026-03-10T14:15:00Z|f264f604", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T10:02:27Z"}
+{"search_id": "kw_higiene|2026-03-10T14:15:00Z|2026-03-11T01:30:00Z|b60e3476", "status": "ok", "n_posts": 43, "saturated": false, "error": null, "logged_at": "2026-10-20T10:03:07Z"}
+{"search_id": "kw_higiene|2026-03-11T01:30:00Z|2026-03-12T00:00:00Z|225bfbdc", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-20T10:04:27Z"}
+{"search_id": "kw_higiene|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|f246c4bf", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T10:05:24Z"}
+{"search_id": "kw_kualitas|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|d76fe197", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1144). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T10:07:16Z"}
+{"search_id": "ht_mbg|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|52d71056", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1142). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T10:09:08Z"}
+{"search_id": "ht_makanbergizigratis|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|6ecf3845", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:11:30Z"}
+{"search_id": "ht_makanbergizigratis|2026-02-25T00:00:00Z|2026-03-12T00:00:00Z|96e59aab", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-20T10:13:03Z"}
+{"search_id": "ht_makanbergizigratis|2026-03-12T00:00:00Z|2026-03-27T00:00:00Z|85563728", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-20T10:14:36Z"}
+{"search_id": "ht_keracunanmbg|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|711ef00e", "status": "ok", "n_posts": 3, "saturated": false, "error": null, "logged_at": "2026-10-20T10:15:00Z"}
+{"search_id": "ht_mbgkeracunan|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|8e14f4a8", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T10:15:28Z"}
+{"search_id": "ht_mbgbasi|2026-02-25T00:00:00Z|2026-03-27T00:00:00Z|55f6b7ac", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T10:15:58Z"}
+{"search_id": "kw_keracunan|2026-03-27T00:00:00Z|2026-04-26T00:00:00Z|e4488a66", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:17:29Z"}
+{"search_id": "kw_keracunan|2026-03-27T00:00:00Z|2026-04-11T00:00:00Z|1021ef92", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:18:40Z"}
+{"search_id": "kw_keracunan|2026-03-27T00:00:00Z|2026-04-03T12:00:00Z|b10e49d7", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:19:33Z"}
+{"search_id": "kw_keracunan|2026-03-27T00:00:00Z|2026-03-30T18:00:00Z|17f398ef", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T10:20:24Z"}
+{"search_id": "kw_keracunan|2026-03-30T18:00:00Z|2026-04-03T12:00:00Z|c4a53388", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-20T10:21:28Z"}
+{"search_id": "kw_keracunan|2026-04-03T12:00:00Z|2026-04-11T00:00:00Z|989a435e", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T10:22:20Z"}
+{"search_id": "kw_keracunan|2026-04-11T00:00:00Z|2026-04-26T00:00:00Z|adecfb51", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1132). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T10:24:11Z"}
+{"search_id": "kw_basi|2026-03-27T00:00:00Z|2026-04-26T00:00:00Z|5e042d50", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:25:54Z"}
+{"search_id": "kw_basi|2026-03-27T00:00:00Z|2026-04-11T00:00:00Z|8b5c04b7", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:27:14Z"}
+{"search_id": "kw_basi|2026-03-27T00:00:00Z|2026-04-03T12:00:00Z|be3efe9d", "status": "ok", "n_posts": 42, "saturated": false, "error": null, "logged_at": "2026-10-20T10:28:01Z"}
+{"search_id": "kw_basi|2026-04-03T12:00:00Z|2026-04-11T00:00:00Z|5f9e8989", "status": "ok", "n_posts": 59, "saturated": false, "error": null, "logged_at": "2026-10-20T10:29:01Z"}
+{"search_id": "kw_basi|2026-04-11T00:00:00Z|2026-04-26T00:00:00Z|bd230a36", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T10:30:05Z"}
+{"search_id": "kw_bakteri|2026-03-27T00:00:00Z|2026-04-26T00:00:00Z|11215b86", "status": "ok", "n_posts": 19, "saturated": false, "error": null, "logged_at": "2026-10-20T10:30:39Z"}
+{"search_id": "kw_keracunan|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|c8227f5f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:41:08Z"}
+{"search_id": "kw_keracunan|2025-11-01T00:00:00Z|2025-11-16T00:00:00Z|7fb52a50", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:42:23Z"}
+{"search_id": "kw_keracunan|2025-11-01T00:00:00Z|2025-11-08T12:00:00Z|5f7bc629", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:43:30Z"}
+{"search_id": "kw_keracunan|2025-11-01T00:00:00Z|2025-11-04T18:00:00Z|0fac25d3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:44:42Z"}
+{"search_id": "kw_keracunan|2025-11-01T00:00:00Z|2025-11-02T21:00:00Z|06d5b5f3", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-20T10:45:37Z"}
+{"search_id": "kw_keracunan|2025-11-02T21:00:00Z|2025-11-04T18:00:00Z|8f84210e", "status": "ok", "n_posts": 66, "saturated": false, "error": null, "logged_at": "2026-10-20T10:46:36Z"}
+{"search_id": "kw_keracunan|2025-11-04T18:00:00Z|2025-11-08T12:00:00Z|5532d095", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-20T10:47:38Z"}
+{"search_id": "kw_keracunan|2025-11-08T12:00:00Z|2025-11-16T00:00:00Z|281ae9b6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:48:51Z"}
+{"search_id": "kw_keracunan|2025-11-08T12:00:00Z|2025-11-12T06:00:00Z|db209ea5", "status": "ok", "n_posts": 47, "saturated": false, "error": null, "logged_at": "2026-10-20T10:49:41Z"}
+{"search_id": "kw_keracunan|2025-11-12T06:00:00Z|2025-11-16T00:00:00Z|a68c34b3", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T10:50:46Z"}
+{"search_id": "kw_keracunan|2025-11-16T00:00:00Z|2025-12-01T00:00:00Z|e3dc3054", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1160). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T10:52:38Z"}
+{"search_id": "kw_basi|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|a58c4328", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1150). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T10:54:31Z"}
+{"search_id": "kw_bakteri|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|25ad77b7", "status": "ok", "n_posts": 24, "saturated": false, "error": null, "logged_at": "2026-10-20T10:55:34Z"}
+{"search_id": "kw_benda_asing|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|865151eb", "status": "ok", "n_posts": 33, "saturated": false, "error": null, "logged_at": "2026-10-20T10:56:11Z"}
+{"search_id": "kw_higiene|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|442b5011", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:57:44Z"}
+{"search_id": "kw_higiene|2025-11-01T00:00:00Z|2025-11-16T00:00:00Z|3725092f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T10:59:28Z"}
+{"search_id": "kw_higiene|2025-11-01T00:00:00Z|2025-11-08T12:00:00Z|2cd93722", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:00:59Z"}
+{"search_id": "kw_higiene|2025-11-01T00:00:00Z|2025-11-04T18:00:00Z|ce0ef705", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T11:02:14Z"}
+{"search_id": "kw_higiene|2025-11-04T18:00:00Z|2025-11-08T12:00:00Z|797ff976", "status": "ok", "n_posts": 48, "saturated": false, "error": null, "logged_at": "2026-10-20T11:03:16Z"}
+{"search_id": "kw_higiene|2025-11-08T12:00:00Z|2025-11-16T00:00:00Z|e3d1ba2d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:04:56Z"}
+{"search_id": "kw_higiene|2025-11-08T12:00:00Z|2025-11-12T06:00:00Z|7f2d0718", "status": "ok", "n_posts": 33, "saturated": false, "error": null, "logged_at": "2026-10-20T11:05:43Z"}
+{"search_id": "kw_higiene|2025-11-12T06:00:00Z|2025-11-16T00:00:00Z|a038b182", "status": "ok", "n_posts": 67, "saturated": false, "error": null, "logged_at": "2026-10-20T11:07:00Z"}
+{"search_id": "kw_higiene|2025-11-16T00:00:00Z|2025-12-01T00:00:00Z|91078bd0", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T11:08:37Z"}
+{"search_id": "kw_kualitas|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|0405c510", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1118). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T11:10:30Z"}
+{"search_id": "ht_mbg|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|074d045a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:12:15Z"}
+{"search_id": "ht_mbg|2025-11-01T00:00:00Z|2025-11-16T00:00:00Z|9f54604e", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-20T11:13:46Z"}
+{"search_id": "ht_mbg|2025-11-16T00:00:00Z|2025-12-01T00:00:00Z|76dd6ebd", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-20T11:15:05Z"}
+{"search_id": "ht_makanbergizigratis|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|5eff3635", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-20T11:16:36Z"}
+{"search_id": "ht_keracunanmbg|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|6678fe1f", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-20T11:17:00Z"}
+{"search_id": "ht_mbgkeracunan|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|8c02da7a", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T11:17:29Z"}
+{"search_id": "ht_mbgbasi|2025-11-01T00:00:00Z|2025-12-01T00:00:00Z|be2c8a73", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T11:17:58Z"}
+{"search_id": "kw_keracunan|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|63d219dd", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:18:53Z"}
+{"search_id": "kw_keracunan|2025-12-01T00:00:00Z|2025-12-14T00:00:00Z|42827dab", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:19:57Z"}
+{"search_id": "kw_keracunan|2025-12-01T00:00:00Z|2025-12-07T12:00:00Z|f386032a", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-20T11:21:03Z"}
+{"search_id": "kw_keracunan|2025-12-07T12:00:00Z|2025-12-14T00:00:00Z|21b3f302", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:22:30Z"}
+{"search_id": "kw_keracunan|2025-12-07T12:00:00Z|2025-12-10T18:00:00Z|eeeacb21", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1147). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T11:24:21Z"}
+{"search_id": "kw_keracunan|2025-12-10T18:00:00Z|2025-12-14T00:00:00Z|a9ecd6ba", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1152). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T11:26:13Z"}
+{"search_id": "kw_keracunan|2025-12-14T00:00:00Z|2025-12-27T00:00:00Z|22ed95f3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:27:10Z"}
+{"search_id": "kw_keracunan|2025-12-14T00:00:00Z|2025-12-20T12:00:00Z|a3a77bad", "status": "ok", "n_posts": 70, "saturated": false, "error": null, "logged_at": "2026-10-20T11:27:59Z"}
+{"search_id": "kw_keracunan|2025-12-20T12:00:00Z|2025-12-27T00:00:00Z|a65244b0", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-20T11:28:41Z"}
+{"search_id": "kw_basi|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|230254d8", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-20T11:29:30Z"}
+{"search_id": "kw_bakteri|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|9f9ad930", "status": "ok", "n_posts": 7, "saturated": false, "error": null, "logged_at": "2026-10-20T11:29:55Z"}
+{"search_id": "kw_benda_asing|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|728f1622", "status": "ok", "n_posts": 41, "saturated": false, "error": null, "logged_at": "2026-10-20T11:30:36Z"}
+{"search_id": "kw_higiene|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|6d6a9be4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:32:03Z"}
+{"search_id": "kw_higiene|2025-12-01T00:00:00Z|2025-12-14T00:00:00Z|4fbd732d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:33:51Z"}
+{"search_id": "kw_higiene|2025-12-01T00:00:00Z|2025-12-07T12:00:00Z|8937230f", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-20T11:35:16Z"}
+{"search_id": "kw_higiene|2025-12-07T12:00:00Z|2025-12-14T00:00:00Z|a43e4fd8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:36:53Z"}
+{"search_id": "kw_higiene|2025-12-07T12:00:00Z|2025-12-10T18:00:00Z|4cfca8ec", "status": "ok", "n_posts": 39, "saturated": false, "error": null, "logged_at": "2026-10-20T11:37:56Z"}
+{"search_id": "kw_higiene|2025-12-10T18:00:00Z|2025-12-14T00:00:00Z|a1757e02", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1146). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T11:39:47Z"}
+{"search_id": "kw_higiene|2025-12-14T00:00:00Z|2025-12-27T00:00:00Z|c33a6405", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1161). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T11:41:38Z"}
+{"search_id": "kw_kualitas|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|dd09b044", "status": "ok", "n_posts": 94, "saturated": false, "error": null, "logged_at": "2026-10-20T11:43:19Z"}
+{"search_id": "ht_mbg|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|35242208", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T11:44:56Z"}
+{"search_id": "ht_mbg|2025-12-01T00:00:00Z|2025-12-14T00:00:00Z|515b36df", "status": "ok", "n_posts": 50, "saturated": false, "error": null, "logged_at": "2026-10-20T11:46:01Z"}
+{"search_id": "ht_mbg|2025-12-14T00:00:00Z|2025-12-27T00:00:00Z|b9eaacfe", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-20T11:47:05Z"}
+{"search_id": "ht_makanbergizigratis|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|63bccbe3", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-20T11:48:11Z"}
+{"search_id": "ht_keracunanmbg|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|6f3a1940", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T11:48:41Z"}
+{"search_id": "ht_mbgkeracunan|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|cb6ee390", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T11:49:11Z"}
+{"search_id": "ht_mbgbasi|2025-12-01T00:00:00Z|2025-12-27T00:00:00Z|a1fb1b0e", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T11:49:40Z"}
+{"search_id": "kw_keracunan|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|558983e9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:12:33Z"}
+{"search_id": "kw_keracunan|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|2c33c1bd", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:13:46Z"}
+{"search_id": "kw_keracunan|2026-04-01T00:00:00Z|2026-04-08T12:00:00Z|e9d12de3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:14:51Z"}
+{"search_id": "kw_keracunan|2026-04-01T00:00:00Z|2026-04-04T18:00:00Z|c41ba95d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:16:07Z"}
+{"search_id": "kw_keracunan|2026-04-01T00:00:00Z|2026-04-02T21:00:00Z|e4a891ec", "status": "ok", "n_posts": 43, "saturated": false, "error": null, "logged_at": "2026-10-20T12:16:55Z"}
+{"search_id": "kw_keracunan|2026-04-02T21:00:00Z|2026-04-04T18:00:00Z|86cc4868", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-20T12:18:00Z"}
+{"search_id": "kw_keracunan|2026-04-04T18:00:00Z|2026-04-08T12:00:00Z|b800aec7", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:19:08Z"}
+{"search_id": "kw_keracunan|2026-04-04T18:00:00Z|2026-04-06T15:00:00Z|75d2b8bb", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-20T12:20:36Z"}
+{"search_id": "kw_keracunan|2026-04-06T15:00:00Z|2026-04-08T12:00:00Z|3a95c75b", "status": "ok", "n_posts": 59, "saturated": false, "error": null, "logged_at": "2026-10-20T12:21:29Z"}
+{"search_id": "kw_keracunan|2026-04-08T12:00:00Z|2026-04-16T00:00:00Z|05ad851a", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T12:22:22Z"}
+{"search_id": "kw_keracunan|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|1015138b", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1123). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T12:24:14Z"}
+{"search_id": "kw_basi|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|0206f1f8", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1123). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T12:26:06Z"}
+{"search_id": "kw_bakteri|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|299e1e55", "status": "ok", "n_posts": 21, "saturated": false, "error": null, "logged_at": "2026-10-20T12:27:08Z"}
+{"search_id": "kw_benda_asing|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|93a0b580", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:28:27Z"}
+{"search_id": "kw_benda_asing|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|5f69316c", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-20T12:29:34Z"}
+{"search_id": "kw_benda_asing|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|f5fbdc29", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-20T12:30:43Z"}
+{"search_id": "kw_higiene|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|7d793252", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:32:07Z"}
+{"search_id": "kw_higiene|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|75ae6308", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:33:27Z"}
+{"search_id": "kw_higiene|2026-04-01T00:00:00Z|2026-04-08T12:00:00Z|5cfcc014", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:35:02Z"}
+{"search_id": "kw_higiene|2026-04-01T00:00:00Z|2026-04-04T18:00:00Z|e4d11fa4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:36:39Z"}
+{"search_id": "kw_higiene|2026-04-01T00:00:00Z|2026-04-02T21:00:00Z|80c6e7de", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T12:38:06Z"}
+{"search_id": "kw_higiene|2026-04-02T21:00:00Z|2026-04-04T18:00:00Z|02a0a43b", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-20T12:39:42Z"}
+{"search_id": "kw_higiene|2026-04-04T18:00:00Z|2026-04-08T12:00:00Z|cfd8545b", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1124). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T12:41:33Z"}
+{"search_id": "kw_higiene|2026-04-08T12:00:00Z|2026-04-16T00:00:00Z|bcf31dcb", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-20T12:43:03Z"}
+{"search_id": "kw_higiene|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|35c166cb", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:44:28Z"}
+{"search_id": "kw_higiene|2026-04-16T00:00:00Z|2026-04-23T12:00:00Z|f5b24e57", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:46:02Z"}
+{"search_id": "kw_higiene|2026-04-16T00:00:00Z|2026-04-19T18:00:00Z|153993e8", "status": "ok", "n_posts": 84, "saturated": false, "error": null, "logged_at": "2026-10-20T12:47:32Z"}
+{"search_id": "kw_higiene|2026-04-19T18:00:00Z|2026-04-23T12:00:00Z|6ee4bbfb", "status": "ok", "n_posts": 76, "saturated": false, "error": null, "logged_at": "2026-10-20T12:48:54Z"}
+{"search_id": "kw_higiene|2026-04-23T12:00:00Z|2026-05-01T00:00:00Z|249ae0a3", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:50:18Z"}
+{"search_id": "kw_higiene|2026-04-23T12:00:00Z|2026-04-27T06:00:00Z|19d54f63", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:51:41Z"}
+{"search_id": "kw_higiene|2026-04-23T12:00:00Z|2026-04-25T09:00:00Z|2e5f33d4", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-20T12:53:03Z"}
+{"search_id": "kw_higiene|2026-04-25T09:00:00Z|2026-04-27T06:00:00Z|861c7845", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T12:54:13Z"}
+{"search_id": "kw_higiene|2026-04-27T06:00:00Z|2026-05-01T00:00:00Z|b7fe77d4", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1129). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T12:56:05Z"}
+{"search_id": "kw_kualitas|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|c7c36654", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T12:58:37Z"}
+{"search_id": "kw_kualitas|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|f418eb69", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:00:09Z"}
+{"search_id": "kw_kualitas|2026-04-01T00:00:00Z|2026-04-08T12:00:00Z|2c52dedc", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:01:38Z"}
+{"search_id": "kw_kualitas|2026-04-01T00:00:00Z|2026-04-04T18:00:00Z|f36d7f4f", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-20T13:02:37Z"}
+{"search_id": "kw_kualitas|2026-04-04T18:00:00Z|2026-04-08T12:00:00Z|f0e55957", "status": "ok", "n_posts": 58, "saturated": false, "error": null, "logged_at": "2026-10-20T13:03:47Z"}
+{"search_id": "kw_kualitas|2026-04-08T12:00:00Z|2026-04-16T00:00:00Z|9d08d810", "status": "ok", "n_posts": 33, "saturated": false, "error": null, "logged_at": "2026-10-20T13:04:31Z"}
+{"search_id": "kw_kualitas|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|992bb771", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:06:09Z"}
+{"search_id": "kw_kualitas|2026-04-16T00:00:00Z|2026-04-23T12:00:00Z|6cbe93d9", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-20T13:07:42Z"}
+{"search_id": "kw_kualitas|2026-04-23T12:00:00Z|2026-05-01T00:00:00Z|50879413", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T13:09:10Z"}
+{"search_id": "ht_mbg|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|5d4efb92", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:10:57Z"}
+{"search_id": "ht_mbg|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|fb6d4170", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1140). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T13:12:49Z"}
+{"search_id": "ht_mbg|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|10ed3618", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-20T13:14:38Z"}
+{"search_id": "ht_makanbergizigratis|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|03cbe867", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-20T13:16:25Z"}
+{"search_id": "ht_keracunanmbg|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|73923440", "status": "ok", "n_posts": 3, "saturated": false, "error": null, "logged_at": "2026-10-20T13:16:51Z"}
+{"search_id": "ht_mbgkeracunan|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|0a95bdc9", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T13:17:20Z"}
+{"search_id": "ht_mbgbasi|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|9d8e5e36", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T13:17:49Z"}
+{"search_id": "kw_keracunan|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|0e6eb8ee", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:18:57Z"}
+{"search_id": "kw_keracunan|2026-05-01T00:00:00Z|2026-05-16T00:00:00Z|883ab9b1", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:20:20Z"}
+{"search_id": "kw_keracunan|2026-05-01T00:00:00Z|2026-05-08T12:00:00Z|4f5febd4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:21:35Z"}
+{"search_id": "kw_keracunan|2026-05-01T00:00:00Z|2026-05-04T18:00:00Z|dc72ffef", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-20T13:22:40Z"}
+{"search_id": "kw_keracunan|2026-05-04T18:00:00Z|2026-05-08T12:00:00Z|9cc6d323", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T13:23:59Z"}
+{"search_id": "kw_keracunan|2026-05-08T12:00:00Z|2026-05-16T00:00:00Z|e1448620", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:25:21Z"}
+{"search_id": "kw_keracunan|2026-05-08T12:00:00Z|2026-05-12T06:00:00Z|6eafc2bb", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-20T13:26:05Z"}
+{"search_id": "kw_keracunan|2026-05-12T06:00:00Z|2026-05-16T00:00:00Z|1cd1c443", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1100). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T13:27:57Z"}
+{"search_id": "kw_keracunan|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|ee434e04", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:29:01Z"}
+{"search_id": "kw_keracunan|2026-05-16T00:00:00Z|2026-05-23T12:00:00Z|efd6b40d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:30:05Z"}
+{"search_id": "kw_keracunan|2026-05-16T00:00:00Z|2026-05-19T18:00:00Z|61dc2689", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-20T13:31:12Z"}
+{"search_id": "kw_keracunan|2026-05-19T18:00:00Z|2026-05-23T12:00:00Z|ee8ca1f6", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-20T13:32:17Z"}
+{"search_id": "kw_keracunan|2026-05-23T12:00:00Z|2026-05-31T00:00:00Z|f83f6297", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-20T13:33:10Z"}
+{"search_id": "kw_basi|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|e1a22845", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:34:28Z"}
+{"search_id": "kw_basi|2026-05-01T00:00:00Z|2026-05-16T00:00:00Z|71e84ac6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:35:52Z"}
+{"search_id": "kw_basi|2026-05-01T00:00:00Z|2026-05-08T12:00:00Z|f1eba2ab", "status": "ok", "n_posts": 55, "saturated": false, "error": null, "logged_at": "2026-10-20T13:36:54Z"}
+{"search_id": "kw_basi|2026-05-08T12:00:00Z|2026-05-16T00:00:00Z|ef112c29", "status": "ok", "n_posts": 49, "saturated": false, "error": null, "logged_at": "2026-10-20T13:37:44Z"}
+{"search_id": "kw_basi|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|3d1b694f", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T13:38:42Z"}
+{"search_id": "kw_bakteri|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|76887668", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1100). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T13:40:34Z"}
+{"search_id": "kw_benda_asing|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|e6b4352b", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1105). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T13:42:25Z"}
+{"search_id": "kw_higiene|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|ab0e211f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:45:02Z"}
+{"search_id": "kw_higiene|2026-05-01T00:00:00Z|2026-05-16T00:00:00Z|a5923121", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:46:23Z"}
+{"search_id": "kw_higiene|2026-05-01T00:00:00Z|2026-05-08T12:00:00Z|1b5b338e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:47:45Z"}
+{"search_id": "kw_higiene|2026-05-01T00:00:00Z|2026-05-04T18:00:00Z|dddf88f6", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-20T13:49:01Z"}
+{"search_id": "kw_higiene|2026-05-04T18:00:00Z|2026-05-08T12:00:00Z|39adc63e", "status": "ok", "n_posts": 73, "saturated": false, "error": null, "logged_at": "2026-10-20T13:50:25Z"}
+{"search_id": "kw_higiene|2026-05-08T12:00:00Z|2026-05-16T00:00:00Z|a47e53f9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:51:50Z"}
+{"search_id": "kw_higiene|2026-05-08T12:00:00Z|2026-05-12T06:00:00Z|138433f8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T13:53:20Z"}
+{"search_id": "kw_higiene|2026-05-08T12:00:00Z|2026-05-10T09:00:00Z|ea281db3", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-20T13:54:20Z"}
+{"search_id": "kw_higiene|2026-05-10T09:00:00Z|2026-05-12T06:00:00Z|4765350f", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T13:55:41Z"}
+{"search_id": "kw_higiene|2026-05-12T06:00:00Z|2026-05-16T00:00:00Z|3c5eee9f", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T13:56:54Z"}
+{"search_id": "kw_higiene|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|4b4b46f5", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1086). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T13:58:47Z"}
+{"search_id": "kw_kualitas|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|6f11a5bd", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:00:22Z"}
+{"search_id": "kw_kualitas|2026-05-01T00:00:00Z|2026-05-16T00:00:00Z|e25a236e", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:01:51Z"}
+{"search_id": "kw_kualitas|2026-05-01T00:00:00Z|2026-05-08T12:00:00Z|6b47281f", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T14:03:12Z"}
+{"search_id": "kw_kualitas|2026-05-08T12:00:00Z|2026-05-16T00:00:00Z|d954f1cb", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T14:04:39Z"}
+{"search_id": "kw_kualitas|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|482b1d4f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:06:16Z"}
+{"search_id": "kw_kualitas|2026-05-16T00:00:00Z|2026-05-23T12:00:00Z|42685b99", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T14:07:25Z"}
+{"search_id": "kw_kualitas|2026-05-23T12:00:00Z|2026-05-31T00:00:00Z|065c8c32", "status": "ok", "n_posts": 59, "saturated": false, "error": null, "logged_at": "2026-10-20T14:08:35Z"}
+{"search_id": "ht_mbg|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|9a18baf4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:10:24Z"}
+{"search_id": "ht_mbg|2026-05-01T00:00:00Z|2026-05-16T00:00:00Z|715bd4ea", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T14:12:13Z"}
+{"search_id": "kw_keracunan|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|1015138b", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-20T14:13:17Z"}
+{"search_id": "ht_mbg|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|a999db37", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T14:13:19Z"}
+{"search_id": "kw_basi|2026-04-01T00:00:00Z|2026-05-01T00:00:00Z|0206f1f8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:15:25Z"}
+{"search_id": "ht_makanbergizigratis|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|c306396d", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T14:16:08Z"}
+{"search_id": "ht_keracunanmbg|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|f44d1a0f", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-20T14:16:34Z"}
+{"search_id": "kw_basi|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|54ae9ecf", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-20T14:16:47Z"}
+{"search_id": "ht_mbgkeracunan|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|48945e83", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T14:17:04Z"}
+{"search_id": "ht_mbgbasi|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|d5d41852", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-20T14:17:29Z"}
+{"search_id": "kw_basi|2026-04-16T00:00:00Z|2026-05-01T00:00:00Z|14410a30", "status": "ok", "n_posts": 91, "saturated": false, "error": null, "logged_at": "2026-10-20T14:18:00Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|e4a74647", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:18:48Z"}
+{"search_id": "kw_higiene|2026-04-04T18:00:00Z|2026-04-08T12:00:00Z|cfd8545b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:19:28Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|607d8453", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:20:04Z"}
+{"search_id": "kw_higiene|2026-04-04T18:00:00Z|2026-04-06T15:00:00Z|f733e9d6", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T14:20:47Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-07T12:00:00Z|7a0552e7", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T14:21:00Z"}
+{"search_id": "kw_higiene|2026-04-06T15:00:00Z|2026-04-08T12:00:00Z|1d26f4b5", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1106). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:22:47Z"}
+{"search_id": "kw_keracunan|2026-06-07T12:00:00Z|2026-06-15T00:00:00Z|e70a4f1d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1108). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:22:52Z"}
+{"search_id": "kw_higiene|2026-04-27T06:00:00Z|2026-05-01T00:00:00Z|b7fe77d4", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1103). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:24:39Z"}
+{"search_id": "kw_keracunan|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|87859f77", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1102). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:24:44Z"}
+{"search_id": "ht_mbg|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|fb6d4170", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1095). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:26:31Z"}
+{"search_id": "kw_basi|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|0a2c5c1c", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1116). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:26:36Z"}
+{"search_id": "kw_keracunan|2026-05-12T06:00:00Z|2026-05-16T00:00:00Z|1cd1c443", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1118). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:28:22Z"}
+{"search_id": "kw_bakteri|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|76887668", "status": "ok", "n_posts": 48, "saturated": false, "error": null, "logged_at": "2026-10-20T14:30:17Z"}
+{"search_id": "kw_benda_asing|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|e6b4352b", "status": "ok", "n_posts": 92, "saturated": false, "error": null, "logged_at": "2026-10-20T14:31:49Z"}
+{"search_id": "kw_higiene|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|4b4b46f5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:33:31Z"}
+{"search_id": "kw_higiene|2026-05-16T00:00:00Z|2026-05-23T12:00:00Z|d8f533e1", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T14:34:36Z"}
+{"search_id": "kw_higiene|2026-05-23T12:00:00Z|2026-05-31T00:00:00Z|abc25253", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:36:19Z"}
+{"search_id": "kw_higiene|2026-05-23T12:00:00Z|2026-05-27T06:00:00Z|d6b59435", "status": "ok", "n_posts": 86, "saturated": false, "error": null, "logged_at": "2026-10-20T14:37:55Z"}
+{"search_id": "kw_higiene|2026-05-27T06:00:00Z|2026-05-31T00:00:00Z|e253fe34", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-20T14:38:53Z"}
+{"search_id": "ht_mbg|2026-05-16T00:00:00Z|2026-05-31T00:00:00Z|a999db37", "status": "ok", "n_posts": 72, "saturated": false, "error": null, "logged_at": "2026-10-20T14:40:25Z"}
+{"search_id": "ht_makanbergizigratis|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|c306396d", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T14:42:15Z"}
+{"search_id": "ht_keracunanmbg|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|f44d1a0f", "status": "ok", "n_posts": 1, "saturated": false, "error": null, "logged_at": "2026-10-20T14:42:40Z"}
+{"search_id": "ht_mbgkeracunan|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|48945e83", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T14:43:10Z"}
+{"search_id": "ht_mbgbasi|2026-05-01T00:00:00Z|2026-05-31T00:00:00Z|d5d41852", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1115). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:45:02Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|e4a74647", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:46:16Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|607d8453", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:47:37Z"}
+{"search_id": "kw_keracunan|2026-05-31T00:00:00Z|2026-06-07T12:00:00Z|7a0552e7", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-20T14:48:58Z"}
+{"search_id": "kw_keracunan|2026-06-07T12:00:00Z|2026-06-15T00:00:00Z|e70a4f1d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:50:14Z"}
+{"search_id": "kw_keracunan|2026-06-07T12:00:00Z|2026-06-11T06:00:00Z|164370e4", "status": "ok", "n_posts": 84, "saturated": false, "error": null, "logged_at": "2026-10-20T14:51:23Z"}
+{"search_id": "kw_keracunan|2026-06-11T06:00:00Z|2026-06-15T00:00:00Z|944f32dd", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-20T14:52:24Z"}
+{"search_id": "kw_keracunan|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|87859f77", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:53:44Z"}
+{"search_id": "kw_keracunan|2026-06-15T00:00:00Z|2026-06-22T12:00:00Z|8059e87d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T14:54:56Z"}
+{"search_id": "kw_keracunan|2026-06-15T00:00:00Z|2026-06-18T18:00:00Z|53d76c6d", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T14:56:08Z"}
+{"search_id": "kw_keracunan|2026-06-18T18:00:00Z|2026-06-22T12:00:00Z|f74bbb7c", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1102). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:58:00Z"}
+{"search_id": "kw_keracunan|2026-06-22T12:00:00Z|2026-06-30T00:00:00Z|e3fb5f93", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1110). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T14:59:52Z"}
+{"search_id": "kw_basi|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|0a2c5c1c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:01:34Z"}
+{"search_id": "kw_basi|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|ebb79379", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-20T15:02:49Z"}
+{"search_id": "kw_basi|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|ff53c82e", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-20T15:04:10Z"}
+{"search_id": "kw_bakteri|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|ea2dfc4b", "status": "ok", "n_posts": 5, "saturated": false, "error": null, "logged_at": "2026-10-20T15:04:40Z"}
+{"search_id": "kw_benda_asing|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|3095a1f3", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-20T15:05:54Z"}
+{"search_id": "kw_higiene|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|4da98175", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:07:39Z"}
+{"search_id": "kw_higiene|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|63757c5b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:09:06Z"}
+{"search_id": "kw_higiene|2026-05-31T00:00:00Z|2026-06-07T12:00:00Z|193a4561", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:10:46Z"}
+{"search_id": "kw_higiene|2026-05-31T00:00:00Z|2026-06-03T18:00:00Z|57bae3b0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:12:24Z"}
+{"search_id": "kw_higiene|2026-05-31T00:00:00Z|2026-06-01T21:00:00Z|543beb09", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-20T15:13:01Z"}
+{"search_id": "kw_higiene|2026-06-01T21:00:00Z|2026-06-03T18:00:00Z|c2ff171d", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1135). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T15:14:54Z"}
+{"search_id": "kw_higiene|2026-06-03T18:00:00Z|2026-06-07T12:00:00Z|c88ed6d2", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-20T15:16:59Z"}
+{"search_id": "kw_higiene|2026-06-07T12:00:00Z|2026-06-15T00:00:00Z|249704b0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:18:19Z"}
+{"search_id": "kw_higiene|2026-06-07T12:00:00Z|2026-06-11T06:00:00Z|dee2df68", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:19:33Z"}
+{"search_id": "kw_higiene|2026-06-07T12:00:00Z|2026-06-09T09:00:00Z|51056c2a", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-20T15:21:01Z"}
+{"search_id": "kw_higiene|2026-06-09T09:00:00Z|2026-06-11T06:00:00Z|018e0f38", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-20T15:22:13Z"}
+{"search_id": "kw_higiene|2026-06-11T06:00:00Z|2026-06-15T00:00:00Z|c3a65769", "status": "ok", "n_posts": 87, "saturated": false, "error": null, "logged_at": "2026-10-20T15:23:41Z"}
+{"search_id": "kw_higiene|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|a672a3c0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:25:17Z"}
+{"search_id": "kw_higiene|2026-06-15T00:00:00Z|2026-06-22T12:00:00Z|c5dddbef", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:26:58Z"}
+{"search_id": "kw_higiene|2026-06-15T00:00:00Z|2026-06-18T18:00:00Z|534348f1", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T15:28:39Z"}
+{"search_id": "kw_higiene|2026-06-18T18:00:00Z|2026-06-22T12:00:00Z|9b1dc84f", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1112). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T15:30:30Z"}
+{"search_id": "kw_higiene|2026-06-22T12:00:00Z|2026-06-30T00:00:00Z|2b899f23", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:32:07Z"}
+{"search_id": "kw_higiene|2026-06-22T12:00:00Z|2026-06-26T06:00:00Z|1efcc60f", "status": "ok", "n_posts": 93, "saturated": false, "error": null, "logged_at": "2026-10-20T15:33:55Z"}
+{"search_id": "kw_higiene|2026-06-26T06:00:00Z|2026-06-30T00:00:00Z|e5de58f5", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T15:35:11Z"}
+{"search_id": "kw_kualitas|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|b851a308", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:36:46Z"}
+{"search_id": "kw_kualitas|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|14d03df9", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:38:18Z"}
+{"search_id": "kw_kualitas|2026-05-31T00:00:00Z|2026-06-07T12:00:00Z|61dcf33e", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T15:39:52Z"}
+{"search_id": "kw_kualitas|2026-06-07T12:00:00Z|2026-06-15T00:00:00Z|0a805d5a", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T15:41:17Z"}
+{"search_id": "kw_kualitas|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|50b47112", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:42:50Z"}
+{"search_id": "kw_kualitas|2026-06-15T00:00:00Z|2026-06-22T12:00:00Z|99a2b9e8", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-20T15:44:30Z"}
+{"search_id": "kw_kualitas|2026-06-22T12:00:00Z|2026-06-30T00:00:00Z|33712767", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1104). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T15:46:22Z"}
+{"search_id": "ht_mbg|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|f8aaa839", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:48:16Z"}
+{"search_id": "ht_mbg|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|6deb8c01", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:50:18Z"}
+{"search_id": "ht_mbg|2026-05-31T00:00:00Z|2026-06-07T12:00:00Z|ce7d427c", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-20T15:51:54Z"}
+{"search_id": "ht_mbg|2026-06-07T12:00:00Z|2026-06-15T00:00:00Z|7e45f0aa", "status": "ok", "n_posts": 53, "saturated": false, "error": null, "logged_at": "2026-10-20T15:53:11Z"}
+{"search_id": "ht_mbg|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|7f526c4b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:55:01Z"}
+{"search_id": "ht_mbg|2026-06-15T00:00:00Z|2026-06-22T12:00:00Z|0575c469", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T15:56:40Z"}
+{"search_id": "ht_mbg|2026-06-22T12:00:00Z|2026-06-30T00:00:00Z|5497b0e6", "status": "ok", "n_posts": 41, "saturated": false, "error": null, "logged_at": "2026-10-20T15:57:40Z"}
+{"search_id": "ht_makanbergizigratis|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|82dd7cc6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T15:59:36Z"}
+{"search_id": "ht_makanbergizigratis|2026-05-31T00:00:00Z|2026-06-15T00:00:00Z|59b7d7f9", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-20T16:00:46Z"}
+{"search_id": "ht_makanbergizigratis|2026-06-15T00:00:00Z|2026-06-30T00:00:00Z|43a17830", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-20T16:01:59Z"}
+{"search_id": "ht_keracunanmbg|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|bfb0001b", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T16:02:29Z"}
+{"search_id": "ht_mbgkeracunan|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|8aba1e6b", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T16:02:59Z"}
+{"search_id": "ht_mbgbasi|2026-05-31T00:00:00Z|2026-06-30T00:00:00Z|fe2e7a02", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-20T16:03:29Z"}
+{"search_id": "kw_keracunan|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|dee80f73", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:05:12Z"}
+{"search_id": "kw_keracunan|2026-06-30T00:00:00Z|2026-07-15T00:00:00Z|16740a68", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:06:19Z"}
+{"search_id": "kw_keracunan|2026-06-30T00:00:00Z|2026-07-07T12:00:00Z|6525e4bc", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T16:07:27Z"}
+{"search_id": "kw_keracunan|2026-07-07T12:00:00Z|2026-07-15T00:00:00Z|5e334742", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-20T16:08:25Z"}
+{"search_id": "kw_keracunan|2026-07-15T00:00:00Z|2026-07-30T00:00:00Z|867456b7", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:10:05Z"}
+{"search_id": "kw_keracunan|2026-07-15T00:00:00Z|2026-07-22T12:00:00Z|9c5a7d47", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:11:51Z"}
+{"search_id": "kw_keracunan|2026-07-15T00:00:00Z|2026-07-18T18:00:00Z|e372ec41", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-20T16:13:14Z"}
+{"search_id": "kw_keracunan|2026-07-18T18:00:00Z|2026-07-22T12:00:00Z|84a9a74d", "status": "ok", "n_posts": 90, "saturated": false, "error": null, "logged_at": "2026-10-20T16:14:52Z"}
+{"search_id": "kw_keracunan|2026-07-22T12:00:00Z|2026-07-30T00:00:00Z|94495c94", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1093). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T16:16:44Z"}
+{"search_id": "kw_basi|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|8900a244", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:18:05Z"}
+{"search_id": "kw_basi|2026-06-30T00:00:00Z|2026-07-15T00:00:00Z|bbd1adcc", "status": "ok", "n_posts": 45, "saturated": false, "error": null, "logged_at": "2026-10-20T16:18:50Z"}
+{"search_id": "kw_basi|2026-07-15T00:00:00Z|2026-07-30T00:00:00Z|38e3f55d", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T16:20:10Z"}
+{"search_id": "kw_bakteri|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|ca189622", "status": "ok", "n_posts": 17, "saturated": false, "error": null, "logged_at": "2026-10-20T16:20:43Z"}
+{"search_id": "kw_benda_asing|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|405d276e", "status": "ok", "n_posts": 37, "saturated": false, "error": null, "logged_at": "2026-10-20T16:21:24Z"}
+{"search_id": "kw_higiene|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|4c791820", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:23:10Z"}
+{"search_id": "kw_higiene|2026-06-30T00:00:00Z|2026-07-15T00:00:00Z|11bed9d5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:24:45Z"}
+{"search_id": "kw_higiene|2026-06-30T00:00:00Z|2026-07-07T12:00:00Z|9e662e59", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:26:26Z"}
+{"search_id": "kw_higiene|2026-06-30T00:00:00Z|2026-07-03T18:00:00Z|30f070ce", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T16:27:51Z"}
+{"search_id": "kw_higiene|2026-07-03T18:00:00Z|2026-07-07T12:00:00Z|88220785", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-20T16:29:10Z"}
+{"search_id": "kw_higiene|2026-07-07T12:00:00Z|2026-07-15T00:00:00Z|fdfb71d4", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T16:30:10Z"}
+{"search_id": "kw_higiene|2026-07-15T00:00:00Z|2026-07-30T00:00:00Z|b907d3a1", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1093). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T16:32:02Z"}
+{"search_id": "kw_kualitas|2026-06-30T00:00:00Z|2026-07-30T00:00:00Z|13bb85ce", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T16:33:44Z"}
+{"search_id": "kw_kualitas|2026-06-30T00:00:00Z|2026-07-15T00:00:00Z|8d807c14", "status": "ok", "n_posts": 91, "saturated": false, "error": null, "logged_at": "2026-10-20T16:35:26Z"}
+{"search_id": "kw_higiene|2026-04-06T15:00:00Z|2026-04-08T12:00:00Z|1d26f4b5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:11:42Z"}
+{"search_id": "kw_higiene|2026-04-06T15:00:00Z|2026-04-07T13:30:00Z|4c025452", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-20T17:12:44Z"}
+{"search_id": "kw_higiene|2026-04-07T13:30:00Z|2026-04-08T12:00:00Z|b7920908", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-20T17:13:59Z"}
+{"search_id": "kw_higiene|2026-04-27T06:00:00Z|2026-05-01T00:00:00Z|b7fe77d4", "status": "ok", "n_posts": 84, "saturated": false, "error": null, "logged_at": "2026-10-20T17:15:24Z"}
+{"search_id": "ht_mbg|2026-04-01T00:00:00Z|2026-04-16T00:00:00Z|fb6d4170", "status": "ok", "n_posts": 67, "saturated": false, "error": null, "logged_at": "2026-10-20T17:16:50Z"}
+{"search_id": "kw_keracunan|2026-05-12T06:00:00Z|2026-05-16T00:00:00Z|1cd1c443", "status": "ok", "n_posts": 76, "saturated": false, "error": null, "logged_at": "2026-10-20T17:17:55Z"}
+{"search_id": "kw_keracunan|2026-08-01T00:00:00Z|2026-08-31T00:00:00Z|38327fd6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:20:40Z"}
+{"search_id": "kw_keracunan|2026-08-01T00:00:00Z|2026-08-16T00:00:00Z|809d1eac", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:22:25Z"}
+{"search_id": "kw_keracunan|2026-08-01T00:00:00Z|2026-08-08T12:00:00Z|ef6a55ed", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:24:01Z"}
+{"search_id": "kw_keracunan|2026-08-01T00:00:00Z|2026-08-04T18:00:00Z|a3b3ce38", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1076). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T17:25:52Z"}
+{"search_id": "kw_keracunan|2026-08-04T18:00:00Z|2026-08-08T12:00:00Z|2bfd59e5", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:27:31Z"}
+{"search_id": "kw_keracunan|2026-08-04T18:00:00Z|2026-08-06T15:00:00Z|b4dced7a", "status": "ok", "n_posts": 90, "saturated": false, "error": null, "logged_at": "2026-10-20T17:29:11Z"}
+{"search_id": "kw_keracunan|2026-08-06T15:00:00Z|2026-08-08T12:00:00Z|cfa19bd1", "status": "ok", "n_posts": 73, "saturated": false, "error": null, "logged_at": "2026-10-20T17:30:28Z"}
+{"search_id": "kw_keracunan|2026-08-08T12:00:00Z|2026-08-16T00:00:00Z|36098376", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:32:09Z"}
+{"search_id": "kw_keracunan|2026-08-08T12:00:00Z|2026-08-12T06:00:00Z|096c3ad2", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:33:44Z"}
+{"search_id": "kw_keracunan|2026-08-08T12:00:00Z|2026-08-10T09:00:00Z|e6dbe897", "status": "ok", "n_posts": 87, "saturated": false, "error": null, "logged_at": "2026-10-20T17:35:12Z"}
+{"search_id": "kw_keracunan|2026-08-10T09:00:00Z|2026-08-12T06:00:00Z|4251a652", "status": "ok", "n_posts": 65, "saturated": false, "error": null, "logged_at": "2026-10-20T17:36:29Z"}
+{"search_id": "kw_keracunan|2026-08-12T06:00:00Z|2026-08-16T00:00:00Z|6b569290", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:38:11Z"}
+{"search_id": "kw_keracunan|2026-08-12T06:00:00Z|2026-08-14T03:00:00Z|21ed7661", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-20T17:39:38Z"}
+{"search_id": "kw_keracunan|2026-08-14T03:00:00Z|2026-08-16T00:00:00Z|aabe5a6c", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1103). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T17:41:30Z"}
+{"search_id": "kw_keracunan|2026-08-16T00:00:00Z|2026-08-31T00:00:00Z|288fb022", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:42:56Z"}
+{"search_id": "kw_keracunan|2026-08-16T00:00:00Z|2026-08-23T12:00:00Z|a83b6b91", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:44:39Z"}
+{"search_id": "kw_keracunan|2026-08-16T00:00:00Z|2026-08-19T18:00:00Z|44afa34a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:46:12Z"}
+{"search_id": "kw_keracunan|2026-08-16T00:00:00Z|2026-08-17T21:00:00Z|dc4043ce", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T17:47:44Z"}
+{"search_id": "kw_keracunan|2026-08-16T00:00:00Z|2026-08-16T22:30:00Z|f9f18dea", "status": "ok", "n_posts": 57, "saturated": false, "error": null, "logged_at": "2026-10-20T17:48:53Z"}
+{"search_id": "kw_keracunan|2026-08-16T22:30:00Z|2026-08-17T21:00:00Z|07991b1a", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-20T17:50:20Z"}
+{"search_id": "kw_keracunan|2026-08-17T21:00:00Z|2026-08-19T18:00:00Z|be828ca2", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-20T17:51:49Z"}
+{"search_id": "kw_keracunan|2026-08-19T18:00:00Z|2026-08-23T12:00:00Z|44cf628b", "status": "ok", "n_posts": 87, "saturated": false, "error": null, "logged_at": "2026-10-20T17:53:14Z"}
+{"search_id": "kw_keracunan|2026-08-23T12:00:00Z|2026-08-31T00:00:00Z|fa5c0804", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T17:54:45Z"}
+{"search_id": "kw_basi|2026-08-01T00:00:00Z|2026-08-31T00:00:00Z|574a79b7", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1132). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T17:56:36Z"}
+{"search_id": "kw_bakteri|2026-08-01T00:00:00Z|2026-08-31T00:00:00Z|1679e63a", "status": "ok", "n_posts": 63, "saturated": false, "error": null, "logged_at": "2026-10-20T17:57:52Z"}
+{"search_id": "kw_benda_asing|2026-08-01T00:00:00Z|2026-08-31T00:00:00Z|959b3e99", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-20T17:59:07Z"}
+{"search_id": "kw_higiene|2026-08-01T00:00:00Z|2026-08-31T00:00:00Z|f07c6e67", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:00:38Z"}
+{"search_id": "kw_higiene|2026-08-01T00:00:00Z|2026-08-16T00:00:00Z|1322e070", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:02:16Z"}
+{"search_id": "kw_higiene|2026-08-01T00:00:00Z|2026-08-08T12:00:00Z|c0c4d756", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:03:55Z"}
+{"search_id": "kw_keracunan|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|c8cf3770", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:06:09Z"}
+{"search_id": "kw_keracunan|2026-09-01T00:00:00Z|2026-09-15T12:00:00Z|296171e2", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:07:38Z"}
+{"search_id": "kw_keracunan|2026-09-01T00:00:00Z|2026-09-08T06:00:00Z|9b16e26f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:09:13Z"}
+{"search_id": "kw_keracunan|2026-09-01T00:00:00Z|2026-09-04T15:00:00Z|6535a528", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T18:10:49Z"}
+{"search_id": "kw_keracunan|2026-09-04T15:00:00Z|2026-09-08T06:00:00Z|0d39c76f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:13:10Z"}
+{"search_id": "kw_keracunan|2026-09-04T15:00:00Z|2026-09-06T10:30:00Z|1fdf0b2b", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:14:43Z"}
+{"search_id": "kw_keracunan|2026-09-04T15:00:00Z|2026-09-05T12:45:00Z|39d1030a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:16:20Z"}
+{"search_id": "kw_keracunan|2026-09-04T15:00:00Z|2026-09-05T01:52:30Z|3a8e7771", "status": "ok", "n_posts": 55, "saturated": false, "error": null, "logged_at": "2026-10-20T18:17:19Z"}
+{"search_id": "kw_keracunan|2026-09-05T01:52:30Z|2026-09-05T12:45:00Z|5df989d3", "status": "ok", "n_posts": 75, "saturated": false, "error": null, "logged_at": "2026-10-20T18:18:46Z"}
+{"search_id": "kw_keracunan|2026-09-05T12:45:00Z|2026-09-06T10:30:00Z|5c001582", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-20T18:20:01Z"}
+{"search_id": "kw_keracunan|2026-09-06T10:30:00Z|2026-09-08T06:00:00Z|ebac18e4", "status": "ok", "n_posts": 81, "saturated": false, "error": null, "logged_at": "2026-10-20T18:21:29Z"}
+{"search_id": "kw_keracunan|2026-09-08T06:00:00Z|2026-09-15T12:00:00Z|8696005a", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:22:57Z"}
+{"search_id": "kw_keracunan|2026-09-08T06:00:00Z|2026-09-11T21:00:00Z|fc8b10c0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:24:30Z"}
+{"search_id": "kw_keracunan|2026-09-08T06:00:00Z|2026-09-10T01:30:00Z|000148a6", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-20T18:25:15Z"}
+{"search_id": "kw_keracunan|2026-09-10T01:30:00Z|2026-09-11T21:00:00Z|ac6a80bb", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1126). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T18:27:07Z"}
+{"search_id": "kw_keracunan|2026-09-11T21:00:00Z|2026-09-15T12:00:00Z|8b63d9a0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:28:35Z"}
+{"search_id": "kw_keracunan|2026-09-11T21:00:00Z|2026-09-13T16:30:00Z|3421c3fe", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T18:29:57Z"}
+{"search_id": "kw_keracunan|2026-09-13T16:30:00Z|2026-09-15T12:00:00Z|34ca3ce3", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-20T18:31:19Z"}
+{"search_id": "kw_keracunan|2026-09-15T12:00:00Z|2026-09-30T00:00:00Z|70ec1431", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:32:52Z"}
+{"search_id": "kw_keracunan|2026-09-15T12:00:00Z|2026-09-22T18:00:00Z|9312667c", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:34:24Z"}
+{"search_id": "kw_keracunan|2026-09-15T12:00:00Z|2026-09-19T03:00:00Z|201157e8", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-20T18:36:07Z"}
+{"search_id": "kw_keracunan|2026-09-19T03:00:00Z|2026-09-22T18:00:00Z|0fe9b761", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:37:38Z"}
+{"search_id": "kw_keracunan|2026-09-19T03:00:00Z|2026-09-20T22:30:00Z|49254268", "status": "ok", "n_posts": 44, "saturated": false, "error": null, "logged_at": "2026-10-20T18:38:31Z"}
+{"search_id": "kw_keracunan|2026-09-20T22:30:00Z|2026-09-22T18:00:00Z|a4a47ac0", "status": "ok", "n_posts": 45, "saturated": false, "error": null, "logged_at": "2026-10-20T18:39:27Z"}
+{"search_id": "kw_keracunan|2026-09-22T18:00:00Z|2026-09-30T00:00:00Z|355660af", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-20T18:40:28Z"}
+{"search_id": "kw_basi|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|02c4de52", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1162). Cek sesi login atau koneksi.", "logged_at": "2026-10-20T18:42:18Z"}
+{"search_id": "kw_bakteri|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|6577dcda", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:43:40Z"}
+{"search_id": "kw_bakteri|2026-09-01T00:00:00Z|2026-09-15T12:00:00Z|657ad643", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:45:25Z"}
+{"search_id": "kw_bakteri|2026-09-01T00:00:00Z|2026-09-08T06:00:00Z|a5ddc240", "status": "ok", "n_posts": 69, "saturated": false, "error": null, "logged_at": "2026-10-20T18:46:35Z"}
+{"search_id": "kw_bakteri|2026-09-08T06:00:00Z|2026-09-15T12:00:00Z|be3a1c97", "status": "ok", "n_posts": 99, "saturated": false, "error": null, "logged_at": "2026-10-20T18:48:23Z"}
+{"search_id": "kw_bakteri|2026-09-15T12:00:00Z|2026-09-30T00:00:00Z|701f3b96", "status": "ok", "n_posts": 34, "saturated": false, "error": null, "logged_at": "2026-10-20T18:49:04Z"}
+{"search_id": "kw_benda_asing|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|e096ca20", "status": "ok", "n_posts": 97, "saturated": false, "error": null, "logged_at": "2026-10-20T18:50:42Z"}
+{"search_id": "kw_higiene|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|5c11b32f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:52:34Z"}
+{"search_id": "kw_higiene|2026-09-01T00:00:00Z|2026-09-15T12:00:00Z|05d3c719", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:54:10Z"}
+{"search_id": "kw_higiene|2026-09-01T00:00:00Z|2026-09-08T06:00:00Z|15ec1276", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:55:38Z"}
+{"search_id": "kw_higiene|2026-09-01T00:00:00Z|2026-09-04T15:00:00Z|0d6f0ccf", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-20T18:56:25Z"}
+{"search_id": "kw_higiene|2026-09-04T15:00:00Z|2026-09-08T06:00:00Z|3a75f808", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T18:58:55Z"}
+{"search_id": "kw_higiene|2026-09-04T15:00:00Z|2026-09-06T10:30:00Z|eb962218", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-20T19:00:23Z"}
+{"search_id": "kw_higiene|2026-09-06T10:30:00Z|2026-09-08T06:00:00Z|308631cd", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-20T19:01:38Z"}
+{"search_id": "kw_higiene|2026-09-08T06:00:00Z|2026-09-15T12:00:00Z|eb4a066f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T19:03:19Z"}
+{"search_id": "kw_higiene|2026-09-08T06:00:00Z|2026-09-11T21:00:00Z|cc4508b8", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T19:04:55Z"}
+{"search_id": "kw_higiene|2026-09-08T06:00:00Z|2026-09-10T01:30:00Z|2e869725", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-20T19:06:12Z"}
+{"search_id": "kw_higiene|2026-09-10T01:30:00Z|2026-09-11T21:00:00Z|25240c7e", "status": "ok", "n_posts": 58, "saturated": false, "error": null, "logged_at": "2026-10-20T20:29:37Z"}
+{"search_id": "kw_higiene|2026-09-11T21:00:00Z|2026-09-15T12:00:00Z|cdb60734", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-20T21:42:35Z"}
+{"search_id": "kw_higiene|2026-09-15T12:00:00Z|2026-09-30T00:00:00Z|3f651a25", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-20T23:52:54Z"}
+{"search_id": "kw_higiene|2026-09-15T12:00:00Z|2026-09-22T18:00:00Z|4b5bdea4", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T01:44:41Z"}
+{"search_id": "kw_higiene|2026-09-15T12:00:00Z|2026-09-19T03:00:00Z|1aafc204", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T02:59:37Z"}
+{"search_id": "kw_higiene|2026-09-15T12:00:00Z|2026-09-17T07:30:00Z|26b3e5d2", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-21T03:06:26Z"}
+{"search_id": "kw_higiene|2026-09-17T07:30:00Z|2026-09-19T03:00:00Z|38dc2711", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-21T04:00:40Z"}
+{"search_id": "kw_higiene|2026-09-19T03:00:00Z|2026-09-22T18:00:00Z|03f115a0", "status": "ok", "n_posts": 80, "saturated": false, "error": null, "logged_at": "2026-10-21T05:18:11Z"}
+{"search_id": "kw_higiene|2026-09-22T18:00:00Z|2026-09-30T00:00:00Z|53977731", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T06:03:47Z"}
+{"search_id": "kw_higiene|2026-09-22T18:00:00Z|2026-09-26T09:00:00Z|27c29222", "status": "ok", "n_posts": 83, "saturated": false, "error": null, "logged_at": "2026-10-21T07:36:38Z"}
+{"search_id": "kw_higiene|2026-09-26T09:00:00Z|2026-09-30T00:00:00Z|e338d2f7", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-21T07:50:39Z"}
+{"search_id": "kw_kualitas|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|3a7d3cce", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T07:52:17Z"}
+{"search_id": "kw_kualitas|2026-09-01T00:00:00Z|2026-09-15T12:00:00Z|4edb612f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T07:53:45Z"}
+{"search_id": "kw_kualitas|2026-09-01T00:00:00Z|2026-09-08T06:00:00Z|37392768", "status": "ok", "n_posts": 94, "saturated": false, "error": null, "logged_at": "2026-10-21T07:55:35Z"}
+{"search_id": "kw_kualitas|2026-09-08T06:00:00Z|2026-09-15T12:00:00Z|b01b9291", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T07:57:02Z"}
+{"search_id": "kw_kualitas|2026-09-08T06:00:00Z|2026-09-11T21:00:00Z|71e6b461", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-21T07:58:17Z"}
+{"search_id": "kw_kualitas|2026-09-11T21:00:00Z|2026-09-15T12:00:00Z|8b3e679e", "status": "ok", "n_posts": 49, "saturated": false, "error": null, "logged_at": "2026-10-21T07:59:09Z"}
+{"search_id": "kw_kualitas|2026-09-15T12:00:00Z|2026-09-30T00:00:00Z|2124129f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:00:47Z"}
+{"search_id": "kw_kualitas|2026-09-15T12:00:00Z|2026-09-22T18:00:00Z|60cbf8c5", "status": "ok", "n_posts": 85, "saturated": false, "error": null, "logged_at": "2026-10-21T08:02:21Z"}
+{"search_id": "kw_kualitas|2026-09-22T18:00:00Z|2026-09-30T00:00:00Z|e69fa8ab", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1098). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T08:04:13Z"}
+{"search_id": "ht_mbg|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|81ea3315", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:06:30Z"}
+{"search_id": "ht_mbg|2026-09-01T00:00:00Z|2026-09-15T12:00:00Z|f39d876d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:08:19Z"}
+{"search_id": "ht_mbg|2026-09-01T00:00:00Z|2026-09-08T06:00:00Z|7bf2eb33", "status": "ok", "n_posts": 61, "saturated": false, "error": null, "logged_at": "2026-10-21T08:09:42Z"}
+{"search_id": "ht_mbg|2026-09-08T06:00:00Z|2026-09-15T12:00:00Z|ed81854f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:11:24Z"}
+{"search_id": "ht_mbg|2026-09-08T06:00:00Z|2026-09-11T21:00:00Z|bf8f7492", "status": "ok", "n_posts": 60, "saturated": false, "error": null, "logged_at": "2026-10-21T08:12:41Z"}
+{"search_id": "ht_mbg|2026-09-11T21:00:00Z|2026-09-15T12:00:00Z|312834da", "status": "ok", "n_posts": 52, "saturated": false, "error": null, "logged_at": "2026-10-21T08:13:56Z"}
+{"search_id": "ht_mbg|2026-09-15T12:00:00Z|2026-09-30T00:00:00Z|e6872900", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:15:51Z"}
+{"search_id": "ht_mbg|2026-09-15T12:00:00Z|2026-09-22T18:00:00Z|9de847ee", "status": "ok", "n_posts": 78, "saturated": false, "error": null, "logged_at": "2026-10-21T08:17:32Z"}
+{"search_id": "ht_mbg|2026-09-22T18:00:00Z|2026-09-30T00:00:00Z|094490e7", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-21T08:19:14Z"}
+{"search_id": "ht_makanbergizigratis|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|c4624ae5", "status": "ok", "n_posts": 96, "saturated": false, "error": null, "logged_at": "2026-10-21T08:21:26Z"}
+{"search_id": "ht_keracunanmbg|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|71c2128f", "status": "ok", "n_posts": 66, "saturated": false, "error": null, "logged_at": "2026-10-21T08:23:03Z"}
+{"search_id": "ht_mbgkeracunan|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|d719048e", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-21T08:23:31Z"}
+{"search_id": "ht_mbgbasi|2026-09-01T00:00:00Z|2026-09-30T00:00:00Z|2769ca83", "status": "no_results", "n_posts": 0, "saturated": false, "error": null, "logged_at": "2026-10-21T08:24:00Z"}
+{"search_id": "kw_benda_asing|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|d2bbe251", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T08:59:30Z"}
+{"search_id": "kw_benda_asing|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|22bd14b5", "status": "ok", "n_posts": 89, "saturated": false, "error": null, "logged_at": "2026-10-21T09:00:46Z"}
+{"search_id": "kw_benda_asing|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|f5f27995", "status": "ok", "n_posts": 27, "saturated": false, "error": null, "logged_at": "2026-10-21T09:01:23Z"}
+{"search_id": "kw_benda_asing|2025-10-28T00:00:00Z|2025-11-01T00:00:00Z|c4073d86", "status": "ok", "n_posts": 26, "saturated": false, "error": null, "logged_at": "2026-10-21T09:02:02Z"}
+{"search_id": "kw_bakteri|2025-10-13T00:00:00Z|2025-11-01T00:00:00Z|c6d2222e", "status": "ok", "n_posts": 27, "saturated": false, "error": null, "logged_at": "2026-10-21T09:02:42Z"}
+{"search_id": "kw_basi|2025-10-28T00:00:00Z|2025-11-27T00:00:00Z|d0a8558d", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-21T09:03:42Z"}
+{"search_id": "kw_kualitas|2025-09-28T00:00:00Z|2025-10-28T00:00:00Z|ab5a80b0", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:05:14Z"}
+{"search_id": "kw_kualitas|2025-09-28T00:00:00Z|2025-10-13T00:00:00Z|fcde341d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:06:45Z"}
+{"search_id": "kw_kualitas|2025-09-28T00:00:00Z|2025-10-05T12:00:00Z|79394c69", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:08:10Z"}
+{"search_id": "kw_kualitas|2025-09-28T00:00:00Z|2025-10-01T18:00:00Z|62285d87", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:09:37Z"}
+{"search_id": "kw_kualitas|2025-09-28T00:00:00Z|2025-09-29T21:00:00Z|d797956e", "status": "ok", "n_posts": 40, "saturated": false, "error": null, "logged_at": "2026-10-21T09:10:39Z"}
+{"search_id": "kw_kualitas|2025-09-29T21:00:00Z|2025-10-01T18:00:00Z|83dff503", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1113). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T09:12:30Z"}
+{"search_id": "kw_kualitas|2025-10-01T18:00:00Z|2025-10-05T12:00:00Z|7ac1235d", "status": "ok", "n_posts": 62, "saturated": false, "error": null, "logged_at": "2026-10-21T09:14:39Z"}
+{"search_id": "kw_kualitas|2025-10-05T12:00:00Z|2025-10-13T00:00:00Z|9f7e98ed", "status": "ok", "n_posts": 71, "saturated": false, "error": null, "logged_at": "2026-10-21T09:16:02Z"}
+{"search_id": "kw_kualitas|2025-10-13T00:00:00Z|2025-10-28T00:00:00Z|4d7409c1", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:17:35Z"}
+{"search_id": "kw_kualitas|2025-10-13T00:00:00Z|2025-10-20T12:00:00Z|6fc3e99a", "status": "ok", "n_posts": 77, "saturated": false, "error": null, "logged_at": "2026-10-21T09:19:06Z"}
+{"search_id": "kw_kualitas|2025-10-20T12:00:00Z|2025-10-28T00:00:00Z|0251e633", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-21T09:20:37Z"}
+{"search_id": "kw_kualitas|2025-10-28T00:00:00Z|2025-11-27T00:00:00Z|53794913", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:22:05Z"}
+{"search_id": "kw_kualitas|2025-10-28T00:00:00Z|2025-11-12T00:00:00Z|4f3ec390", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-21T09:23:43Z"}
+{"search_id": "kw_kualitas|2025-11-12T00:00:00Z|2025-11-27T00:00:00Z|7392f528", "status": "ok", "n_posts": 91, "saturated": false, "error": null, "logged_at": "2026-10-21T09:25:15Z"}
+{"search_id": "kw_keracunan|2025-09-28T22:30:00Z|2025-09-29T21:00:00Z|51e417d6", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:26:34Z"}
+{"search_id": "kw_keracunan|2025-09-28T22:30:00Z|2025-09-29T09:45:00Z|8cefc636", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1123). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T09:28:27Z"}
+{"search_id": "kw_keracunan|2025-09-29T09:45:00Z|2025-09-29T21:00:00Z|d87fb197", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-21T09:30:12Z"}
+{"search_id": "kw_keracunan|2025-10-01T18:00:00Z|2025-10-02T16:30:00Z|7c67df50", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:31:31Z"}
+{"search_id": "kw_keracunan|2025-10-01T18:00:00Z|2025-10-02T05:15:00Z|0821d14c", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-21T09:32:49Z"}
+{"search_id": "kw_keracunan|2025-10-02T05:15:00Z|2025-10-02T16:30:00Z|500d04ff", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-21T09:34:02Z"}
+{"search_id": "kw_keracunan|2025-10-02T16:30:00Z|2025-10-03T15:00:00Z|4d7c0851", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:35:14Z"}
+{"search_id": "kw_keracunan|2025-10-02T16:30:00Z|2025-10-03T03:45:00Z|c664c348", "status": "ok", "n_posts": 56, "saturated": false, "error": null, "logged_at": "2026-10-21T09:36:08Z"}
+{"search_id": "kw_keracunan|2025-10-03T03:45:00Z|2025-10-03T15:00:00Z|effe08d4", "status": "ok", "n_posts": 100, "saturated": true, "error": null, "logged_at": "2026-10-21T09:37:19Z"}
+{"search_id": "kw_keracunan|2025-10-05T12:00:00Z|2025-10-05T23:15:00Z|6eda882d", "status": "ok", "n_posts": 29, "saturated": false, "error": null, "logged_at": "2026-10-21T09:37:50Z"}
+{"search_id": "kw_keracunan|2025-10-05T23:15:00Z|2025-10-06T10:30:00Z|08bf6744", "status": "ok", "n_posts": 82, "saturated": false, "error": null, "logged_at": "2026-10-21T09:39:02Z"}
+{"search_id": "kw_keracunan|2025-10-06T10:30:00Z|2025-10-07T09:00:00Z|23334fa4", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-21T09:39:43Z"}
+{"search_id": "kw_keracunan|2025-10-13T00:00:00Z|2025-11-01T00:00:00Z|dc8cc88b", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1079). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T09:41:35Z"}
+{"search_id": "kw_keracunan|2025-11-16T00:00:00Z|2025-11-27T00:00:00Z|6bafd633", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1091). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T09:43:26Z"}
+{"search_id": "kw_higiene|2025-10-01T18:00:00Z|2025-10-05T12:00:00Z|2875943f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:45:53Z"}
+{"search_id": "kw_higiene|2025-10-01T18:00:00Z|2025-10-03T15:00:00Z|fe33d2ea", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:47:21Z"}
+{"search_id": "kw_higiene|2025-10-01T18:00:00Z|2025-10-02T16:30:00Z|376bddda", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:48:47Z"}
+{"search_id": "kw_higiene|2025-10-01T18:00:00Z|2025-10-02T05:15:00Z|103f7ccd", "status": "ok", "n_posts": 34, "saturated": false, "error": null, "logged_at": "2026-10-21T09:49:28Z"}
+{"search_id": "kw_higiene|2025-10-02T05:15:00Z|2025-10-02T16:30:00Z|7c02e6af", "status": "ok", "n_posts": 79, "saturated": false, "error": null, "logged_at": "2026-10-21T09:50:50Z"}
+{"search_id": "kw_higiene|2025-10-02T16:30:00Z|2025-10-03T15:00:00Z|ebefd2db", "status": "ok", "n_posts": 88, "saturated": false, "error": null, "logged_at": "2026-10-21T09:52:17Z"}
+{"search_id": "kw_higiene|2025-10-03T15:00:00Z|2025-10-05T12:00:00Z|5b734626", "status": "ok", "n_posts": 74, "saturated": false, "error": null, "logged_at": "2026-10-21T09:53:35Z"}
+{"search_id": "kw_higiene|2025-10-16T18:00:00Z|2025-11-01T00:00:00Z|c1f4cb2d", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:55:22Z"}
+{"search_id": "kw_higiene|2025-10-16T18:00:00Z|2025-10-24T09:00:00Z|bbc62117", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T09:56:49Z"}
+{"search_id": "kw_higiene|2025-10-16T18:00:00Z|2025-10-20T13:30:00Z|3c8a48d9", "status": "ok", "n_posts": 20, "saturated": false, "error": null, "logged_at": "2026-10-21T09:57:39Z"}
+{"search_id": "kw_higiene|2025-10-20T13:30:00Z|2025-10-24T09:00:00Z|b6ab422e", "status": "error", "n_posts": 0, "saturated": false, "error": "RuntimeError: Halaman pencarian tidak termuat (panjang teks 1089). Cek sesi login atau koneksi.", "logged_at": "2026-10-21T09:59:31Z"}
+{"search_id": "kw_higiene|2025-10-24T09:00:00Z|2025-11-01T00:00:00Z|b9546d61", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T10:01:07Z"}
+{"search_id": "kw_higiene|2025-10-24T09:00:00Z|2025-10-28T04:30:00Z|551c27a4", "status": "ok", "n_posts": 68, "saturated": false, "error": null, "logged_at": "2026-10-21T10:02:30Z"}
+{"search_id": "kw_higiene|2025-10-28T04:30:00Z|2025-11-01T00:00:00Z|268ccd3f", "status": "split", "n_posts": 100, "saturated": false, "error": null, "logged_at": "2026-10-21T10:04:16Z"}
+{"search_id": "kw_higiene|2025-10-28T04:30:00Z|2025-10-30T02:15:00Z|5eb2316f", "status": "ok", "n_posts": 51, "saturated": false, "error": null, "logged_at": "2026-10-21T10:05:15Z"}
+{"search_id": "kw_higiene|2025-10-30T02:15:00Z|2025-11-01T00:00:00Z|3d5928af", "status": "ok", "n_posts": 64, "saturated": false, "error": null, "logged_at": "2026-10-21T10:06:31Z"}

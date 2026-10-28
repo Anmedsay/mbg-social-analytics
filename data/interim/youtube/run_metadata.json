@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-10-24T09:26:12.745631+00:00",
+  "video_period_wib": [
+    "2025-01-06",
+    "2026-09-30"
+  ],
+  "mbg_pattern": "\\bmbg\\b|\\bmakan(an)?\\s+bergizi\\s+gratis\\b",
+  "search_query": "MBG|\"makan bergizi gratis\"",
+  "n_channels": 28,
+  "search_method_channels": [
+    "KOMPASTV",
+    "CNN Indonesia",
+    "METRO TV",
+    "tvOneNews",
+    "Official iNews",
+    "BeritaSatu",
+    "GARUDA TV",
+    "CNBC Indonesia",
+    "Kompas.com",
+    "detikcom",
+    "Tribunnews",
+    "Liputan6",
+    "kumparan",
+    "Antara TV Indonesia",
+    "Tempodotco",
+    "Suaradotcom",
+    "medcom id",
+    "MerdekaDotCom",
+    "SINDOnews",
+    "VIVA.CO.ID",
+    "Okezone"
+  ],
+  "collection_complete": true,
+  "counts": {
+    "videos": 17663,
+    "comments_and_replies": 1067690,
+    "unified_rows": 1085353,
+    "videos_with_location": 9134,
+    "comments_with_location": 19852
+  },
+  "cleaning_log": {
+    "video_rows_before": 17663,
+    "video_empty_id": 0,
+    "video_duplicate_id": 0,
+    "video_rows_after": 17663,
+    "comment_rows_before": 1067821,
+    "comment_empty_id": 0,
+    "comment_duplicate_id": 79,
+    "comment_empty_text": 52,
+    "comment_orphan": 0,
+    "comment_repeated_text": 69683,
+    "comment_suspected_spam": 2357,
+    "comment_rows_after": 1067690
+  },
+  "library_versions": {
+    "pandas": "3.0.6",
+    "requests": "2.34.2"
+  }
+}

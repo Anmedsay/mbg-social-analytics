@@ -1,0 +1,16 @@
+.auth/
+data/raw/x/
+data/raw/x_smoke/
+.ipynb_checkpoints/
+.DS_Store
+data/processed/raw_merged/mbg_merged.csv
+data/processed/mbg_processed/mbg_processed.csv
+
+# Kredensial lokal (API key YouTube)
+.env
+
+# YouTube: data mentah memuat nama/ID akun asli dan salt pseudonim, tidak dipublikasikan
+data/raw/youtube/
+# YouTube: file > 100 MB (batas GitHub), dibagikan terpisah
+data/interim/youtube/youtube_unified.csv
+data/interim/youtube/comments_clean.csv

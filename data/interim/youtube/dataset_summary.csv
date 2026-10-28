@@ -1,0 +1,11 @@
+metric,value
+n_channels,28
+n_videos,17663
+n_top_level_comments,892141
+n_replies,175549
+n_unique_authors,420072
+n_videos_with_location,9134
+n_comments_with_location,19852
+first_video_utc,2025-01-05 22:34:42+00:00
+last_video_utc,2026-09-30 16:11:20+00:00
+collection_complete,True

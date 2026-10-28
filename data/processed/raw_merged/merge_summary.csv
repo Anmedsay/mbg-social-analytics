@@ -1,0 +1,3 @@
+platform,n_docs,n_unique_authors,first_published_utc,last_published_utc,pct_with_location,pct_relevant_candidate,pct_suspected_spam
+youtube,1085353,420072,2025-01-05 22:34:42+00:00,2026-10-24 00:55:09+00:00,2.7,8.1,0.22
+x,24535,7968,2025-01-01 07:56:38+00:00,2026-09-29 23:02:39+00:00,23.1,60.0,0.0

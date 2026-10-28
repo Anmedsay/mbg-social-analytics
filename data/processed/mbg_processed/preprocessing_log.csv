@@ -1,0 +1,15 @@
+langkah,keterangan,n_baris,n_ditandai
+1.2 Muat dataset gabungan,"mbg_merged.csv; tipe bool dan angka dikonversi, kolom asli tidak diubah isinya",669383,
+2.1 Waktu,"common_published_date_wib, common_year_month, common_in_overlap_period",669383,668546.0
+2.2 Normalisasi dasar dan panjang teks,"common_text_len, common_n_words, common_is_too_short",669383,53934.0
+2.3 Spam,common_is_spam = is_suspected_spam OR memuat merek situs judi yang berulang pada dokumen spam,669383,2092.0
+2.4 Teks berulang,"common_dup_group_size, common_is_dup_first, common_is_dup_same_author; tidak ada baris dibuang",669383,10261.0
+2.5 Bahasa,common_is_non_indonesian: dominan kata fungsi Inggris atau aksara non-Latin,669383,700.0
+2.6 Konteks keamanan pangan,common_context_mentions_food_safety (video atau unggahan akar menyebut kata kunci keamanan pangan),669383,167831.0
+2.7 Dokumen layak pakai,"common_is_usable = bukan spam, cukup panjang, bahasa Indonesia, bukan pengulangan penulis yang sama",669383,604616.0
+2.8 Sampel audit relevansi,common_audit_sample (100 dokumen per platform per nilai is_relevant_candidate),669383,400.0
+3.5 RQ1,"rq1_text_light, rq1_tokens, rq1_n_tokens, rq1_issue_categories, rq1_eligible",66098,63375.0
+4.1 Normalisasi provinsi,"rq2_province_list, rq2_n_provinces (38 provinsi baku; format dipisah ';')",669383,22948.0
+4.2 Pewarisan lokasi dari konteks,"rq2_province_context, rq2_location_source, rq2_province, rq2_island_group",669383,302902.0
+4.3 Kelayakan RQ2,"rq2_eligible, rq2_eligible_text_only",63375,31853.0
+5 RQ3,"rq3_tier (A/B), rq3_eligible, rq3_eligible_ext, rq3_text, rq3_text_emoji_id, rq3_n_emoji, rq3_label_sample",179445,64735.0
