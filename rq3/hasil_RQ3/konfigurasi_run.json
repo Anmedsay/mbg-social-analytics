@@ -1,0 +1,16 @@
+{
+  "input_signature": {
+    "file_name": "mbg_processed.csv",
+    "file_size": 887137467,
+    "file_mtime_ns": 1795254429647538306,
+    "model": "w11wo/indonesian-roberta-base-sentiment-classifier",
+    "max_length": 256,
+    "seed": 42
+  },
+  "model_revision": "ac452dcb0f4966130bba44f4ee0013bb5d52c282",
+  "device": "cpu",
+  "python": "3.11.18 (main, Oct 26 2026, 18:15:19) [Clang 20.1.8 ]",
+  "pandas": "3.1.1",
+  "torch": "2.11.0",
+  "transformers": "4.57.6"
+}

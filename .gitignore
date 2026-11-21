@@ -14,3 +14,11 @@ data/raw/youtube/
 # YouTube: file > 100 MB (batas GitHub), dibagikan terpisah
 data/interim/youtube/youtube_unified.csv
 data/interim/youtube/comments_clean.csv
+
+# RQ3 large datasets and row-level data
+rq3/.venv/
+rq3/mbg_processed.csv
+rq3/hasil_RQ3/prediksi_rq3.csv
+rq3/hasil_RQ3/anotasi_manual_800.csv
+rq3/hasil_RQ3/kesalahan_klasifikasi.csv
+rq3/hasil_RQ3/contoh_per_kelas_perlu_verifikasi.csv

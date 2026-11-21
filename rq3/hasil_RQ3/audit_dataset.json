@@ -1,0 +1,11 @@
+{
+  "rows_read": 1109888,
+  "rq3_eligible": 94936,
+  "rq3_by_platform": {
+    "youtube": 80428,
+    "x": 14508
+  },
+  "annotation_sample": 800,
+  "new_predictions": 94936,
+  "source_file": "mbg_processed.csv"
+}

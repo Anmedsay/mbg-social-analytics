@@ -1,0 +1,8 @@
+topic_label,negative,neutral,positive,n,negative_pct,neutral_pct,positive_pct
+keracunan,54780,5777,5241,65798,83.255,8.78,7.965
+basi_busuk,15021,615,1717,17353,86.561,3.544,9.895
+higiene_sanitasi,4370,535,1195,6100,71.639,8.77,19.59
+benda_asing,4015,716,819,5550,72.342,12.901,14.757
+gejala_kesehatan,2779,421,322,3522,78.904,11.953,9.143
+kualitas_matang,2434,207,656,3297,73.825,6.278,19.897
+kontaminasi_bakteri,1443,263,257,1963,73.51,13.398,13.092

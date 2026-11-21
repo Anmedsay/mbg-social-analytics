@@ -1,0 +1,725 @@
+==============================================================
+TK3 | ANALISIS SENTIMEN MBG | RQ3
+==============================================================
+Dataset: mbg_processed.csv
+Ukuran: 887.1 MB
+Python: 3.11.18
+Pandas: 3.1.1
+PyTorch: 2.11.0
+Transformers: 4.57.6
+Model: w11wo/indonesian-roberta-base-sentiment-classifier
+Perangkat inferensi: cpu
+Batch size: 16
+Panjang maksimum token: 256
+Model revision: ac452dcb0f4966130bba44f4ee0013bb5d52c282
+Memulai audit dan klasifikasi dataset...
+Chunk    1: 5,000 baris dibaca | 0 layak RQ3 | 0 prediksi baru
+Chunk    2: 10,000 baris dibaca | 0 layak RQ3 | 0 prediksi baru
+Chunk    3: 15,000 baris dibaca | 0 layak RQ3 | 0 prediksi baru
+Chunk    4: 20,000 baris dibaca | 101 layak RQ3 | 101 prediksi baru
+Chunk    5: 25,000 baris dibaca | 277 layak RQ3 | 277 prediksi baru
+Chunk    6: 30,000 baris dibaca | 627 layak RQ3 | 627 prediksi baru
+Chunk    7: 35,000 baris dibaca | 921 layak RQ3 | 921 prediksi baru
+Chunk    8: 40,000 baris dibaca | 1,423 layak RQ3 | 1,423 prediksi baru
+Chunk    9: 45,000 baris dibaca | 1,644 layak RQ3 | 1,644 prediksi baru
+Chunk   10: 50,000 baris dibaca | 2,110 layak RQ3 | 2,110 prediksi baru
+Chunk   11: 55,000 baris dibaca | 2,416 layak RQ3 | 2,416 prediksi baru
+Chunk   12: 60,000 baris dibaca | 2,661 layak RQ3 | 2,661 prediksi baru
+Chunk   13: 65,000 baris dibaca | 2,944 layak RQ3 | 2,944 prediksi baru
+Chunk   14: 70,000 baris dibaca | 3,379 layak RQ3 | 3,379 prediksi baru
+Chunk   15: 75,000 baris dibaca | 3,555 layak RQ3 | 3,555 prediksi baru
+Chunk   16: 80,000 baris dibaca | 3,844 layak RQ3 | 3,844 prediksi baru
+Chunk   17: 85,000 baris dibaca | 4,234 layak RQ3 | 4,234 prediksi baru
+Chunk   18: 90,000 baris dibaca | 4,818 layak RQ3 | 4,818 prediksi baru
+Chunk   19: 95,000 baris dibaca | 5,664 layak RQ3 | 5,664 prediksi baru
+Chunk   20: 100,000 baris dibaca | 6,180 layak RQ3 | 6,180 prediksi baru
+Chunk   21: 105,000 baris dibaca | 6,463 layak RQ3 | 6,463 prediksi baru
+Chunk   22: 110,000 baris dibaca | 6,786 layak RQ3 | 6,786 prediksi baru
+Chunk   23: 115,000 baris dibaca | 7,079 layak RQ3 | 7,079 prediksi baru
+Chunk   24: 120,000 baris dibaca | 7,310 layak RQ3 | 7,310 prediksi baru
+Chunk   25: 125,000 baris dibaca | 7,674 layak RQ3 | 7,674 prediksi baru
+Chunk   26: 130,000 baris dibaca | 8,172 layak RQ3 | 8,172 prediksi baru
+Chunk   27: 135,000 baris dibaca | 8,494 layak RQ3 | 8,494 prediksi baru
+Chunk   28: 140,000 baris dibaca | 8,868 layak RQ3 | 8,868 prediksi baru
+Chunk   29: 145,000 baris dibaca | 9,099 layak RQ3 | 9,099 prediksi baru
+Chunk   30: 150,000 baris dibaca | 9,240 layak RQ3 | 9,240 prediksi baru
+Chunk   31: 155,000 baris dibaca | 9,636 layak RQ3 | 9,636 prediksi baru
+Chunk   32: 160,000 baris dibaca | 10,001 layak RQ3 | 10,001 prediksi baru
+Chunk   33: 165,000 baris dibaca | 10,531 layak RQ3 | 10,531 prediksi baru
+Chunk   34: 170,000 baris dibaca | 11,240 layak RQ3 | 11,240 prediksi baru
+Chunk   35: 175,000 baris dibaca | 11,658 layak RQ3 | 11,658 prediksi baru
+Chunk   36: 180,000 baris dibaca | 12,017 layak RQ3 | 12,017 prediksi baru
+Chunk   37: 185,000 baris dibaca | 12,471 layak RQ3 | 12,471 prediksi baru
+Chunk   38: 190,000 baris dibaca | 12,770 layak RQ3 | 12,770 prediksi baru
+Chunk   39: 195,000 baris dibaca | 13,025 layak RQ3 | 13,025 prediksi baru
+Chunk   40: 200,000 baris dibaca | 13,791 layak RQ3 | 13,791 prediksi baru
+Chunk   41: 205,000 baris dibaca | 14,178 layak RQ3 | 14,178 prediksi baru
+Chunk   42: 210,000 baris dibaca | 14,544 layak RQ3 | 14,544 prediksi baru
+Chunk   43: 215,000 baris dibaca | 15,212 layak RQ3 | 15,212 prediksi baru
+Chunk   44: 220,000 baris dibaca | 15,426 layak RQ3 | 15,426 prediksi baru
+Chunk   45: 225,000 baris dibaca | 15,559 layak RQ3 | 15,559 prediksi baru
+Chunk   46: 230,000 baris dibaca | 16,004 layak RQ3 | 16,004 prediksi baru
+Chunk   47: 235,000 baris dibaca | 16,426 layak RQ3 | 16,426 prediksi baru
+Chunk   48: 240,000 baris dibaca | 16,918 layak RQ3 | 16,918 prediksi baru
+Chunk   49: 245,000 baris dibaca | 17,030 layak RQ3 | 17,030 prediksi baru
+Chunk   50: 250,000 baris dibaca | 17,381 layak RQ3 | 17,381 prediksi baru
+Chunk   51: 255,000 baris dibaca | 17,861 layak RQ3 | 17,861 prediksi baru
+Chunk   52: 260,000 baris dibaca | 18,224 layak RQ3 | 18,224 prediksi baru
+Chunk   53: 265,000 baris dibaca | 18,736 layak RQ3 | 18,736 prediksi baru
+Chunk   54: 270,000 baris dibaca | 19,213 layak RQ3 | 19,213 prediksi baru
+Chunk   55: 275,000 baris dibaca | 19,640 layak RQ3 | 19,640 prediksi baru
+Chunk   56: 280,000 baris dibaca | 19,925 layak RQ3 | 19,925 prediksi baru
+Chunk   57: 285,000 baris dibaca | 20,418 layak RQ3 | 20,418 prediksi baru
+Chunk   58: 290,000 baris dibaca | 20,800 layak RQ3 | 20,800 prediksi baru
+Chunk   59: 295,000 baris dibaca | 20,971 layak RQ3 | 20,971 prediksi baru
+Chunk   60: 300,000 baris dibaca | 21,448 layak RQ3 | 21,448 prediksi baru
+Chunk   61: 305,000 baris dibaca | 21,792 layak RQ3 | 21,792 prediksi baru
+Chunk   62: 310,000 baris dibaca | 22,197 layak RQ3 | 22,197 prediksi baru
+Chunk   63: 315,000 baris dibaca | 22,548 layak RQ3 | 22,548 prediksi baru
+Chunk   64: 320,000 baris dibaca | 22,889 layak RQ3 | 22,889 prediksi baru
+Chunk   65: 325,000 baris dibaca | 23,219 layak RQ3 | 23,219 prediksi baru
+Chunk   66: 330,000 baris dibaca | 23,788 layak RQ3 | 23,788 prediksi baru
+Chunk   67: 335,000 baris dibaca | 24,130 layak RQ3 | 24,130 prediksi baru
+Chunk   68: 340,000 baris dibaca | 24,471 layak RQ3 | 24,471 prediksi baru
+Chunk   69: 345,000 baris dibaca | 24,917 layak RQ3 | 24,917 prediksi baru
+Chunk   70: 350,000 baris dibaca | 25,472 layak RQ3 | 25,472 prediksi baru
+Chunk   71: 355,000 baris dibaca | 25,628 layak RQ3 | 25,628 prediksi baru
+Chunk   72: 360,000 baris dibaca | 25,799 layak RQ3 | 25,799 prediksi baru
+Chunk   73: 365,000 baris dibaca | 25,894 layak RQ3 | 25,894 prediksi baru
+Chunk   74: 370,000 baris dibaca | 26,193 layak RQ3 | 26,193 prediksi baru
+Chunk   75: 375,000 baris dibaca | 26,354 layak RQ3 | 26,354 prediksi baru
+Chunk   76: 380,000 baris dibaca | 26,496 layak RQ3 | 26,496 prediksi baru
+Chunk   77: 385,000 baris dibaca | 26,683 layak RQ3 | 26,683 prediksi baru
+Chunk   78: 390,000 baris dibaca | 27,055 layak RQ3 | 27,055 prediksi baru
+Chunk   79: 395,000 baris dibaca | 27,163 layak RQ3 | 27,163 prediksi baru
+Chunk   80: 400,000 baris dibaca | 27,429 layak RQ3 | 27,429 prediksi baru
+Chunk   81: 405,000 baris dibaca | 27,878 layak RQ3 | 27,878 prediksi baru
+Chunk   82: 410,000 baris dibaca | 28,519 layak RQ3 | 28,519 prediksi baru
+Chunk   83: 415,000 baris dibaca | 28,758 layak RQ3 | 28,758 prediksi baru
+Chunk   84: 420,000 baris dibaca | 29,176 layak RQ3 | 29,176 prediksi baru
+Chunk   85: 425,000 baris dibaca | 29,410 layak RQ3 | 29,410 prediksi baru
+Chunk   86: 430,000 baris dibaca | 29,630 layak RQ3 | 29,630 prediksi baru
+Chunk   87: 435,000 baris dibaca | 29,707 layak RQ3 | 29,707 prediksi baru
+Chunk   88: 440,000 baris dibaca | 30,147 layak RQ3 | 30,147 prediksi baru
+Chunk   89: 445,000 baris dibaca | 30,412 layak RQ3 | 30,412 prediksi baru
+Chunk   90: 450,000 baris dibaca | 31,194 layak RQ3 | 31,194 prediksi baru
+Chunk   91: 455,000 baris dibaca | 31,650 layak RQ3 | 31,650 prediksi baru
+Chunk   92: 460,000 baris dibaca | 32,079 layak RQ3 | 32,079 prediksi baru
+Chunk   93: 465,000 baris dibaca | 32,313 layak RQ3 | 32,313 prediksi baru
+Chunk   94: 470,000 baris dibaca | 32,628 layak RQ3 | 32,628 prediksi baru
+Chunk   95: 475,000 baris dibaca | 33,078 layak RQ3 | 33,078 prediksi baru
+Chunk   96: 480,000 baris dibaca | 33,381 layak RQ3 | 33,381 prediksi baru
+Chunk   97: 485,000 baris dibaca | 33,809 layak RQ3 | 33,809 prediksi baru
+Chunk   98: 490,000 baris dibaca | 34,352 layak RQ3 | 34,352 prediksi baru
+Chunk   99: 495,000 baris dibaca | 34,401 layak RQ3 | 34,401 prediksi baru
+Chunk  100: 500,000 baris dibaca | 34,889 layak RQ3 | 34,889 prediksi baru
+Chunk  101: 505,000 baris dibaca | 35,050 layak RQ3 | 35,050 prediksi baru
+Chunk  102: 510,000 baris dibaca | 35,483 layak RQ3 | 35,483 prediksi baru
+Chunk  103: 515,000 baris dibaca | 35,641 layak RQ3 | 35,641 prediksi baru
+Chunk  104: 520,000 baris dibaca | 35,969 layak RQ3 | 35,969 prediksi baru
+Chunk  105: 525,000 baris dibaca | 36,354 layak RQ3 | 36,354 prediksi baru
+Chunk  106: 530,000 baris dibaca | 36,684 layak RQ3 | 36,684 prediksi baru
+Chunk  107: 535,000 baris dibaca | 37,013 layak RQ3 | 37,013 prediksi baru
+Chunk  108: 540,000 baris dibaca | 37,148 layak RQ3 | 37,148 prediksi baru
+Chunk  109: 545,000 baris dibaca | 37,747 layak RQ3 | 37,747 prediksi baru
+Chunk  110: 550,000 baris dibaca | 38,267 layak RQ3 | 38,267 prediksi baru
+Chunk  111: 555,000 baris dibaca | 38,862 layak RQ3 | 38,862 prediksi baru
+Chunk  112: 560,000 baris dibaca | 39,382 layak RQ3 | 39,382 prediksi baru
+Chunk  113: 565,000 baris dibaca | 39,832 layak RQ3 | 39,832 prediksi baru
+Chunk  114: 570,000 baris dibaca | 40,183 layak RQ3 | 40,183 prediksi baru
+Chunk  115: 575,000 baris dibaca | 40,641 layak RQ3 | 40,641 prediksi baru
+Chunk  116: 580,000 baris dibaca | 41,015 layak RQ3 | 41,015 prediksi baru
+Chunk  117: 585,000 baris dibaca | 41,322 layak RQ3 | 41,322 prediksi baru
+Chunk  118: 590,000 baris dibaca | 41,534 layak RQ3 | 41,534 prediksi baru
+Chunk  119: 595,000 baris dibaca | 41,745 layak RQ3 | 41,745 prediksi baru
+Chunk  120: 600,000 baris dibaca | 42,437 layak RQ3 | 42,437 prediksi baru
+Chunk  121: 605,000 baris dibaca | 42,800 layak RQ3 | 42,800 prediksi baru
+Chunk  122: 610,000 baris dibaca | 43,051 layak RQ3 | 43,051 prediksi baru
+Chunk  123: 615,000 baris dibaca | 43,138 layak RQ3 | 43,138 prediksi baru
+Chunk  124: 620,000 baris dibaca | 43,432 layak RQ3 | 43,432 prediksi baru
+Chunk  125: 625,000 baris dibaca | 43,686 layak RQ3 | 43,686 prediksi baru
+Chunk  126: 630,000 baris dibaca | 44,301 layak RQ3 | 44,301 prediksi baru
+Chunk  127: 635,000 baris dibaca | 44,554 layak RQ3 | 44,554 prediksi baru
+Chunk  128: 640,000 baris dibaca | 44,804 layak RQ3 | 44,804 prediksi baru
+Chunk  129: 645,000 baris dibaca | 45,161 layak RQ3 | 45,161 prediksi baru
+Chunk  130: 650,000 baris dibaca | 45,329 layak RQ3 | 45,329 prediksi baru
+Chunk  131: 655,000 baris dibaca | 45,808 layak RQ3 | 45,808 prediksi baru
+Chunk  132: 660,000 baris dibaca | 46,128 layak RQ3 | 46,128 prediksi baru
+Chunk  133: 665,000 baris dibaca | 46,736 layak RQ3 | 46,736 prediksi baru
+Chunk  134: 670,000 baris dibaca | 47,011 layak RQ3 | 47,011 prediksi baru
+Chunk  135: 675,000 baris dibaca | 47,445 layak RQ3 | 47,445 prediksi baru
+Chunk  136: 680,000 baris dibaca | 47,793 layak RQ3 | 47,793 prediksi baru
+Chunk  137: 685,000 baris dibaca | 48,082 layak RQ3 | 48,082 prediksi baru
+Chunk  138: 690,000 baris dibaca | 48,693 layak RQ3 | 48,693 prediksi baru
+Chunk  139: 695,000 baris dibaca | 48,960 layak RQ3 | 48,960 prediksi baru
+Chunk  140: 700,000 baris dibaca | 49,273 layak RQ3 | 49,273 prediksi baru
+Chunk  141: 705,000 baris dibaca | 49,545 layak RQ3 | 49,545 prediksi baru
+Chunk  142: 710,000 baris dibaca | 49,804 layak RQ3 | 49,804 prediksi baru
+Chunk  143: 715,000 baris dibaca | 50,231 layak RQ3 | 50,231 prediksi baru
+Chunk  144: 720,000 baris dibaca | 51,361 layak RQ3 | 51,361 prediksi baru
+Chunk  145: 725,000 baris dibaca | 52,457 layak RQ3 | 52,457 prediksi baru
+Chunk  146: 730,000 baris dibaca | 53,628 layak RQ3 | 53,628 prediksi baru
+Chunk  147: 735,000 baris dibaca | 54,792 layak RQ3 | 54,792 prediksi baru
+Chunk  148: 740,000 baris dibaca | 55,194 layak RQ3 | 55,194 prediksi baru
+Chunk  149: 745,000 baris dibaca | 55,579 layak RQ3 | 55,579 prediksi baru
+Chunk  150: 750,000 baris dibaca | 55,844 layak RQ3 | 55,844 prediksi baru
+Chunk  151: 755,000 baris dibaca | 56,074 layak RQ3 | 56,074 prediksi baru
+Chunk  152: 760,000 baris dibaca | 56,480 layak RQ3 | 56,480 prediksi baru
+Chunk  153: 765,000 baris dibaca | 56,578 layak RQ3 | 56,578 prediksi baru
+Chunk  154: 770,000 baris dibaca | 56,999 layak RQ3 | 56,999 prediksi baru
+Chunk  155: 775,000 baris dibaca | 57,315 layak RQ3 | 57,315 prediksi baru
+Chunk  156: 780,000 baris dibaca | 57,732 layak RQ3 | 57,732 prediksi baru
+Chunk  157: 785,000 baris dibaca | 57,834 layak RQ3 | 57,834 prediksi baru
+Chunk  158: 790,000 baris dibaca | 58,460 layak RQ3 | 58,460 prediksi baru
+Chunk  159: 795,000 baris dibaca | 58,802 layak RQ3 | 58,802 prediksi baru
+Chunk  160: 800,000 baris dibaca | 59,126 layak RQ3 | 59,126 prediksi baru
+Chunk  161: 805,000 baris dibaca | 59,542 layak RQ3 | 59,542 prediksi baru
+Chunk  162: 810,000 baris dibaca | 59,843 layak RQ3 | 59,843 prediksi baru
+Chunk  163: 815,000 baris dibaca | 60,087 layak RQ3 | 60,087 prediksi baru
+Chunk  164: 820,000 baris dibaca | 60,506 layak RQ3 | 60,506 prediksi baru
+Chunk  165: 825,000 baris dibaca | 60,765 layak RQ3 | 60,765 prediksi baru
+Chunk  166: 830,000 baris dibaca | 61,175 layak RQ3 | 61,175 prediksi baru
+Chunk  167: 835,000 baris dibaca | 61,523 layak RQ3 | 61,523 prediksi baru
+Chunk  168: 840,000 baris dibaca | 61,789 layak RQ3 | 61,789 prediksi baru
+Chunk  169: 845,000 baris dibaca | 62,296 layak RQ3 | 62,296 prediksi baru
+Chunk  170: 850,000 baris dibaca | 62,645 layak RQ3 | 62,645 prediksi baru
+Chunk  171: 855,000 baris dibaca | 62,947 layak RQ3 | 62,947 prediksi baru
+Chunk  172: 860,000 baris dibaca | 63,408 layak RQ3 | 63,408 prediksi baru
+Chunk  173: 865,000 baris dibaca | 63,805 layak RQ3 | 63,805 prediksi baru
+Chunk  174: 870,000 baris dibaca | 64,047 layak RQ3 | 64,047 prediksi baru
+Chunk  175: 875,000 baris dibaca | 64,137 layak RQ3 | 64,137 prediksi baru
+Chunk  176: 880,000 baris dibaca | 64,509 layak RQ3 | 64,509 prediksi baru
+Chunk  177: 885,000 baris dibaca | 65,152 layak RQ3 | 65,152 prediksi baru
+Chunk  178: 890,000 baris dibaca | 65,282 layak RQ3 | 65,282 prediksi baru
+Chunk  179: 895,000 baris dibaca | 65,553 layak RQ3 | 65,553 prediksi baru
+Chunk  180: 900,000 baris dibaca | 65,767 layak RQ3 | 65,767 prediksi baru
+Chunk  181: 905,000 baris dibaca | 66,004 layak RQ3 | 66,004 prediksi baru
+Chunk  182: 910,000 baris dibaca | 66,400 layak RQ3 | 66,400 prediksi baru
+Chunk  183: 915,000 baris dibaca | 66,767 layak RQ3 | 66,767 prediksi baru
+Chunk  184: 920,000 baris dibaca | 67,106 layak RQ3 | 67,106 prediksi baru
+Chunk  185: 925,000 baris dibaca | 67,426 layak RQ3 | 67,426 prediksi baru
+Chunk  186: 930,000 baris dibaca | 67,758 layak RQ3 | 67,758 prediksi baru
+Chunk  187: 935,000 baris dibaca | 68,050 layak RQ3 | 68,050 prediksi baru
+Chunk  188: 940,000 baris dibaca | 68,338 layak RQ3 | 68,338 prediksi baru
+Chunk  189: 945,000 baris dibaca | 68,849 layak RQ3 | 68,849 prediksi baru
+Chunk  190: 950,000 baris dibaca | 69,193 layak RQ3 | 69,193 prediksi baru
+Chunk  191: 955,000 baris dibaca | 69,458 layak RQ3 | 69,458 prediksi baru
+Chunk  192: 960,000 baris dibaca | 70,023 layak RQ3 | 70,023 prediksi baru
+Chunk  193: 965,000 baris dibaca | 70,379 layak RQ3 | 70,379 prediksi baru
+Chunk  194: 970,000 baris dibaca | 70,640 layak RQ3 | 70,640 prediksi baru
+Chunk  195: 975,000 baris dibaca | 71,102 layak RQ3 | 71,102 prediksi baru
+Chunk  196: 980,000 baris dibaca | 71,312 layak RQ3 | 71,312 prediksi baru
+Chunk  197: 985,000 baris dibaca | 71,671 layak RQ3 | 71,671 prediksi baru
+Chunk  198: 990,000 baris dibaca | 72,192 layak RQ3 | 72,192 prediksi baru
+Chunk  199: 995,000 baris dibaca | 72,519 layak RQ3 | 72,519 prediksi baru
+Chunk  200: 1,000,000 baris dibaca | 73,449 layak RQ3 | 73,449 prediksi baru
+Chunk  201: 1,005,000 baris dibaca | 73,717 layak RQ3 | 73,717 prediksi baru
+Chunk  202: 1,010,000 baris dibaca | 73,997 layak RQ3 | 73,997 prediksi baru
+Chunk  203: 1,015,000 baris dibaca | 74,246 layak RQ3 | 74,246 prediksi baru
+Chunk  204: 1,020,000 baris dibaca | 74,512 layak RQ3 | 74,512 prediksi baru
+Chunk  205: 1,025,000 baris dibaca | 74,858 layak RQ3 | 74,858 prediksi baru
+Chunk  206: 1,030,000 baris dibaca | 75,132 layak RQ3 | 75,132 prediksi baru
+Chunk  207: 1,035,000 baris dibaca | 75,851 layak RQ3 | 75,851 prediksi baru
+Chunk  208: 1,040,000 baris dibaca | 76,109 layak RQ3 | 76,109 prediksi baru
+Chunk  209: 1,045,000 baris dibaca | 76,472 layak RQ3 | 76,472 prediksi baru
+Chunk  210: 1,050,000 baris dibaca | 76,777 layak RQ3 | 76,777 prediksi baru
+Chunk  211: 1,055,000 baris dibaca | 77,031 layak RQ3 | 77,031 prediksi baru
+Chunk  212: 1,060,000 baris dibaca | 77,383 layak RQ3 | 77,383 prediksi baru
+Chunk  213: 1,065,000 baris dibaca | 78,079 layak RQ3 | 78,079 prediksi baru
+Chunk  214: 1,070,000 baris dibaca | 78,798 layak RQ3 | 78,798 prediksi baru
+Chunk  215: 1,075,000 baris dibaca | 79,365 layak RQ3 | 79,365 prediksi baru
+Chunk  216: 1,080,000 baris dibaca | 80,015 layak RQ3 | 80,015 prediksi baru
+Chunk  217: 1,085,000 baris dibaca | 80,405 layak RQ3 | 80,405 prediksi baru
+Chunk  218: 1,090,000 baris dibaca | 82,730 layak RQ3 | 82,730 prediksi baru
+Chunk  219: 1,095,000 baris dibaca | 86,336 layak RQ3 | 86,336 prediksi baru
+Chunk  220: 1,100,000 baris dibaca | 89,040 layak RQ3 | 89,040 prediksi baru
+Chunk  221: 1,105,000 baris dibaca | 91,635 layak RQ3 | 91,635 prediksi baru
+Chunk  222: 1,109,888 baris dibaca | 94,936 layak RQ3 | 94,936 prediksi baru
+Sampel anotasi manual: 800 dokumen
+File: anotasi_manual_800.csv
+
+==============================================================
+AUDIT DATASET SELESAI
+==============================================================
+Total baris sumber: 1,109,888
+Total dokumen RQ3 tingkat A: 94,936
+  youtube: 80,428
+  x: 14,508
+Sampel untuk anotasi manual: 800
+
+==============================================================
+HASIL PENELITIAN | RQ3 SENTIMENT ANALYSIS
+==============================================================
+Total dokumen terklasifikasi: 94,936
+Jumlah per platform: {'youtube': 80428, 'x': 14508}
+
+DISTRIBUSI SENTIMEN KESELURUHAN
+sentiment  jumlah  persentase
+ negative   77688      81.832
+  neutral    8013       8.440
+ positive    9235       9.728
+
+Perbandingan antarplatform menggunakan 94,639 dokumen pada periode tumpang tindih.
+
+PERBANDINGAN SENTIMEN ANTARPLATFORM
+sentiment  negative  neutral  positive
+platform                              
+x            62.804   27.028    10.168
+youtube      85.258    5.088     9.654
+
+TREN SENTIMEN NEGATIF PER BULAN
+platform   month     n  negative_pct
+       x 2025-01   432        43.981
+       x 2025-02   213        66.197
+       x 2025-03   108        75.000
+       x 2025-04   274        46.715
+       x 2025-05   287        48.084
+       x 2025-06   271        57.934
+       x 2025-07   230        57.826
+       x 2025-08   705        65.532
+       x 2025-09  1069        49.486
+       x 2025-10  1869        44.088
+       x 2025-11   450        52.444
+       x 2025-12   371        69.542
+       x 2026-01  1256        68.710
+       x 2026-02   766        69.582
+       x 2026-03  1054        77.514
+       x 2026-04   817        65.361
+       x 2026-05   818        74.205
+       x 2026-06   614        79.153
+       x 2026-07   454        77.313
+       x 2026-08   861        69.803
+       x 2026-09  1589        65.639
+ youtube 2025-01  2545        70.648
+ youtube 2025-02  1234        79.660
+ youtube 2025-03   139        87.770
+ youtube 2025-04   683        83.602
+ youtube 2025-05  1466        80.764
+ youtube 2025-06    63        71.429
+ youtube 2025-07   229        82.096
+ youtube 2025-08   369        82.385
+ youtube 2025-09 16577        83.145
+ youtube 2025-10  6097        82.008
+ youtube 2025-11   988        84.008
+ youtube 2025-12  1161        88.458
+ youtube 2026-01  1533        85.975
+ youtube 2026-02  5261        87.778
+ youtube 2026-03  3106        87.927
+ youtube 2026-04  2961        86.694
+ youtube 2026-05  1576        86.802
+ youtube 2026-06  6214        89.910
+ youtube 2026-07  2704        88.166
+ youtube 2026-08  6832        86.695
+ youtube 2026-09 18464        86.926
+ youtube 2026-10   226        86.283
+PERINGATAN: tren ini menggambarkan sampel terkumpul, bukan seluruh percakapan publik.
+
+ANALISIS AWAL KATEGORI ISU
+Belum ada file topik RQ1. Kategori pada grafik ini hanya label berbasis kata kunci.
+sentiment            negative  neutral  positive      n  negative_pct  neutral_pct  positive_pct
+topic_label                                                                                     
+keracunan               54780     5777      5241  65798        83.255        8.780         7.965
+basi_busuk              15021      615      1717  17353        86.561        3.544         9.895
+higiene_sanitasi         4370      535      1195   6100        71.639        8.770        19.590
+benda_asing              4015      716       819   5550        72.342       12.901        14.757
+gejala_kesehatan         2779      421       322   3522        78.904       11.953         9.143
+kualitas_matang          2434      207       656   3297        73.825        6.278        19.897
+kontaminasi_bakteri      1443      263       257   1963        73.510       13.398        13.092
+CATATAN: satu dokumen dapat masuk beberapa kategori kata kunci.
+
+Contoh kandidat setiap kelas telah disimpan. Verifikasi manual sebelum digunakan dalam laporan.
+
+EVALUASI BELUM DAPAT DIHITUNG: kolom gold_label belum diisi.
+Isi positif/negatif/netral secara manual, kemudian jalankan --mode report.
+
+==============================================================
+STATUS SELESAI
+==============================================================
+Output tersimpan di: /Users/leonitacecilia/Desktop/TK_Sentiment_Analysis/hasil_RQ3
+Catatan: confidence model bukan ukuran akurasi; precision, recall, dan F1 memerlukan gold_label.
+Hasil hanya mewakili dokumen yang terkumpul dan memenuhi kriteria, bukan seluruh masyarakat Indonesia.
+
+==============================================================
+HASIL PENELITIAN | RQ3 SENTIMENT ANALYSIS
+==============================================================
+Total dokumen terklasifikasi: 94,936
+Jumlah per platform: {'youtube': 80428, 'x': 14508}
+
+DISTRIBUSI SENTIMEN KESELURUHAN
+sentiment  jumlah  persentase
+ negative   77688      81.832
+  neutral    8013       8.440
+ positive    9235       9.728
+
+Perbandingan antarplatform menggunakan 94,639 dokumen pada periode tumpang tindih.
+
+PERBANDINGAN SENTIMEN ANTARPLATFORM
+sentiment  negative  neutral  positive
+platform                              
+x            62.804   27.028    10.168
+youtube      85.258    5.088     9.654
+
+TREN SENTIMEN NEGATIF PER BULAN
+platform   month     n  negative_pct
+       x 2025-01   432        43.981
+       x 2025-02   213        66.197
+       x 2025-03   108        75.000
+       x 2025-04   274        46.715
+       x 2025-05   287        48.084
+       x 2025-06   271        57.934
+       x 2025-07   230        57.826
+       x 2025-08   705        65.532
+       x 2025-09  1069        49.486
+       x 2025-10  1869        44.088
+       x 2025-11   450        52.444
+       x 2025-12   371        69.542
+       x 2026-01  1256        68.710
+       x 2026-02   766        69.582
+       x 2026-03  1054        77.514
+       x 2026-04   817        65.361
+       x 2026-05   818        74.205
+       x 2026-06   614        79.153
+       x 2026-07   454        77.313
+       x 2026-08   861        69.803
+       x 2026-09  1589        65.639
+ youtube 2025-01  2545        70.648
+ youtube 2025-02  1234        79.660
+ youtube 2025-03   139        87.770
+ youtube 2025-04   683        83.602
+ youtube 2025-05  1466        80.764
+ youtube 2025-06    63        71.429
+ youtube 2025-07   229        82.096
+ youtube 2025-08   369        82.385
+ youtube 2025-09 16577        83.145
+ youtube 2025-10  6097        82.008
+ youtube 2025-11   988        84.008
+ youtube 2025-12  1161        88.458
+ youtube 2026-01  1533        85.975
+ youtube 2026-02  5261        87.778
+ youtube 2026-03  3106        87.927
+ youtube 2026-04  2961        86.694
+ youtube 2026-05  1576        86.802
+ youtube 2026-06  6214        89.910
+ youtube 2026-07  2704        88.166
+ youtube 2026-08  6832        86.695
+ youtube 2026-09 18464        86.926
+ youtube 2026-10   226        86.283
+PERINGATAN: tren ini menggambarkan sampel terkumpul, bukan seluruh percakapan publik.
+
+ANALISIS AWAL KATEGORI ISU
+Belum ada file topik RQ1. Kategori pada grafik ini hanya label berbasis kata kunci.
+sentiment            negative  neutral  positive      n  negative_pct  neutral_pct  positive_pct
+topic_label                                                                                     
+keracunan               54780     5777      5241  65798        83.255        8.780         7.965
+basi_busuk              15021      615      1717  17353        86.561        3.544         9.895
+higiene_sanitasi         4370      535      1195   6100        71.639        8.770        19.590
+benda_asing              4015      716       819   5550        72.342       12.901        14.757
+gejala_kesehatan         2779      421       322   3522        78.904       11.953         9.143
+kualitas_matang          2434      207       656   3297        73.825        6.278        19.897
+kontaminasi_bakteri      1443      263       257   1963        73.510       13.398        13.092
+CATATAN: satu dokumen dapat masuk beberapa kategori kata kunci.
+
+Contoh kandidat setiap kelas telah disimpan. Verifikasi manual sebelum digunakan dalam laporan.
+
+==============================================================
+HASIL PENELITIAN | RQ3 SENTIMENT ANALYSIS
+==============================================================
+Total dokumen terklasifikasi: 94,936
+Jumlah per platform: {'youtube': 80428, 'x': 14508}
+
+DISTRIBUSI SENTIMEN KESELURUHAN
+sentiment  jumlah  persentase
+ negative   77688      81.832
+  neutral    8013       8.440
+ positive    9235       9.728
+
+Perbandingan antarplatform menggunakan 94,639 dokumen pada periode tumpang tindih.
+
+PERBANDINGAN SENTIMEN ANTARPLATFORM
+sentiment  negative  neutral  positive
+platform                              
+x            62.804   27.028    10.168
+youtube      85.258    5.088     9.654
+
+TREN SENTIMEN NEGATIF PER BULAN
+platform   month     n  negative_pct
+       x 2025-01   432        43.981
+       x 2025-02   213        66.197
+       x 2025-03   108        75.000
+       x 2025-04   274        46.715
+       x 2025-05   287        48.084
+       x 2025-06   271        57.934
+       x 2025-07   230        57.826
+       x 2025-08   705        65.532
+       x 2025-09  1069        49.486
+       x 2025-10  1869        44.088
+       x 2025-11   450        52.444
+       x 2025-12   371        69.542
+       x 2026-01  1256        68.710
+       x 2026-02   766        69.582
+       x 2026-03  1054        77.514
+       x 2026-04   817        65.361
+       x 2026-05   818        74.205
+       x 2026-06   614        79.153
+       x 2026-07   454        77.313
+       x 2026-08   861        69.803
+       x 2026-09  1589        65.639
+ youtube 2025-01  2545        70.648
+ youtube 2025-02  1234        79.660
+ youtube 2025-03   139        87.770
+ youtube 2025-04   683        83.602
+ youtube 2025-05  1466        80.764
+ youtube 2025-06    63        71.429
+ youtube 2025-07   229        82.096
+ youtube 2025-08   369        82.385
+ youtube 2025-09 16577        83.145
+ youtube 2025-10  6097        82.008
+ youtube 2025-11   988        84.008
+ youtube 2025-12  1161        88.458
+ youtube 2026-01  1533        85.975
+ youtube 2026-02  5261        87.778
+ youtube 2026-03  3106        87.927
+ youtube 2026-04  2961        86.694
+ youtube 2026-05  1576        86.802
+ youtube 2026-06  6214        89.910
+ youtube 2026-07  2704        88.166
+ youtube 2026-08  6832        86.695
+ youtube 2026-09 18464        86.926
+ youtube 2026-10   226        86.283
+PERINGATAN: tren ini menggambarkan sampel terkumpul, bukan seluruh percakapan publik.
+
+ANALISIS AWAL KATEGORI ISU
+Belum ada file topik RQ1. Kategori pada grafik ini hanya label berbasis kata kunci.
+sentiment            negative  neutral  positive      n  negative_pct  neutral_pct  positive_pct
+topic_label                                                                                     
+keracunan               54780     5777      5241  65798        83.255        8.780         7.965
+basi_busuk              15021      615      1717  17353        86.561        3.544         9.895
+higiene_sanitasi         4370      535      1195   6100        71.639        8.770        19.590
+benda_asing              4015      716       819   5550        72.342       12.901        14.757
+gejala_kesehatan         2779      421       322   3522        78.904       11.953         9.143
+kualitas_matang          2434      207       656   3297        73.825        6.278        19.897
+kontaminasi_bakteri      1443      263       257   1963        73.510       13.398        13.092
+CATATAN: satu dokumen dapat masuk beberapa kategori kata kunci.
+
+Contoh kandidat setiap kelas telah disimpan. Verifikasi manual sebelum digunakan dalam laporan.
+
+==============================================================
+HASIL PENELITIAN | RQ3 SENTIMENT ANALYSIS
+==============================================================
+Total dokumen terklasifikasi: 94,936
+Jumlah per platform: {'youtube': 80428, 'x': 14508}
+
+DISTRIBUSI SENTIMEN KESELURUHAN
+sentiment  jumlah  persentase
+ negative   77688      81.832
+  neutral    8013       8.440
+ positive    9235       9.728
+
+Perbandingan antarplatform menggunakan 94,639 dokumen pada periode tumpang tindih.
+
+PERBANDINGAN SENTIMEN ANTARPLATFORM
+sentiment  negative  neutral  positive
+platform                              
+x            62.804   27.028    10.168
+youtube      85.258    5.088     9.654
+
+TREN SENTIMEN NEGATIF PER BULAN
+platform   month     n  negative_pct
+       x 2025-01   432        43.981
+       x 2025-02   213        66.197
+       x 2025-03   108        75.000
+       x 2025-04   274        46.715
+       x 2025-05   287        48.084
+       x 2025-06   271        57.934
+       x 2025-07   230        57.826
+       x 2025-08   705        65.532
+       x 2025-09  1069        49.486
+       x 2025-10  1869        44.088
+       x 2025-11   450        52.444
+       x 2025-12   371        69.542
+       x 2026-01  1256        68.710
+       x 2026-02   766        69.582
+       x 2026-03  1054        77.514
+       x 2026-04   817        65.361
+       x 2026-05   818        74.205
+       x 2026-06   614        79.153
+       x 2026-07   454        77.313
+       x 2026-08   861        69.803
+       x 2026-09  1589        65.639
+ youtube 2025-01  2545        70.648
+ youtube 2025-02  1234        79.660
+ youtube 2025-03   139        87.770
+ youtube 2025-04   683        83.602
+ youtube 2025-05  1466        80.764
+ youtube 2025-06    63        71.429
+ youtube 2025-07   229        82.096
+ youtube 2025-08   369        82.385
+ youtube 2025-09 16577        83.145
+ youtube 2025-10  6097        82.008
+ youtube 2025-11   988        84.008
+ youtube 2025-12  1161        88.458
+ youtube 2026-01  1533        85.975
+ youtube 2026-02  5261        87.778
+ youtube 2026-03  3106        87.927
+ youtube 2026-04  2961        86.694
+ youtube 2026-05  1576        86.802
+ youtube 2026-06  6214        89.910
+ youtube 2026-07  2704        88.166
+ youtube 2026-08  6832        86.695
+ youtube 2026-09 18464        86.926
+ youtube 2026-10   226        86.283
+PERINGATAN: tren ini menggambarkan sampel terkumpul, bukan seluruh percakapan publik.
+
+ANALISIS AWAL KATEGORI ISU
+Belum ada file topik RQ1. Kategori pada grafik ini hanya label berbasis kata kunci.
+sentiment            negative  neutral  positive      n  negative_pct  neutral_pct  positive_pct
+topic_label                                                                                     
+keracunan               54780     5777      5241  65798        83.255        8.780         7.965
+basi_busuk              15021      615      1717  17353        86.561        3.544         9.895
+higiene_sanitasi         4370      535      1195   6100        71.639        8.770        19.590
+benda_asing              4015      716       819   5550        72.342       12.901        14.757
+gejala_kesehatan         2779      421       322   3522        78.904       11.953         9.143
+kualitas_matang          2434      207       656   3297        73.825        6.278        19.897
+kontaminasi_bakteri      1443      263       257   1963        73.510       13.398        13.092
+CATATAN: satu dokumen dapat masuk beberapa kategori kata kunci.
+
+Contoh kandidat setiap kelas telah disimpan. Verifikasi manual sebelum digunakan dalam laporan.
+
+==============================================================
+EVALUASI BERDASARKAN ANOTASI MANUAL
+==============================================================
+Dokumen berlabel: 800
+Dokumen berhasil dipasangkan: 800
+Akurasi: 0.7788
+Macro precision: 0.5798
+Macro recall: 0.5933
+Macro F1-score: 0.5824
+
+METRIK PER KELAS
+          precision  recall  f1-score  support
+negative     0.8746  0.8602    0.8673    608.0
+neutral      0.6364  0.5793    0.6065    145.0
+positive     0.2286  0.3404    0.2735     47.0
+
+CONFUSION MATRIX
+                 pred_negative  pred_neutral  pred_positive
+actual_negative            523            41             44
+actual_neutral              51            84             10
+actual_positive             24             7             16
+
+==============================================================
+HASIL PENELITIAN | RQ3 SENTIMENT ANALYSIS
+==============================================================
+Total dokumen terklasifikasi: 94,936
+Jumlah per platform: {'youtube': 80428, 'x': 14508}
+
+DISTRIBUSI SENTIMEN KESELURUHAN
+sentiment  jumlah  persentase
+ negative   77688      81.832
+  neutral    8013       8.440
+ positive    9235       9.728
+
+Perbandingan antarplatform menggunakan 94,639 dokumen pada periode tumpang tindih.
+
+PERBANDINGAN SENTIMEN ANTARPLATFORM
+sentiment  negative  neutral  positive
+platform                              
+x            62.804   27.028    10.168
+youtube      85.258    5.088     9.654
+
+TREN SENTIMEN NEGATIF PER BULAN
+platform   month     n  negative_pct
+       x 2025-01   432        43.981
+       x 2025-02   213        66.197
+       x 2025-03   108        75.000
+       x 2025-04   274        46.715
+       x 2025-05   287        48.084
+       x 2025-06   271        57.934
+       x 2025-07   230        57.826
+       x 2025-08   705        65.532
+       x 2025-09  1069        49.486
+       x 2025-10  1869        44.088
+       x 2025-11   450        52.444
+       x 2025-12   371        69.542
+       x 2026-01  1256        68.710
+       x 2026-02   766        69.582
+       x 2026-03  1054        77.514
+       x 2026-04   817        65.361
+       x 2026-05   818        74.205
+       x 2026-06   614        79.153
+       x 2026-07   454        77.313
+       x 2026-08   861        69.803
+       x 2026-09  1589        65.639
+ youtube 2025-01  2545        70.648
+ youtube 2025-02  1234        79.660
+ youtube 2025-03   139        87.770
+ youtube 2025-04   683        83.602
+ youtube 2025-05  1466        80.764
+ youtube 2025-06    63        71.429
+ youtube 2025-07   229        82.096
+ youtube 2025-08   369        82.385
+ youtube 2025-09 16577        83.145
+ youtube 2025-10  6097        82.008
+ youtube 2025-11   988        84.008
+ youtube 2025-12  1161        88.458
+ youtube 2026-01  1533        85.975
+ youtube 2026-02  5261        87.778
+ youtube 2026-03  3106        87.927
+ youtube 2026-04  2961        86.694
+ youtube 2026-05  1576        86.802
+ youtube 2026-06  6214        89.910
+ youtube 2026-07  2704        88.166
+ youtube 2026-08  6832        86.695
+ youtube 2026-09 18464        86.926
+ youtube 2026-10   226        86.283
+PERINGATAN: tren ini menggambarkan sampel terkumpul, bukan seluruh percakapan publik.
+
+ANALISIS AWAL KATEGORI ISU
+Belum ada file topik RQ1. Kategori pada grafik ini hanya label berbasis kata kunci.
+sentiment            negative  neutral  positive      n  negative_pct  neutral_pct  positive_pct
+topic_label                                                                                     
+keracunan               54780     5777      5241  65798        83.255        8.780         7.965
+basi_busuk              15021      615      1717  17353        86.561        3.544         9.895
+higiene_sanitasi         4370      535      1195   6100        71.639        8.770        19.590
+benda_asing              4015      716       819   5550        72.342       12.901        14.757
+gejala_kesehatan         2779      421       322   3522        78.904       11.953         9.143
+kualitas_matang          2434      207       656   3297        73.825        6.278        19.897
+kontaminasi_bakteri      1443      263       257   1963        73.510       13.398        13.092
+CATATAN: satu dokumen dapat masuk beberapa kategori kata kunci.
+
+Contoh kandidat setiap kelas telah disimpan. Verifikasi manual sebelum digunakan dalam laporan.
+
+==============================================================
+EVALUASI BERDASARKAN ANOTASI MANUAL
+==============================================================
+Dokumen berlabel: 800
+Dokumen berhasil dipasangkan: 800
+Akurasi: 0.7788
+Macro precision: 0.5798
+Macro recall: 0.5933
+Macro F1-score: 0.5824
+
+METRIK PER KELAS
+          precision  recall  f1-score  support
+negative     0.8746  0.8602    0.8673    608.0
+neutral      0.6364  0.5793    0.6065    145.0
+positive     0.2286  0.3404    0.2735     47.0
+
+CONFUSION MATRIX
+                 pred_negative  pred_neutral  pred_positive
+actual_negative            523            41             44
+actual_neutral              51            84             10
+actual_positive             24             7             16
+
+EVALUASI PER PLATFORM
+platform   n  accuracy  macro_precision  macro_recall  macro_f1
+       x 400    0.7775           0.6084        0.6603    0.6155
+ youtube 400    0.7800           0.4192        0.4261    0.4224
+Jumlah kesalahan klasifikasi pada sampel: 177
+
+==============================================================
+STATUS SELESAI
+==============================================================
+Output tersimpan di: /Users/leonitacecilia/Desktop/TK_Sentiment_Analysis/hasil_RQ3
+Catatan: confidence model bukan ukuran akurasi; precision, recall, dan F1 memerlukan gold_label.
+Hasil hanya mewakili dokumen yang terkumpul dan memenuhi kriteria, bukan seluruh masyarakat Indonesia.
