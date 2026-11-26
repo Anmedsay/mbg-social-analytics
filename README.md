@@ -64,6 +64,11 @@ Periode: Januari 2025 sampai September 2026.
 │   └── figures/                        grafik EDA gabungan
 ├── rq_preprocessing/
 │   └── TK2_RQ_Preprocessing.ipynb      prapemrosesan per RQ
+├── analysis/
+│   ├── topic_modelling/
+│   │   ├── TK3_Topic_Modelling_RQ1_RQ2.ipynb   pemodelan topik RQ1 dan analisis wilayah RQ2
+│   │   └── hasil/                      tabel, figur, topik per dokumen (topik_rq1.csv)
+│   └── sentimen/                       analisis sentimen RQ3
 ├── data/
 │   ├── external/                       kamus wilayah (kabupaten/kota)
 │   ├── interim/                        data bersih per platform
@@ -95,6 +100,7 @@ YT_API_KEY=isi_api_key_anda
 | 2 | `x/TK2_X_Scraping_Pipeline.ipynb` | Notebook memasang Playwright sendiri. Login pertama dilakukan manual di jendela browser; sesi disimpan di `.auth/` (tidak di-commit). Run All; pencarian yang sudah selesai dilewati saat dijalankan ulang. |
 | 3 | `merge/TK2_Merge_YouTube_X.ipynb` | Run All. Tanpa API, selesai dalam beberapa menit. Semua validasi harus PASS. |
 | 4 | `rq_preprocessing/TK2_RQ_Preprocessing.ipynb` | Run All. Butuh RAM cukup besar; tutup kernel notebook lain terlebih dahulu. |
+| 5 | `analysis/topic_modelling/TK3_Topic_Modelling_RQ1_RQ2.ipynb` | Run All (sekitar 8 menit; embedding dihitung sekali lalu disimpan di `hasil/cache/`). BERTopic dua tingkat dibandingkan dengan LDA untuk RQ1, ditambah analisis wilayah untuk RQ2. Output di `analysis/topic_modelling/hasil/`. |
 
 Notebook juga bisa dijalankan dari folder utama repositori atau dari Google Colab (pindah ke folder repositori dengan `%cd` sebelum Run All, simpan API key sebagai Colab Secret `YT_API_KEY`).
 

@@ -1,0 +1,46 @@
+{
+  "dibuat_utc": "2026-11-25T16:50:39.906136+00:00",
+  "dataset": "data/processed/mbg_processed/mbg_processed.csv",
+  "n_korpus_l1": 60495,
+  "n_korpus_l2": 14651,
+  "n_rq2_l2": 7804,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "umap": {
+    "n_neighbors": 15,
+    "n_components": 5,
+    "min_dist": 0.0,
+    "metric": "cosine",
+    "random_state": 42
+  },
+  "clustering": "KMeans(n_init=10)",
+  "seed": 42,
+  "stability_seeds": [
+    1,
+    2,
+    3
+  ],
+  "k_l1": 20,
+  "k_l2": 15,
+  "k_lda": 10,
+  "vocab_l1": {
+    "min_df": 10,
+    "max_df": 0.5,
+    "n": 6009
+  },
+  "vocab_l2": {
+    "min_df": 5,
+    "max_df": 0.5,
+    "n": 4391
+  },
+  "min_docs_provinsi": 100,
+  "versi": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "sklearn": "1.9.1",
+    "bertopic": "0.17.4",
+    "sentence_transformers": "6.3.0",
+    "umap": "0.6.0",
+    "torch": "2.15.0"
+  },
+  "python": "3.15.0"
+}

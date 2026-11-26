@@ -2,6 +2,10 @@
 data/raw/x/
 data/raw/x_smoke/
 .ipynb_checkpoints/
+.venv/
+
+# Topic modelling: cache embedding (dapat dihitung ulang oleh notebook)
+analysis/topic_modelling/hasil/cache/
 .DS_Store
 data/processed/raw_merged/mbg_merged.csv
 data/processed/mbg_processed/mbg_processed.csv

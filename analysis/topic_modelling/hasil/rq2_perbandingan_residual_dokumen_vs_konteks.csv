@@ -1,0 +1,54 @@
+prov_group,jenis_masalah,residual_dokumen,residual_konteks,konsisten,tetap_signifikan
+Jawa Barat,Kasus keracunan massal & gejala korban,-10.7,-2.85,True,True
+Jawa Barat,"Jam masak, pengiriman & kapasitas dapur",3.93,0.16,True,False
+Jawa Barat,Kebersihan dapur & peralatan makan,8.37,2.22,True,True
+Jawa Barat,Temuan bakteri dari uji laboratorium,3.1,3.46,True,True
+Jawa Barat,Sertifikat & pengawasan dapur (SLHS),-3.84,-0.24,True,False
+Jawa Barat,"Alergi & perdebatan klaim ""alergi massal""",7.32,0.24,True,False
+Jawa Barat,Rasa tidak enak & makanan tidak dimakan,-2.37,0.37,False,False
+DKI Jakarta,Kasus keracunan massal & gejala korban,-4.86,-7.63,True,True
+DKI Jakarta,"Makanan basi, busuk, atau mentah",2.38,1.82,True,False
+DKI Jakarta,Temuan bakteri dari uji laboratorium,-3.4,-3.81,True,True
+DKI Jakarta,Sertifikat & pengawasan dapur (SLHS),3.68,1.79,True,False
+DKI Jakarta,Rasa tidak enak & makanan tidak dimakan,3.35,7.22,True,True
+Jawa Tengah,Kasus keracunan massal & gejala korban,13.77,6.39,True,True
+Jawa Tengah,"Jam masak, pengiriman & kapasitas dapur",-0.38,-2.93,True,False
+Jawa Tengah,Kebersihan dapur & peralatan makan,-2.98,-1.27,True,False
+Jawa Tengah,Sertifikat & pengawasan dapur (SLHS),2.4,-0.13,False,False
+Jawa Tengah,"Alergi & perdebatan klaim ""alergi massal""",2.88,2.05,True,True
+Jawa Tengah,Rasa tidak enak & makanan tidak dimakan,-10.25,-4.1,True,True
+Jawa Timur,Kasus keracunan massal & gejala korban,2.49,0.05,True,False
+Jawa Timur,"Makanan basi, busuk, atau mentah",3.6,-1.38,False,False
+Jawa Timur,Sertifikat & pengawasan dapur (SLHS),2.31,1.24,True,False
+Jawa Timur,"Alergi & perdebatan klaim ""alergi massal""",-3.97,-1.14,True,False
+Jawa Timur,Rasa tidak enak & makanan tidak dimakan,-4.29,-0.64,True,False
+Sumatera Selatan,Kasus keracunan massal & gejala korban,-12.42,-0.81,True,False
+Sumatera Selatan,"Makanan basi, busuk, atau mentah",-5.82,-0.3,True,False
+Sumatera Selatan,"Jam masak, pengiriman & kapasitas dapur",-4.39,1.13,False,False
+Sumatera Selatan,Kebersihan dapur & peralatan makan,-7.4,-1.17,True,False
+Sumatera Selatan,Temuan bakteri dari uji laboratorium,-5.1,-0.66,True,False
+Sumatera Selatan,Sertifikat & pengawasan dapur (SLHS),-5.44,0.23,False,False
+Sumatera Selatan,"Alergi & perdebatan klaim ""alergi massal""",-3.5,-0.49,True,False
+Sumatera Selatan,Rasa tidak enak & makanan tidak dimakan,28.46,1.42,True,False
+Sumatera Utara,Kasus keracunan massal & gejala korban,4.58,1.89,True,False
+Sumatera Utara,"Makanan basi, busuk, atau mentah",-2.68,-1.24,True,False
+Sumatera Utara,Temuan bakteri dari uji laboratorium,6.83,4.16,True,True
+Sumatera Utara,Sertifikat & pengawasan dapur (SLHS),-1.84,-2.9,True,False
+Sumatera Utara,Rasa tidak enak & makanan tidak dimakan,-2.62,-1.63,True,False
+Daerah Istimewa Yogyakarta,Kasus keracunan massal & gejala korban,3.43,2.23,True,True
+Daerah Istimewa Yogyakarta,"Jam masak, pengiriman & kapasitas dapur",0.6,-2.77,False,False
+Daerah Istimewa Yogyakarta,Temuan bakteri dari uji laboratorium,1.76,2.69,True,False
+Daerah Istimewa Yogyakarta,"Alergi & perdebatan klaim ""alergi massal""",-2.2,-0.87,True,False
+Daerah Istimewa Yogyakarta,Rasa tidak enak & makanan tidak dimakan,-4.01,-1.11,True,False
+Banten,Kasus keracunan massal & gejala korban,-4.54,-5.05,True,True
+Banten,"Makanan basi, busuk, atau mentah",0.61,2.98,True,False
+Banten,"Jam masak, pengiriman & kapasitas dapur",4.16,7.33,True,True
+Banten,Kebersihan dapur & peralatan makan,5.14,0.05,True,False
+Banten,"Alergi & perdebatan klaim ""alergi massal""",-2.12,-0.82,True,False
+Banten,Rasa tidak enak & makanan tidak dimakan,-3.27,-0.55,True,False
+Nusa Tenggara Timur,Kasus keracunan massal & gejala korban,2.13,1.08,True,False
+Provinsi lainnya,Kasus keracunan massal & gejala korban,13.98,3.69,True,True
+Provinsi lainnya,"Jam masak, pengiriman & kapasitas dapur",-3.43,-1.15,True,False
+Provinsi lainnya,Kebersihan dapur & peralatan makan,-3.73,-1.55,True,False
+Provinsi lainnya,Sertifikat & pengawasan dapur (SLHS),2.87,-0.36,False,False
+Provinsi lainnya,Rasa tidak enak & makanan tidak dimakan,-7.39,-1.43,True,False
