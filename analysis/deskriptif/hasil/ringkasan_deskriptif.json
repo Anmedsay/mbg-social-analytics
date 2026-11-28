@@ -1,0 +1,333 @@
+{
+  "tahap": {
+    "seluruh": 1109888,
+    "layak_pakai": 1001029,
+    "relevan": 99623,
+    "relevan_per_platform": {
+      "YouTube": 85115,
+      "X": 14508
+    },
+    "persen_youtube_dari_relevan": 85.44
+  },
+  "profil_nonvideo_relevan": [
+    {
+      "platform": "X",
+      "dokumen": 14508,
+      "penulis_unik": 5902,
+      "konteks_unik": 13321,
+      "dokumen_per_penulis": 2.46,
+      "dokumen_per_konteks": 1.09,
+      "persen_dari_10_konteks_teratas": 0.5,
+      "persen_dari_1pct_penulis_teraktif": 27.2
+    },
+    {
+      "platform": "YouTube",
+      "dokumen": 80428,
+      "penulis_unik": 50895,
+      "konteks_unik": 7137,
+      "dokumen_per_penulis": 1.58,
+      "dokumen_per_konteks": 11.27,
+      "persen_dari_10_konteks_teratas": 12.3,
+      "persen_dari_1pct_penulis_teraktif": 10.5
+    }
+  ],
+  "minggu_puncak": [
+    {
+      "platform": "YouTube",
+      "minggu_mulai": "2025-09-22",
+      "dokumen": 12887,
+      "konteks_teratas": "yt_v_u_Cdk9o0oqE",
+      "persen_dari_konteks_teratas": 5.8,
+      "teks_konteks": "Memohon ke DPR, JPPI Desak Program MBG Prabowo Disetop: Petaka bagi Pendidikan, Guru Tumbal Racun Download aplikasi berita TribunX di Play Store atau App Store "
+    },
+    {
+      "platform": "YouTube",
+      "minggu_mulai": "2026-09-07",
+      "dokumen": 7421,
+      "konteks_teratas": "yt_v_Ez3Q849Wvcc",
+      "persen_dari_konteks_teratas": 5.0,
+      "teks_konteks": "Dokter Ungkap Tiga Pemicu Gangguan Ingatan Usai Diduga Keracunan MBG #BeritasatuSiang Siswi korban dugaan keracunan program Makan Bergizi Gratis (MBG) di Kabupa"
+    },
+    {
+      "platform": "YouTube",
+      "minggu_mulai": "2025-09-29",
+      "dokumen": 5926,
+      "konteks_teratas": "yt_v_su5lLEvlC4A",
+      "persen_dari_konteks_teratas": 4.1,
+      "teks_konteks": "Lagi, Keracunan Massal Usai Santap MBG! Pemkab Garut Tetapkan Status KLB | Liputan 6 Tak sesuai namanya, alih-alih memberi nutrisi, Makan Bergizi Gratis justru "
+    },
+    {
+      "platform": "X",
+      "minggu_mulai": "2025-09-29",
+      "dokumen": 1399,
+      "konteks_teratas": "x_1973582078181777461",
+      "persen_dari_konteks_teratas": 0.4,
+      "teks_konteks": NaN
+    },
+    {
+      "platform": "X",
+      "minggu_mulai": "2025-10-06",
+      "dokumen": 609,
+      "konteks_teratas": "x_1975454563395358776",
+      "persen_dari_konteks_teratas": 1.1,
+      "teks_konteks": NaN
+    },
+    {
+      "platform": "X",
+      "minggu_mulai": "2026-01-26",
+      "dokumen": 528,
+      "konteks_teratas": "x_2016748946555887806",
+      "persen_dari_konteks_teratas": 1.5,
+      "teks_konteks": NaN
+    }
+  ],
+  "hari_jam": {
+    "YouTube": {
+      "jam_teramai": 19,
+      "persen_jam_06_18": 61.0,
+      "persen_hari_kerja": 72.9
+    },
+    "X": {
+      "jam_teramai": 19,
+      "persen_jam_06_18": 63.9,
+      "persen_hari_kerja": 76.6
+    }
+  },
+  "konten": {
+    "n_korpus": 88951,
+    "kata_tunggal_top10": [
+      {
+        "istilah": "keracunan",
+        "dokumen": 46656,
+        "persen_dokumen": 52.45
+      },
+      {
+        "istilah": "makanan",
+        "dokumen": 16452,
+        "persen_dokumen": 18.5
+      },
+      {
+        "istilah": "anak",
+        "dokumen": 16169,
+        "persen_dokumen": 18.18
+      },
+      {
+        "istilah": "sekolah",
+        "dokumen": 9301,
+        "persen_dokumen": 10.46
+      },
+      {
+        "istilah": "siswa",
+        "dokumen": 8364,
+        "persen_dokumen": 9.4
+      },
+      {
+        "istilah": "basi",
+        "dokumen": 8228,
+        "persen_dokumen": 9.25
+      },
+      {
+        "istilah": "beracun",
+        "dokumen": 6712,
+        "persen_dokumen": 7.55
+      },
+      {
+        "istilah": "rakyat",
+        "dokumen": 6603,
+        "persen_dokumen": 7.42
+      },
+      {
+        "istilah": "racun",
+        "dokumen": 5512,
+        "persen_dokumen": 6.2
+      },
+      {
+        "istilah": "dapur",
+        "dokumen": 5415,
+        "persen_dokumen": 6.09
+      }
+    ],
+    "pasangan_kata_top10": [
+      {
+        "istilah": "anak anak",
+        "dokumen": 4089,
+        "persen_dokumen": 4.6
+      },
+      {
+        "istilah": "kasus keracunan",
+        "dokumen": 3764,
+        "persen_dokumen": 4.23
+      },
+      {
+        "istilah": "anak keracunan",
+        "dokumen": 2645,
+        "persen_dokumen": 2.97
+      },
+      {
+        "istilah": "keracunan makanan",
+        "dokumen": 2427,
+        "persen_dokumen": 2.73
+      },
+      {
+        "istilah": "korban keracunan",
+        "dokumen": 2390,
+        "persen_dokumen": 2.69
+      },
+      {
+        "istilah": "anak sekolah",
+        "dokumen": 2268,
+        "persen_dokumen": 2.55
+      },
+      {
+        "istilah": "makanan beracun",
+        "dokumen": 2106,
+        "persen_dokumen": 2.37
+      },
+      {
+        "istilah": "makanan basi",
+        "dokumen": 2063,
+        "persen_dokumen": 2.32
+      },
+      {
+        "istilah": "siswa keracunan",
+        "dokumen": 2060,
+        "persen_dokumen": 2.32
+      },
+      {
+        "istilah": "anak bangsa",
+        "dokumen": 1130,
+        "persen_dokumen": 1.27
+      }
+    ],
+    "kata_tunggal_top10_per_platform": {
+      "YouTube": [
+        {
+          "istilah": "keracunan",
+          "dokumen": 36741,
+          "persen_dokumen": 49.16
+        },
+        {
+          "istilah": "anak",
+          "dokumen": 13564,
+          "persen_dokumen": 18.15
+        },
+        {
+          "istilah": "makanan",
+          "dokumen": 13387,
+          "persen_dokumen": 17.91
+        },
+        {
+          "istilah": "sekolah",
+          "dokumen": 7305,
+          "persen_dokumen": 9.77
+        },
+        {
+          "istilah": "basi",
+          "dokumen": 6745,
+          "persen_dokumen": 9.03
+        },
+        {
+          "istilah": "beracun",
+          "dokumen": 6380,
+          "persen_dokumen": 8.54
+        },
+        {
+          "istilah": "rakyat",
+          "dokumen": 5793,
+          "persen_dokumen": 7.75
+        },
+        {
+          "istilah": "siswa",
+          "dokumen": 5754,
+          "persen_dokumen": 7.7
+        },
+        {
+          "istilah": "racun",
+          "dokumen": 5357,
+          "persen_dokumen": 7.17
+        },
+        {
+          "istilah": "korupsi",
+          "dokumen": 4545,
+          "persen_dokumen": 6.08
+        }
+      ],
+      "X": [
+        {
+          "istilah": "keracunan",
+          "dokumen": 9915,
+          "persen_dokumen": 69.75
+        },
+        {
+          "istilah": "makanan",
+          "dokumen": 3065,
+          "persen_dokumen": 21.56
+        },
+        {
+          "istilah": "siswa",
+          "dokumen": 2610,
+          "persen_dokumen": 18.36
+        },
+        {
+          "istilah": "anak",
+          "dokumen": 2605,
+          "persen_dokumen": 18.32
+        },
+        {
+          "istilah": "kasus",
+          "dokumen": 2130,
+          "persen_dokumen": 14.98
+        },
+        {
+          "istilah": "sekolah",
+          "dokumen": 1996,
+          "persen_dokumen": 14.04
+        },
+        {
+          "istilah": "menu",
+          "dokumen": 1667,
+          "persen_dokumen": 11.73
+        },
+        {
+          "istilah": "dapur",
+          "dokumen": 1527,
+          "persen_dokumen": 10.74
+        },
+        {
+          "istilah": "gizi",
+          "dokumen": 1514,
+          "persen_dokumen": 10.65
+        },
+        {
+          "istilah": "basi",
+          "dokumen": 1483,
+          "persen_dokumen": 10.43
+        }
+      ]
+    }
+  },
+  "suka_per_platform": [
+    {
+      "platform": "X",
+      "dokumen": 14508.0,
+      "median": 7.0,
+      "p90": 242.3000000000011,
+      "p99": 8982.900000000009,
+      "maks": 119734.0,
+      "rata_rata": 389.97,
+      "persen_tanpa_suka": 6.7,
+      "persen_suka_dari_1pct_teratas": 60.3
+    },
+    {
+      "platform": "YouTube",
+      "dokumen": 80428.0,
+      "median": 0.0,
+      "p90": 2.0,
+      "p99": 16.0,
+      "maks": 855.0,
+      "rata_rata": 0.99,
+      "persen_tanpa_suka": 79.4,
+      "persen_suka_dari_1pct_teratas": 49.1
+    }
+  ]
+}
